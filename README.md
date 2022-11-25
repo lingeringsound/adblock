@@ -1,6 +1,6 @@
 # adblock
 ## 规则订阅
-### - 订阅
+### 订阅
 | 规则名称 | 介绍 | 订阅链接 |
 | :-- | :-- | :-- |
 | **Easylist** | 提供Easylist规则合并、精简、补充，不定期更新 | [订阅链接](https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/EasylistCombine) |
