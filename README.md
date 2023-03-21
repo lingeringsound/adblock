@@ -1,4 +1,9 @@
-# adblock
+# Adblock
+- ### **点击**访问订阅主页
+> #### [Github](https://github.com/lingeringsound/adblock) 
+> #### [GItea](https://gitea.com/lonely_dog/adblock) 
+> #### [GItlink](https://www.gitlink.org.cn/keytoolazy/adblock)
+
 ## 规则订阅
 ### 订阅
 | 规则名称 | 介绍 | Gitea订阅链接 | Gitlink订阅链接 | GITHUB订阅链接 | 
