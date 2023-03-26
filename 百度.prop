@@ -1,0 +1,36 @@
+! 某些未知的随机广告
+baidu.com##[srcid*="_ad"]
+! 普通的去广告规则
+baidu.com##.ec_ad_results
+baidu.com##.ec_wise_ad
+
+! 百度搜索结果中的视频
+baidu.com##[srcid^="recommend_video"]
+! 百度搜索结果中的百度提供APP下载
+baidu.com##[srcid^="app_mobile_simple"]
+! 百度中的购物广告，如搜索"裤子/vivo"
+baidu.com##[srcid^="sp_purc_atom"]
+! 百度搜索结果中的百家号
+baidu.com##[srcid^="guanfanghao"]
+! 百度搜索结果中的笔记
+baidu.com##[srcid^="lego_tpl"]
+! 百度中的笔记精选
+baidu.com##[srcid="note_lead"]
+! 百度搜索结果中的相关用语
+baidu.com##[srcid^="sigma_celebrity_rela"]
+! 大家都在搜
+baidu.com##.se-page-relative
+baidu.com##[tpl="recommend_list"][nr="1"]
+! 百度医典
+baidu.com##[srcid^="med_disease_kg"]
+
+
+! 非常激进，能够去除所有百度搜索中自己的推荐。
+! 不推荐使用
+! baidu.com##div.c-result.result[ready="1"][nr="1"]
+
+! 关键词在于 srcid="
+
+! 可以自己在源码搜一下，或者用开发者工具/元素审查。
+
+! 我的写法比较激进，你也可以选一些比较缓和的写法
