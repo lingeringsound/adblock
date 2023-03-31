@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang='zh' >
+<head>
+	<meta charset="utf-8">
+	<title>混合规则</title>
+	<meta name="description" content="Adblock规则订阅链接">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<style type="text/css" >
+/* 设置网页主体颜色 */
+ body {
+	background-color: #EEEEEE;
+	color: black;
+	transition: all 1s;
+}
+
+/* 段落居中，排版用 */
+ p {
+	text-align: center;
+}
+
+/* 说明按钮 */
+ button {
+	background-color: #EEEEEE;
+}
+ button.dark.mode {
+	background-color: #07071D;
+	color: white;
+}
+ .zhezhao{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background: #424242;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+ .tankuang{
+	position: relative;
+	background: #757575;
+	width: 75%;
+	height: 50%;
+	border-radius: 18px;
+	margin: 50% auto;
+}
+ #header{
+	hight: 25%;
+}
+ #header-right{
+	position: absolute;
+	width: 35px;
+	height: 25px;
+	color: white;
+	background-color: red;
+	border-radius: 8px;
+	right: 10px;
+	top: 5px;
+	text-align: center;
+}
+
+/* 夜间切换模式按钮 */
+ .kaiguan{
+	position: absolute;
+	top: 820px;
+	right: 45px;
+	width: 30px;
+	height: 15px;
+	border: 2px solid black;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 3s;
+}
+ .bai{
+	position: absolute;
+	top: 1.5px;
+	left: 2px;
+	height: 13px;
+	width: 13px;
+	background: #000000;
+	border-radius: 50%;
+	transition: all 1s;
+}
+ .hei{
+	position: absolute;
+	top: 1.5px;
+	right: 2px;
+	height: 13px;
+	width: 13px;
+	background: #0BF351;
+	border-radius: 50%;
+	transition: all 1s;
+}
+
+/* 设置同步时钟 */
+ .clock {
+	font-size: 48px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	z-index: 9999;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 设置表格 */
+ table {
+	border-collapse: collapse;
+	width: 100%;
+	font-family: Arial, sans-serif;
+	color: #444444;
+	border: 1px solid #f2f2f2;
+}
+ th, td {
+	text-align: left;
+	padding: 8px;
+}
+ th {
+	background-color: #4CAF50;
+	color: white;
+}
+	</style>
+</head>
+
+<body id="body" >
+<div id="Rules_list" >
+	<h1 style="text-align:center; font-size:55px;" >规则列表</h1>
+	<p>
+		<button id="bottom" type="button" onclick="show_detail()" style="text-align:center; font-size:28px; ">点击查看说明</button>
+			<div class="zhezhao" id='zhezhao'>
+				<div class="tankuang">
+						<div id="header" >
+							</br>
+								<h1 style="text-align:center; color:#33FF99; font-size:20px; "> 混合规则 </h1>
+									<h3 style="text-align:left; color:#101116; font-size:13px; " > &nbsp&nbsp&nbsp&nbsp合并于各种知名的Adblock规则，不定期更新 </h3>
+								<h1 style="text-align:center; color:#33FF99; font-size:20px; "> 混合规则(精简版) </h1>
+									<h3 style="text-align:left; color:#101116; font-size:13px; " > &nbsp&nbsp&nbsp&nbsp适用于via，可与其他规则合用，不定期更新 </h3>
+								<h1 style="text-align:center; color:#33FF99; font-size:20px; "> Easylist规则合并 </h1>
+									<h3 style="text-align:left; color:#101116; font-size:13px; " > &nbsp&nbsp&nbsp&nbsp提供Easylist规则合并、精简、补充，不定期更新 </h3>
+								<h1 style="text-align:center; color:#33FF99; font-size:20px; "> MIUI浏览器规则 </h1>
+									<h3 style="text-align:left; color:#101116; font-size:13px; " > &nbsp&nbsp&nbsp&nbsp取自 MIUI浏览器12.0.1版本 + Easylist规则(精简) ，不定期更新 </h3>
+						<div id="header-right" onclick="hidder()" style="font-size:15px;" >x</div>
+					</div>
+				</div>
+			</div>
+		</p>
+</div>
+
+<div class="copy_content" id="copy_content" >
+	<p id="github1" style="display: none;" >https://lingeringsound.github.io/adblock/adblock</p>
+	<p id="github2" style="display: none;" >https://lingeringsound.github.io/adblock/adblock_lite</p>
+	<p id="github3" style="display: none;" >https://lingeringsound.github.io/adblock/miuiadblock</p>
+	<p id="github4" style="display: none;" >https://lingeringsound.github.io/adblock/EasylistCombine</p>
+	<p id="gitcode1" style="display: none;" >https://gitcode.net/weixin_45617236/adblock/-/raw/master/adblock</p>
+	<p id="gitcode2" style="display: none;" >https://gitcode.net/weixin_45617236/adblock/-/raw/master/adblock_lite</p>
+	<p id="gitcode3" style="display: none;" >https://gitcode.net/weixin_45617236/adblock/-/raw/master/miuiadblock</p>
+	<p id="gitcode4" style="display: none;" >https://gitcode.net/weixin_45617236/adblock/-/raw/master/EasylistCombine</p>
+	<p id="gitea1" style="display: none;" >https://gitea.com/lonely_dog/adblock/raw/branch/master/adblock</p>
+	<p id="gitea2" style="display: none;" >https://gitea.com/lonely_dog/adblock/raw/branch/master/adblock_lite</p>
+	<p id="gitea3" style="display: none;" >https://gitea.com/lonely_dog/adblock/raw/branch/master/miuiadblock</p>
+	<p id="gitea4" style="display: none;" >https://gitea.com/lonely_dog/adblock/raw/branch/master/EasylistCombine</p>
+</div>
+
+<div id="Rules_table" class="Rules_table" >
+		<h3 style="text-align:center;">点击可复制订阅链接</h3>
+		<h4 style="text-align:center;">国内订阅推荐优先排名  Gitcode(同步慢，但是稳定) &gt;= Gitea(疑似限速) &gt; Github(国内有的无法访问，需要梯子) </h4>
+<table id="table" >
+	<thead>
+<tr>
+	<th>名称</th>
+	<th>Gitea订阅链接</th>
+	<th>Gitcode订阅链接</th>
+	<th>Github订阅链接</th>
+</tr>
+	</thead>
+<tbody>
+	<tr>
+	<td>混合规则</td>
+	<td><button onclick="copyTextgitea1()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgitcode1()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgithub1()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+</tr>
+	<tr>
+	<td>混合规则(精简版)</td>
+	<td><button onclick="copyTextgitea2()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgitcode2()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgithub2()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+</tr>
+	<tr>
+	<td>MIUI浏览器规则</td>
+	<td><button onclick="copyTextgitea3()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgitcode3()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgithub3()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+</tr>
+	<tr>
+	<td>Easylist规则合并</td>
+	<td><button onclick="copyTextgitea4()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgitcode4()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgithub4()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
+</tr>
+		</tbody>
+	</table>
+</div>
+
+<div id="Rules_home_page" >
+<p style="text-align:center; font-size:25px;" > 主页链接 </p>
+	<h4 style="text-align:center;">点击访问</h4>
+	<p>
+		<a href="https://github.com/lingeringsound/adblock" target="_blank" > GIthub/ </a>
+		<a href="https://gitcode.net/weixin_45617236/adblock" target="_blank" > Gitcode/ </a>
+		<a href="https://gitea.com/lonely_dog/adblock" target="_blank" > GItea </a>
+	</p>
+</div>
+
+<div id="I_do_not_konw" >
+	</br><h3 style="text-align:center;">@coolapk</h4><p>2023</p></br></br>
+</div>
+
+<div class="kaiguan" >
+	<div class="bai" id="anniu" />
+</div>
+
+<!-- 说明按钮脚本 -->
+<script type="text/javascript" >
+		document.getElementById('zhezhao').style.display="none";
+			function show_detail(){
+				document.getElementById('zhezhao').style.display="";
+			}
+			function hidder(){
+				document.getElementById('zhezhao').style.display="none";
+			}
+</script>
+
+<!-- 夜间切换脚本 -->
+<script>
+	var anniu = document.getElementById('anniu');
+	var kaiguan = document.querySelector('.kaiguan');
+	var body = document.getElementById('body');
+	var bottom = document.getElementById('bottom');
+	var Rules_table = document.getElementById('table');
+	var temp = 1;
+	anniu.addEventListener('click',function(){
+		if( temp == 1 ){
+		this.className = 'hei';
+		temp = 0;
+		kaiguan.style.border = '2px solid #0BF351';
+		body.style.backgroundColor = '#07071D';
+		body.style.color = '#EEEEEE';
+		bottom.style.backgroundColor = '#07071D';
+		bottom.style.color = 'white';
+		Rules_table.style.backgroundColor = '#07071D';
+		Rules_table.style.color = 'white';
+		} else {
+		this.className = 'bai';
+		temp = 1;
+		kaiguan.style.border = '2px solid black';
+		body.style.backgroundColor = '#EEEEEE';
+		body.style.color = 'black';
+		bottom.style.backgroundColor = 'transparent';
+		bottom.style.color = 'black';
+		Rules_table.style.backgroundColor = 'transparent';
+		Rules_table.style.color = 'black';
+		}
+	});
+</script>
+
+<!-- 同步时钟函数 -->
+<script>
+	function updateClock() {
+	var today = new Date();
+	var hours = today.getHours().toString().padStart(2, "0");
+	var minutes = today.getMinutes().toString().padStart(2, "0");
+	var seconds = today.getSeconds().toString().padStart(2, "0");
+	var timeString = hours + ":" + minutes + ":" + seconds;
+	document.getElementById("clock").textContent = timeString;
+	}
+	setInterval(updateClock, 1000);
+</script>
+
+<!-- 复制粘贴脚本 -->
+<script>
+function copyTextgithub1() {
+	var copyText = document.getElementById("github1");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgithub2() {
+	var copyText = document.getElementById("github2");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgithub3() {
+	var copyText = document.getElementById("github3");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgithub4() {
+	var copyText = document.getElementById("github4");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgitcode1() {
+	var copyText = document.getElementById("gitcode1");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgitcode2() {
+	var copyText = document.getElementById("gitcode2");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgitcode3() {
+	var copyText = document.getElementById("gitcode3");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgitcode4() {
+	var copyText = document.getElementById("gitcode4");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgitea1() {
+	var copyText = document.getElementById("gitea1");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgitea2() {
+	var copyText = document.getElementById("gitea2");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgitea3() {
+	var copyText = document.getElementById("gitea3");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+function copyTextgitea4() {
+	var copyText = document.getElementById("gitea4");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+}
+</script>
+
+	</body>
+</html>
