@@ -1,8 +1,11 @@
 # Adblock
-- ### **点击**访问订阅主页
+### **点击**访问订阅主页
 > #### [Github](https://github.com/lingeringsound/adblock) 
 > #### [GItea](https://gitea.com/lonely_dog/adblock) 
 > #### [Gitcode](https://gitcode.net/weixin_45617236/adblock)
+
+## 统计
+### 访问数 ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007&left_color=green&right_color=red)
 
 ## 规则订阅
 ### 订阅
