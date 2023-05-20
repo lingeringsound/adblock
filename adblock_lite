@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: atnws3XAyDaohBX5+rJ0Hg
+! Checksum: L0YjbcOAtuRFLCxMcRIRxQ
 ! Title: 混合规则(精简版)
-! Version: 20230519204024
+! Version: 20230520112515
 ! Expires: 1145141919810
-! Last modified: 2023-05-19 20:40:29
-! Total Count: 19431
+! Last modified: 2023-05-20 11:25:18
+! Total Count: 19457
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -2532,6 +2532,8 @@
 .com:*/*/m.html?shareName=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/waga*.html$document
+.com:*/waga*.html$~third-party
 .com:12289/$script,third-party
 .com:2516/code/
 .com:91/Runtime/js/psCreat.js
@@ -2586,6 +2588,8 @@
 .live/kallss?$third-party
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
+.live:*/waga*.html$document
+.live:*/waga*.html$~third-party
 .lu/ads/
 .lu/js/wap_billing.js
 .m.boluoxs.com^
@@ -2655,6 +2659,8 @@
 .top/ttdlyqbff/*/*.gif?$third-party,image
 .top/upload/ad.js
 .top/xling_*_*.js?
+.top:*/waga*.html$document
+.top:*/waga*.html$~third-party
 .tor*/js/jquery.bpopup.
 .tv/ads/
 .tv/js/ads/
@@ -2669,6 +2675,8 @@
 .work/ads/
 .xin/blxn_*.js?
 .xn--fiqs8s:7385/
+.xyz/*.html?uid=$document
+.xyz/*.html?uid=$~third-party
 .xyz/*.sdk?$script,third-party
 .xyz/*?16$third-party
 .xyz/*_*.js?*16$third-party
@@ -2718,9 +2726,13 @@
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
 .zone/ads/
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$document
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$~third-party
 /*_*_/bigREDdog.$third-party
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
+/?channelCode=ywy$document
+/?channelCode=ywy$~third-party
 /AdblockMessage.
 /SvgAdblockDetected/*
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
@@ -4674,6 +4686,7 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 closermag.fr##div[id^="detection-block"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
 cofp.ru##.admitad-checker-popup
+colamanhua.com##[class$="i"][style*="bottom:"],[class$="h"][style*="bottom:"]
 comptoir-info.com#@#.textad
 cowcotland.com,wamiz.com###adblocker
 cs-amba.ru##.banka
@@ -5375,7 +5388,9 @@ yarik-sat.com##.noadb
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img [src^="/js/a_d"][src$=".png"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##embed[src]
@@ -5388,6 +5403,8 @@ yz.m.sm.cn##div[id*="_Shopping_Etao_"]
 zakon.kz##.adblock_alert
 zgpingshu.com##a[href^="http://cy.aiboxs.cn/"][target="__blank"]
 zhaosw.com##div.recommend
+zhaotianbao1.cn/*/ywy*.apk$document
+zhaotianbao1.cn/*/ywy*.apk$~third-party
 zhazhijiav.com##a[class^="propa_bottom"],img[style="width:100%;height:auto;margin-bottom:2px;max-height:100px"],img[style="width:100%;height:auto;margin-bottom:2px;"]
 zhidao.baidu.com##.contextual-earches
 zhidao.baidu.com##.ec-ad.wgt-recommend-answer-container
@@ -8966,6 +8983,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cgskqg.com^
 ||cgvhtvj.cn^
 ||ch6g.top^
+||chadnli.cn^$document
+||chadnli.cn^$~third-party
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
 ||changchunyitian.online^
@@ -10739,6 +10758,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||g.lznews.cn^
 ||g.mnw.cn^
 ||g.rexian.net.cn/js/
+||g.shommaipl.com^$third-party
 ||g1.pptair.com^
 ||g1.tagtic.cn^
 ||g1.taijuba.com^
@@ -12238,6 +12258,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||iptv444.com/ad-
 ||ipxjps.cn^
 ||ipyud.cn^
+||iqbecde.cn^$document
+||iqbecde.cn^$~third-party
 ||iqilu.com/getZone.php
 ||iqilu.com/static_files/multiads/
 ||iqilu.com/static_files/richmedia/
@@ -17781,6 +17803,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||vulrxr.xyz^
 ||vumnxwvf.ink^
 ||vungle.com^
+||vuntbnc.cn^$document
+||vuntbnc.cn^$~third-party
 ||vupload.duowan.com^
 ||vv1.pyhfxdm.cn^
 ||vvfht.fun^
@@ -19128,6 +19152,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zdreo.cyou^
 ||zdrvtmj.cn^
 ||zdryg.com^
+||zdwbkt.live^$third-party
 ||zdx1.site^
 ||zdx10.site^
 ||zdx11.site^
@@ -19139,6 +19164,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zdy1.xyz^
 ||zdyuoae.xyz^
 ||ze5.com^$third-party
+||zeatse.buzz^$third-party
 ||zebjlt.buzz^
 ||zedo.com^
 ||zefmsbu.cn^
