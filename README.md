@@ -5,7 +5,7 @@
 > #### [Gitcode](https://gitcode.net/weixin_45617236/adblock)
 
 ## 统计
-### ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.adblock&left_color=green&right_color=red)
+### ![visitors](http://006.freecounters.co.uk/count-133.pl?count=qe1milbo7p68gg219fmj&type=links&prog=unique)
 
 ## 规则订阅
 ### 订阅
