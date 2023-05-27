@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: c6mEepKUzIoeamv0YYEoug
+! Checksum: MVnU1gnQpj18UbY9KB6fpQ
 ! Title: 混合规则(精简版)
-! Version: 20230526203920
+! Version: 20230527160150
 ! Expires: 1145141919810
-! Last modified: 2023-05-26 20:39:24
-! Total Count: 19611
+! Last modified: 2023-05-27 16:01:53
+! Total Count: 19630
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -1823,6 +1823,7 @@
 ##amp-sticky-ad
 ##bkveng
 ##body .has-ad
+##body > div[id^="allpng"] > div
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
@@ -2429,6 +2430,8 @@
 .cn/z.gif?
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
+.cn:*/sc/*?n=$third-party
+.cn:*/sc/*?x=$third-party
 .co/ads/
 .co/js/ads/
 .com*/ps/psCreat.js
@@ -2548,10 +2551,14 @@
 .com:*/?channelCode=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/sc/*?n=$third-party
+.com:*/sc/*?x=$third-party
 .com:*/waga*.html$document
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
 .com:2516/code/
+.com:8001/sc/*?n=$third-party
+.com:8001/sc/*?x=$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cyou/*_*.js?*16$third-party
@@ -2744,8 +2751,12 @@
 .zone/ads/
 /(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
 /(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$~third-party
+/(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$document
+/(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$~third-party
 /*_*_/bigREDdog.$third-party
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
@@ -3304,6 +3315,7 @@
 ://mobixc.*.cyou$third-party
 ://mobixc.*.fun$third-party
 ://mobixc.*.top$third-party
+://mpic.*.cn/*.js$third-party
 ://mpic.*.cn/*.txt$third-party
 ://p.qlogo.cn/qqmail_head/*
 ://pic.*.cn/*/*.js$third-party,script
@@ -4720,6 +4732,7 @@ colamanhua.com#@#.mlad
 comptoir-info.com#@#.textad
 cowcotland.com,wamiz.com###adblocker
 cs-amba.ru##.banka
+cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 cxem.net###antiAdBlock
 czx.to###vdl_ctnr
 d1bzw.com##[id="appurl"],[id="bbsurl"]
@@ -5424,9 +5437,9 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##[class$="_b"]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##canvas
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##embed[src]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##embed[src]
 ykt.ru##.n-banner--adblocked
 yocast.tv###ra9e
 yz.m.sm.cn##[id^="ad_"]
@@ -7953,6 +7966,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||asdqwe.ltd^
 ||asdx55.com^
 ||asf56165.xyz^
+||ashooqapp.top^$document
+||ashooqapp.top^$~third-party
 ||ashow.pcpop.com^
 ||asjsbew.cn^
 ||asoeasy.cn^
@@ -10536,6 +10551,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||faxingw.cn/js/*0
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
+||fbasd.qwoudjbk.com^$third-party
 ||fbhepgb.cn^
 ||fbwvly.cn^
 ||fc2.com/video/js/u/sp/hdr/
@@ -14331,6 +14347,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||mpb1.iteye.com^
 ||mphj.com/Runtime/Js/
 ||mphj.com^*Runtime/Js/
+||mpic.kszvmqo.cn^$third-party
 ||mprezchc.com^
 ||mprjoat.cn^
 ||mps.wenkuzu.com^
@@ -15557,6 +15574,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qgdvyvd.cn^
 ||qgermm.xyz^
 ||qgfdqjf.cn^
+||qgfzb.com^$document
+||qgfzb.com^$~third-party
 ||qgss8.com^
 ||qguwoq.cn^$third-party
 ||qhapp.top^

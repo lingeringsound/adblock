@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 07bG3HrUmD69MIXid+ygGQ
+! Checksum: JG59w7IMqBaIXFajiDhrFw
 ! Title: Easylist规则合并
-! Version: 20230526203912
+! Version: 20230527160140
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-05-26 20:39:19
-! Total Count: 62505
+! Last modified: 2023-05-27 16:01:48
+! Total Count: 62524
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18322,6 +18322,7 @@
 ##atf-ad-slot
 ##bkveng
 ##body .has-ad
+##body > div[id^="allpng"] > div
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
@@ -19395,6 +19396,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .cn/sl.gif?
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
+.cn:*/sc/*?n=$third-party
+.cn:*/sc/*?x=$third-party
 .co/ads/$popup
 .co/ads?
 .co/js/ads/
@@ -19558,10 +19561,14 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .com:*/?channelCode=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/sc/*?n=$third-party
+.com:*/sc/*?x=$third-party
 .com:*/waga*.html$document
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
 .com:2516/code/
+.com:8001/sc/*?n=$third-party
+.com:8001/sc/*?x=$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .content_tracking.
@@ -20022,6 +20029,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
 /(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
 /(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -20034,6 +20043,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$~third-party
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
+/(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$document
+/(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$~third-party
 /*_*_/bigREDdog.$third-party
 /.well-known/shopify/monorail
 /0.gif?
@@ -31396,6 +31407,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 ://mobixc.*.cyou$third-party
 ://mobixc.*.fun$third-party
 ://mobixc.*.top$third-party
+://mpic.*.cn/*.js$third-party
 ://mpic.*.cn/*.txt$third-party
 ://p.qlogo.cn/qqmail_head/*
 ://parcel-api.delivery-status.*/open/$image
@@ -36056,6 +36068,7 @@ cumlouder.com,flyingjizz.com,gotporn.com,japan-whores.com,porntube.com##.adverti
 cuntest.net###banners
 cupfox.app###page-wrap > div:nth-child(3)
 cupfox.app##.banner-box
+cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 cupfox.app#?##outer-container > .model:-abp-has(> .model-content > a[href*=".jd.com"])
 cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
 cupfox.app,hcomic.net##.swiper
@@ -46169,9 +46182,9 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##[class$="_b"]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##canvas
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##embed[src]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##embed[src]
 yibian.hopto.org###no-adblock-box
 yicai.com##.dfb-ad
 yicai.com##.gg_loadpage
@@ -49180,6 +49193,8 @@ zzzyk.com###Tinfo
 ||asdqwe.ltd^
 ||asdx55.com^
 ||asf56165.xyz^
+||ashooqapp.top^$document
+||ashooqapp.top^$~third-party
 ||ashow.pcpop.com^
 ||asimgs.pplive.cn/imgs
 ||asjsbew.cn^
@@ -52091,6 +52106,7 @@ zzzyk.com###Tinfo
 ||faxingw.cn/js/*0
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
+||fbasd.qwoudjbk.com^$third-party
 ||fbhepgb.cn^
 ||fbwvly.cn^
 ||fc2fan.net/js/check_focus.js
@@ -56367,6 +56383,7 @@ zzzyk.com###Tinfo
 ||mpb1.iteye.com^
 ||mphj.com/Runtime/Js/
 ||mphj.com^*Runtime/Js/
+||mpic.kszvmqo.cn^$third-party
 ||mprjoat.cn^
 ||mps.wenkuzu.com^
 ||mpymea.xyz^
@@ -57686,6 +57703,8 @@ zzzyk.com###Tinfo
 ||qgermm.xyz^
 ||qgfdqjf.cn^
 ||qgfwets.cn^
+||qgfzb.com^$document
+||qgfzb.com^$~third-party
 ||qgjapp.com^
 ||qgss8.com^
 ||qguwoq.cn^$third-party
