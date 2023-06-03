@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: QS45TLQhnKrso+k1lpe21Q
+! Checksum: BFWFby0qqyI1gu4To0MN3w
 ! Title: 混合规则
-! Version: 20230602195033
+! Version: 20230603100638
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-02 19:50:46
-! Total Count: 111856
+! Last modified: 2023-06-03 10:06:51
+! Total Count: 111877
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -29496,6 +29496,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
+://at.umtrack.com/*?cid=$document
+://at.umtrack.com/*?cid=$~third-party
 ://banner.$third-party
 ://banners.$third-party
 ://boeg*.xyz/*.html$document
@@ -32276,6 +32278,19 @@ $websocket,domain=5nj.com|cechi8.com
 @@||zxmee.com^$generichide
 Banner-Ad
 Banner-Adv
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz###dy_card_dy
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz###rm-float + .popup
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##.open.popup-icon.popup-tips.popup
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##.player-rm > a[target="_blank"]
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##.player-rm rm-two rm-list
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##.player-rm-float
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##.shortcuts-m-overlay
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##[class^="player-rm"][class*="rm-two"][class*="rm-list"]
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##[src^="data:image/png;base64,"]
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##a[href*=".umtrack.com/"]
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##body.page > .popup
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##div[class^="shortcuts-"][class$="-overlay"]
+DianYing.im,DianYingim.com,dyxs1.com,dyxs2.com,dyxs3.com,dyxs4.com,dyxs5.com,dyxs6.com,dyxs7.com,dyxs8.com,dyxs9.com,dyxs10.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com,dyxs.com,dyxs1.xyz,dyxs2.xyz,dyxs3.xyz,dyxs4.xyz,dyxs5.xyz,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs10.xyz,dyxs11.xyz,dyxs12.xyz,dyxs13.xyz,dyxs14.xyz,dyxs15.xyz,dyxs16.xyz,dyxs17.xyz,dyxs18.xyz,dyxs19.xyz,dyxs20.xyz,dyxs.xyz##player-rm.rm-two.rm-list
 MoBi*.baidu.js$script,third-party
 ^monitor.jpg?xcode^
 _!!1731999033.
@@ -47547,11 +47562,15 @@ wahcricket.com##.site-mainhead
 wahm.com##.box2
 wahm.com##.rad-links
 wahm.com##[style="min-height:250px;"]
-waipian17.com,waipian5.com,waipian13.com##.open.popup-icon.popup-tips.popup
-waipian17.com,waipian5.com,waipian13.com##.player-rm rm-two rm-list
-waipian17.com,waipian5.com,waipian13.com##[href^="https://at.umtrack.com"]
-waipian17.com,waipian5.com,waipian13.com##[src^="data:image/png;base64,"]
-waipian17.com,waipian5.com,waipian13.com##div[class^="shortcuts-"][class$="-overlay"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##.open.popup-icon.popup-tips.popup
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##.player-rm > a[target="_blank"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##.player-rm rm-two rm-list
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##[class^="player-rm"][class*="rm-two"][class*="rm-list"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##[href^="https://at.umtrack.com"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##[src^="data:image/png;base64,"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##a[href*=".umtrack.com/"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##div[class^="shortcuts-"][class$="-overlay"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##player-rm.rm-two.rm-list
 waipian5.com##.popup
 waipian5.com##.shortcuts-mobile-overlay
 waipian5.com#@#a[href*=".umtrack.com/"]
@@ -58366,6 +58385,8 @@ zzzyk.com###Tinfo
 ||at*.doubanio.com^
 ||at-o.net^
 ||at.360.audion.fm^
+||at.umtrack.com^/*?cid=$document
+||at.umtrack.com^/*?cid=$~third-party
 ||at98.com^
 ||atableofcup.com^
 ||atadserver.com^
