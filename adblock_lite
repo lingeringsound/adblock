@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: JhSkXpn+NkVTatMYusfQkA
+! Checksum: x8Ko09GYhX3Bpug86HQvKQ
 ! Title: 混合规则(精简版)
-! Version: 20230603100726
+! Version: 20230603115832
 ! Expires: 1145141919810
-! Last modified: 2023-06-03 10:07:31
-! Total Count: 19794
+! Last modified: 2023-06-03 11:58:37
+! Total Count: 19795
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -1858,7 +1858,6 @@
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
-##div[class*="ad" i][style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"][style*="z-index: -"]:style(display: block !important;)
 ##div[class*="ad_banner_group"]
 ##div[class*="clearfix-ads"]
 ##div[class*="col"] > a[rel="nofollow noopener noreferrer"][href][target="_blank"]
@@ -2879,6 +2878,7 @@
 /js/advertiser.js
 /js/dj1ll*.js
 /js/dj2ll*.js
+/js/jads.js$script
 /js/pfadll*.js
 /levelmaxblock.js
 /lv/esnk/*$script,third-party
@@ -12606,6 +12606,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jable.tv/assets/images/*-slider.
 ||jable.tv/assets/images/wejo/$image
 ||jacquelinelaura.com^
+||jads.co^$third-party
 ||jads.co^$third-party,important
 ||jamierace.com^
 ||jandan.net/static/sos/recreate-games.gif

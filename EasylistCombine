@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: B8e10vr5Z0e8elN4q8wPAA
+! Checksum: L3sJPSPuPil8UfYH1dTb/g
 ! Title: Easylist规则合并
-! Version: 20230603100715
+! Version: 20230603115821
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-03 10:07:24
-! Total Count: 62487
+! Last modified: 2023-06-03 11:58:30
+! Total Count: 62488
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18340,7 +18340,6 @@
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
-##div[class*="ad" i][style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"][style*="z-index: -"]:style(display: block !important;)
 ##div[class*="ad_banner_group"]
 ##div[class*="clearfix-ads"]
 ##div[class*="col"] > a[rel="nofollow noopener noreferrer"][href][target="_blank"]
@@ -25427,6 +25426,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/index_adfloat.js
 /js/indextools/*
+/js/jads.js$script
 /js/jsstyle-$third-party
 /js/layer1.js$domain=99re.com
 /js/lead-tracking
@@ -54204,6 +54204,7 @@ zzzyk.com###Tinfo
 ||jacksonyee.club^
 ||jacquelinelaura.com^
 ||jads.co^$domain=avgle.com
+||jads.co^$third-party
 ||jads.co^$third-party,important
 ||jamierace.com^
 ||jandan.net/static/sos/recreate-games.gif

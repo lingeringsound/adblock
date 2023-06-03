@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BFWFby0qqyI1gu4To0MN3w
+! Checksum: 409PkaT01hKEAEFTpfiJSA
 ! Title: 混合规则
-! Version: 20230603100638
+! Version: 20230603115740
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-03 10:06:51
-! Total Count: 111877
+! Last modified: 2023-06-03 11:57:53
+! Total Count: 111878
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18544,7 +18544,6 @@
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
-##div[class*="ad" i][style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"][style*="z-index: -"]:style(display: block !important;)
 ##div[class*="ad_banner_group"]
 ##div[class*="clearfix-ads"]
 ##div[class*="col"] > a[rel="nofollow noopener noreferrer"][href][target="_blank"]
@@ -25585,6 +25584,7 @@ $websocket,domain=5nj.com|cechi8.com
 /js/home/ad/ad.
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/index_adfloat.js
+/js/jads.js$script
 /js/jsstyle-$third-party
 /js/layer1.js$domain=99a67.com|99re.com
 /js/layer1.js$domain=99re.com
@@ -79727,6 +79727,7 @@ zzzyk.com###Tinfo
 ||jadeitite.com^
 ||jads.co^
 ||jads.co^$domain=avgle.com
+||jads.co^$third-party
 ||jads.co^$third-party,important
 ||jaelejgwiu.xyz^
 ||jaftouja.net^
