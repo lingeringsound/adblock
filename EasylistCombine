@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: L3sJPSPuPil8UfYH1dTb/g
+! Checksum: mop4czJjlNUvBT7kkubf5A
 ! Title: Easylist规则合并
-! Version: 20230603115821
+! Version: 20230603221507
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-03 11:58:30
-! Total Count: 62488
+! Last modified: 2023-06-03 22:15:16
+! Total Count: 62349
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -9765,6 +9765,8 @@
 ##.adthrive-header
 ##.adthrive-header-container
 ##.adthrive-placeholder-content
+##.adthrive-placeholder-header
+##.adthrive-placeholder-static-sidebar
 ##.adthrive-video-player
 ##.adthrive_custom_ad
 ##.adthx
@@ -17304,9 +17306,7 @@
 ##AD-TRIPLE-BOX
 ##ADS-RIGHT
 ##AMP-AD
-##A[href*=".bright.cn/?utm_"]
 ##A[href*=".com/?Agent="]
-##A[href*="/nb66nb.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
@@ -17571,6 +17571,7 @@
 ##a[href*=".birthcaker.cn"]
 ##a[href*=".bj-lingan.com/"]
 ##a[href*=".blueyoko.com/"]
+##a[href*=".bright.cn/?utm_"]
 ##a[href*=".btwuji.cc"]
 ##a[href*=".bucd.icu"]
 ##a[href*=".bucd.top"]
@@ -17865,6 +17866,7 @@
 ##a[href*="/mobads.php?"]
 ##a[href*="/mt86k.xyz"]
 ##a[href*="/mx456.cc"]
+##a[href*="/nb66nb.cc"]
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/odnb.vip"]
 ##a[href*="/ppffj.me/"]
@@ -18530,6 +18532,7 @@
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
+##img[src*="://acc.snmovie.com"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
@@ -20304,15 +20307,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /Crypto-Loot/*$script
 /CustomTrackingScript.
 /DG/DEFAULT/rest/*
-/DNATracking.
 /DNSCheck.js
 /DNSChecker.js
-/DemdexBehavioralTracking.
-/Diagnostics?hit=
-/DigitalAnalytics.umd.
 /Disable%2BAdblock.
 /Dotomi.
-/DownloadTracker.
 /DynamicAd/*
 /DynamicAnalytics.
 /EDigitalSurvey_
@@ -20370,12 +20368,9 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /HitTracking.
 /Hits/collect/*
 /House-Ad-
-/HuShenGangTong.js
-/IGA.linktagger.
 /IPbeacon.
 /IVWAnalytics.
 /Images/ak47/*$domain=hanzify.net|hanzify.org
-/Impressions/aolukdp.imp?
 /ImpressionsEvent.js
 /InlineAds.
 /InsightTrk/*
@@ -20383,17 +20378,14 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /IperceptionsSurvey.
 /ItemStats.ajax?
 /JavaScript/Ads-
-/JavaScriptErrorCollector?
 /Javascripts/SBA-
 /JqueryEtracker.
-/KAStatsWriter/*
 /KISSmetricsTrackCode.
 /Kelkooid?
 /KenticoActivityLogger/*
 /KochavaAnalytics.
 /L411_Ad_
 /LandingPageHitLog.aspx?
-/LastClick/js?
 /Leaderboard-Ads-
 /LoadAudienceSegs-
 /LocalAd_
@@ -20477,11 +20469,9 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /PvServlet?
 /QidianAdClient.
 /QualtricsSurvey.
-/QuantcastAnalyticsModule.
 /QuotaService.RecordEvent?
 /RMAnalytics.
 /RadioAnalytics.js
-/RadioAnalyticsIframe.js
 /RdmAdFeed.
 /RecordAnalytic?
 /RecordClick.
@@ -20616,6 +20606,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\.net\/js\/popup\.js\?v(er)?=1\./$important,script,~third-party
+/\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 /\/[a-z0-9]{8,10}\?.*?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,important
@@ -20973,7 +20964,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /ad_article_
 /ad_banner.
 /ad_banner/*
-/ad_banner_
 /ad_bar_
 /ad_base.
 /ad_big_
@@ -22455,7 +22445,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /agwebtracking_
 /ahoy/events
 /ahoy/visits
-/aimp.php?
 /aipai/player/game_video/videoAdvert_
 /aj-crypto-miner/*
 /ajax-hits-counter/*
@@ -22491,7 +22480,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /akam/13/*
 /akamai/pixy.gif
 /akamai_analytics_
-/akqa.tracking.
 /alljs/alldl.js
 /alljs/allfoot.js
 /alljs/allhead.js
@@ -22739,8 +22727,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /api/video/stats/*$xmlhttprequest
 /api_ip_info.
 /apilog?
-/apis/facebook_conversion
-/apis/track_view_product
 /apixel?
 /apopwin.
 /app-measurement?
@@ -22811,7 +22797,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /athena/tracking/*
 /atlads/*
 /atlads1/*
-/atm_code.js
 /atnads/*
 /atrads.
 /atrk.gif?
@@ -23045,7 +23030,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /bicomscore_
 /bid?url=http
 /biddr-*.js$domain=~biddr.com
-/bidiqCookieDropper.
 /bigad.
 /bigad_
 /bigads/*
@@ -23305,6 +23289,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /china-ad.
 /chorus_ads.
 /chrome-ad.
+/chunyu*.html?channelCode=$document
+/chunyu*.html?channelCode=$~third-party
 /citycounter.
 /ck.php?nids
 /ckaudience/*
@@ -23396,7 +23382,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /clients/ads/*
 /clientstat?
 /clkads.
-/cllc.tracking.js
 /cloudcoins.js
 /cloudcoins.min.js
 /cls_report?
@@ -23740,19 +23725,16 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /d.gif?
 /d/*-*-*.ap|$script,third-party
 /d1VisitsCounter.
-/d_tracking.ashx?
 /daily/ads/*
 /dall3270.js?
 /dart_ads.
 /dart_ads/*
-/dart_wrapper.html?
 /dartad/*
 /dartadengine.
 /dartadengine2.
 /dartads.
 /dartcall.
 /dartfunctions.
-/data-unlocker.js
 /data.do?session_
 /data.mistat.
 /data/ads/*
@@ -23828,9 +23810,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /demdex.js
 /demdex/*
 /demo_l.php?id=$script,third-party
-/deskanalytics.js
 /detail_gg.js
-/detective.gif?
 /detm-container-
 /detm_adobe.
 /detroitchicago/anaheim.js
@@ -23866,8 +23846,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /didna_config.js
 /diffuser.js
 /digital-data-enrichment.
-/digitalice_tag.js
-/dil_v6.4.js
 /directrev.
 /disable-adblock.
 /disabled_adBlock.
@@ -23910,14 +23888,11 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /dm.gif?
 /dm78ad/*
 /dmcads_
-/dmde/track/*
 /dmp-tracking-
 /dmp/pixel.js
-/dmpcollector.js
 /dmpmetrics.
 /dmtracking2.
 /dmu2panalytics/*
-/dni_reporting.js
 /doctracking.
 /dolWebAnalytics.
 /domanalytics.
@@ -23932,8 +23907,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /doubleclick.aspx
 /doubleclick.min
 /doubleclick/iframe.
-/doubleclickCheck/*
-/doubleclick_head_tag_
 /doublepimp2.js
 /dow_analytics.
 /download-ad.
@@ -23943,27 +23916,20 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /download/ads
 /downloads/nmgg.mp4
 /dpistat/updater.php
-/dpm_pixel_
 /dprocessor.js
 /drWebStat.
-/drads?referrer=
 /dreamads/*
 /drive-analytics/*
 /drsup-admanager-
 /drsup-admanager/*
 /dspads.
 /dspixel.js
-/dst.gif?
 /dstctsevent.js
 /dstracking.
 /dt/guanggao_func.js
-/dtagent630_
-/dtagent6312_
 /dtagent_
-/dtm-ddo-utilities.js
 /dtm/*/satelliteLib-
 /dtm_cm.js
-/dtmtag.js
 /dtrack.js
 /dtstats.
 /duel-analytics.
@@ -23976,8 +23942,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /dw/hit?
 /dwanalytics-
 /dwanalytics.
-/dwell-log?
-/dwell/log?
 /dy_66jjss/*
 /dygg_
 /dynaTraceMonitor^
@@ -23987,7 +23951,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /dynamic/ads/*
 /dynamicAds.
 /dynamic_ads/*
-/dynamic_ytrack_
 /dynamicad?
 /dynamictag.
 /dynamicyield/*
@@ -24000,14 +23963,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /e/cm?$subdocument
 /e/ecmsshop/zhuanpan/js/*
 /e/ir?$image,script
-/e086ec.aspx?q=l3mkwgak
 /eCustomerSurvey.
 /eTagP/*
 /e_stat?g_id=
-/ea-analytics/*
-/ea_ctrl?
 /eae-logger/*
-/earlybirds/script_
 /earn.php?z=$popup,subdocument
 /easyads.$domain=~easyads.bg|~easyads.eu|~easyads.io|~easyads.lk
 /easyads/*$domain=~easyads.eu|~easyads.io|~easyads.lk
@@ -24022,8 +23981,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /ecap.min.js
 /ecblank.gif?
 /ecom/status.jsp?
-/econa-site-search-ajax-log-referrer.php
-/econa-site-search/log.php?
 /ecos-surveycode.
 /ecos.js
 /ecos_survey.
@@ -24033,7 +23990,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /edAnalyticsWrapper.
 /edata.js
 /edateAdTrack?
-/edgemesh.track.
 /edmonds.js
 /edmonton.webp$script
 /ee-tagging.
@@ -24043,13 +23999,9 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /egcs/v2/collect
 /ehcorp.tracking.
 /eheat.js
-/eht.js?site_id=
 /eis/diy/ad/*
-/electrode/api/logger
-/elex.track.
 /eloqua.
 /eloqua_
-/elq_tracking-
 /elqcfg-$script
 /elqcfg.js
 /elqcfg.min.js
@@ -24070,26 +24022,20 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /email_open_log_
 /emailads/*
 /embed-ad-
-/embed-log.js
 /embed/ad/*
 /embed/ads.
 /embed_ad.
 /emimp/*$image
 /emos2-$script
 /emos2.js$~xmlhttprequest
-/empty-1px-gif;
-/empty-iab.gif?
-/empty.js.gif?
 /emstrack.
 /emtj_tracker.
-/end.gif?
 /endpoint/stats.
 /engage.indeed.com/*$image
 /engine/ping?
 /ent_counter?
 /entrepreneurrestorationthereby.com/*
 /entry_stats?
-/envoy.sb?sbaid
 /eo?_t=$image
 /epsilon.v2.
 /epvplytics.
@@ -24107,7 +24053,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /est.pl?
 /estat.$domain=~estat.ly|~estat.stat.ee
 /estatistica.js
-/estatnativeflashtag.swf
 /eta/events?
 /etag?
 /etarget/*
@@ -24199,10 +24144,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /evt.gif?
 /evtrack-
 /ewtrack.
+/exactag.js
 /exads/*
-/exaonclick.js
-/exelate.htm?
-/exelate.html?
 /exelator.
 /exitpop.
 /exitpopunder.
@@ -24223,33 +24166,26 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /experiment/impressions.js
 /exports/tour/*$third-party
 /exports/tour_20/*
-/expose.gif?
 /ext/adform-
 /ext/ads/*
 /ext/prebid
-/extBnr.gif?
 /extban/*/creatives/*
 /extendedAnalytics.
-/external-promo-metrics.
 /external-tracking.
 /external/ad.
 /external/ad/*
 /external/ads/*
 /external/nielsen_
-/external=retargeting/*
 /external_ad?
 /external_ads.
-/external_teaser_impression?
 /externalad.
 /externalads/*
 /extra_ads/*
 /ez_aba_load/*
-/ezakus.js
 /ezcl.webp?
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
 /ezoic/*$script,~third-party
-/ezoic/*.gif?
 /ezprice_ad.js
 /ezytrack.
 /f.gif?
@@ -24294,7 +24230,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /fe_logger?
 /feature/ads/*
 /fel456.js$script
-/fender_analytics.
 /figanalytics.
 /figanalytics/*
 /file/ad.
@@ -24570,10 +24505,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /gannettomniture.
 /gaog/*
 /gapagetracker.
-/gapro-1.swf
-/gapro-1h.swf
 /gapro.js
-/gapro.swf
 /gascript.
 /gasocialtracking.
 /gastats.
@@ -24932,11 +24864,9 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /hittrack.cgi?
 /hitv4.php
 /hjstore/system/banner/*.txt
-/hkStatCms/ViewCount?
 /hkz*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
 /hlog.asp
 /hm.js?$third-party,xmlhttprequest
-/hm.pl?p=
 /hmapxy.js
 /hmzn_*_*_*.js?$script,third-party
 /hndxweb/push$popup,third-party
@@ -24983,13 +24913,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /houseads/*
 /houseads?
 /hoverad.
-/hpanalytics_
 /hpmetrics.
-/hrtrackjs.gif?
 /hs_track.
 /hsc/trk/*
 /hserver/*
-/hstrck-detect.
 /ht.js?site_
 /html.ng/*
 /html/ad.
@@ -25014,7 +24941,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /i/npage/*$script,third-party
 /i2a.js
 /i2yesCounter.js
-/i?_SB_stm=
 /i?e=pv&url=
 /i?siteid=
 /i?stm=
@@ -25022,8 +24948,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /ibd-block-adblocker/*
 /ibeat.min.js
 /icf-analytics.js
-/iclogs?
-/icon.gif?type=
 /icon_ad.$domain=~adv.asahi.com
 /icon_ads_
 /icon_advertising_
@@ -25057,8 +24981,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /iframeads.
 /iframeads/*
 /iframetracker.
-/ig-analytics_
-/ignition-one.js
 /ikanfan/b.js
 /ikanfan/i.js
 /im-popup/*
@@ -25092,19 +25014,16 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /images/adz/*
 /images/aff-
 /images/affs/*
-/images/beacon.*?errorMessage=
 /images/content/1436/*$domain=chineseinla.com
 /images/ggzz/*.gif
 /images/masha*.gif
 /images/masha*.png
 /images/mobileads*.jpg
-/images/mxl.gif?
 /images/segucrwj*.gif
 /images/segucrwj*.jpg
 /images/sgcrwj*.gif
 /images/sgcrwj*.jpg
 /images/ta1234.js
-/images/uc.GIF?
 /images/vghd
 /images1/ad_
 /images2/Ads/*
@@ -25113,8 +25032,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /img-ads/*
 /img-advert-
 /img.ads.
-/img.aspx?q=l3mkwgak
-/img.mqcdn.com/a/a
 /img/91/*_1280_
 /img/91/*_600.
 /img/91/*_600_
@@ -25196,7 +25113,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /in.getclicky.com/*
 /in.gif?url=
 /in.php?referer=
-/in/multy?*&event_id=
 /in/show/?mid=$third-party
 /in/track?data=
 /ina_ad_
@@ -25233,14 +25149,11 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /indexpc.html?agent=$popup,third-party
 /indextools.js
 /indraeventsapi.
-/inetlog.ru/*
 /infinity.js.aspx?guid=
 /info/picksel/*
-/informb_stat.
 /informerStat?
 /inhouse_ads/*
 /initAdobeAnalytics.
-/init_cookie.php?
 /inject.js?key=$script
 /injectad.
 /inline-pixel.js
@@ -25278,14 +25191,11 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /internet_ad_
 /intervigil.
 /intextads.
-/intextlinks-tracking/*
-/intstatcheck.
 /inv/ads/*
 /invideoad.
 /inviteads/*
 /invoke-2.js
 /inx-ad.
-/iotechnologies.js
 /ipadad.
 /ipdvdc/*
 /iperceptions.
@@ -25327,8 +25237,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /javascript/oas?
 /javascripts/ads/*
 /javhd-jp-970x170.jpg
-/jc.gif?1=
-/jcaffiliatesystem/*
 /jdzjgg/*
 /jellyfish.webp$script
 /jetpack-ads/*
@@ -25337,10 +25245,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /jgcabd-detect-
 /jgs_portal_log_bildschirm.php?
 /jianshen8/images/plan_banner_
-/jkidd_cookies?
 /jltracking.
-/join/tracking/*
-/jp-coremetrics-
 /jppolPrebid.
 /jquery-ads.
 /jquery-ui.js?166$script,~third-party
@@ -25389,10 +25294,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /js/advertiser.js
 /js/adwordstracking.
 /js/analitics.
-/js/analitycs_
 /js/axdd.js
 /js/bdgg/*
-/js/bfa.
 /js/bocaiadv.
 /js/bpolknm.js
 /js/btdigg.js
@@ -25407,8 +25310,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /js/cpv_fm_
 /js/dart.js
 /js/db.js$script,third-party
-/js/dcstorm/*
-/js/ddx/*
 /js/dfp-
 /js/dj1ll*.js
 /js/dj2ll*.js
@@ -25419,7 +25320,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /js/gg0.js
 /js/gg123/*
 /js/ggtop.js
-/js/google_stats.
 /js/guanggao_gg.js
 /js/hbx.js
 /js/home/ad/ad.
@@ -25437,7 +25337,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /js/mangoIndexBanner.js
 /js/mob/cpc_bottom.js
 /js/pcbook.js?
-/js/perimeter-x
 /js/pfad.js
 /js/pfadll*.js
 /js/piaofu_bet.
@@ -25447,8 +25346,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /js/showgg.js
 /js/sjgg.js
 /js/soku-analytics.js
-/js/tagging/tagtrack.js
-/js/tophits_
 /js/tpolknm.js
 /js/utils51.js
 /js/utils78.js
@@ -25467,8 +25364,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /js_adv_
 /js_event_tracking/*
 /js_exit_popup.
-/js_gpt.
-/js_hotlink.php?
 /js_ibeat_ext.
 /js_interstitial.
 /js_log_error.
@@ -25505,11 +25400,9 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /k120g270.
 /k300g250.
 /k960g90.
-/kairion.gif?
 /kaiseki/script.php
 /kaiseki/track.php?
 /kaizentrack/*
-/kalturaevent?
 /kameleoon-iframe.
 /kameleoon.js
 /kameleoon.min.js
@@ -25521,7 +25414,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /keen-tracking.
 /keen.min.js
 /keenio.min.js
-/kejobscounter.
 /kelkooSponsoredLinks.
 /keyade.js
 /keypress.js$script
@@ -25529,7 +25421,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /keyword_ad.
 /keywordlogger.
 /kg2.oss-
-/khan_analystics.js
 /kissmetrics.
 /kissmetrics/*
 /klaviyo_analytics.
@@ -25537,8 +25428,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /koko-analytics-
 /koko-analytics/*/script.js
 /kontera.js
-/konterayahoooo.
-/kooomo.tracker.
 /koukoku/*.gif
 /koukoku/list?positions=
 /krux-pixel.
@@ -25547,7 +25436,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /ksks_*_*_*.js?$script,third-party
 /ktag/*
 /kumi/file/js/float.js
-/landings-pixel?
 /lanye2015/images/kuan.jpg
 /lanye2015/images/lanyeht.jpg
 /lapi/sign/brandapi/getinfo
@@ -25562,7 +25450,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /layer/ad.
 /layer/ads.
 /layer_ad?
-/layer_log.php?p=
 /layerad-
 /layerad.
 /layerads-
@@ -25575,9 +25462,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /lazyad-
 /lazyad.
 /lazyload.ads?
-/lbi_ga.
 /lc-sentry.
-/ldsimp_wf?
 /lead-tracking.
 /lead-tracking/*
 /leader_ad.
@@ -25607,7 +25492,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /lftracker_
 /lg.php?adid=
 /lhnhelpouttab-current.min.js
-/lib.tailtarget/*
 /lib/analytics.
 /lib/crlt.js$script,third-party
 /lib/snowplow-
@@ -25619,7 +25503,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /lightspeed_tracker.
 /lijit-ad-
 /lijitads.
-/lingabot.
 /link-tracker-
 /link-tracker?*&l=open&
 /link.coindesk.com/img/*
@@ -25637,7 +25520,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /linkads.
 /linkadv.
 /linkadv_
-/linkcountdata/*
 /linkinformer.js
 /linkpulse.js
 /links/popad$popup
@@ -25646,7 +25528,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /linktracker.js
 /linktracker/*
 /linktracking.
-/listener.php?userRef=
 /live173_*/46860.
 /live800.
 /liveads.
@@ -25655,7 +25536,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /livejasmin2.
 /livejasmin_
 /livejasminpopupunder.
-/livestats.ashx
 /livestats.js
 /livestats.php?
 /livezilla/server.php?request=track&
@@ -25691,12 +25571,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /log.jsp?
 /log.php?*http
 /log.php?id
-/log.php?owa_timestamp=
 /log.php?referrer=
 /log/?pixel=
 /log/analytics
 /log/browser/event
-/log/businessEvent?
 /log/collect/*
 /log/counter?
 /log/debug?
@@ -27137,40 +27015,27 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /pxl.gif?
 /pxl.png?
 /pxlctl.
-/pxls/*
-/pxlspamanalyst-
 /pxrc.php
 /pxre.php
 /pxtrack.
-/pxtrk.gif
-/pzn/proxysignature
 /q/tdl/95/dnt/*
 /qa-tracker.
-/qct_stat.
 /qd/js/index/bannerTop.
 /qidian-ad
 /qiuyi-gg-wrapper-
 /qlitics.js
 /qpxl.js
-/qqcreporter.
 /qqlive/conf/playerlottery/*
 /qtracker-
 /quant.js
-/quant.swf?
 /quantcast.js
-/quantcast.xml
 /quantcast/*
 /quantcast_
 /quantcastjs/*
 /quantserve.com/*
-/quantv2.swf?
-/qubit-integration1.
-/qubit-integration2.
-/qubittracker/*
 /queryAdContent.
 /questus/*
 /quick_ads/*
-/quidsi.ga.js?
 /quigo_ad
 /r.gif?
 /r.rnc?
@@ -27179,13 +27044,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /r/t1/*$subdocument,third-party
 /r/ucb.js$script,~third-party
 /r/video/*$domain=youxi.baidu.com
-/ra_track.
 /radar/trace?
-/radio-analytics.htm
 /radioAdEmbed.
 /radioAdEmbedGPT.
 /radioadembedgenre.
-/radium-one.js
 /rads/b/*
 /rail_ad_
 /railad.
@@ -27194,14 +27056,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /railsad_
 /rainbow/master-js
 /rainbow/track|
-/ravelin-*-track.min.js
 /rbcmetrika-
-/rbi_us.js
-/rbipt.gif?
-/rbipt.js
 /rcAnalyticsLib.
-/rcdntpagetag.js
-/rcmd_track.
 /rcom-ads-
 /rcom-ads.
 /rcom-video-ads.
@@ -27214,18 +27070,14 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /re-ads-
 /re-engage/render.
 /readReceipt/notify/?img=$image
-/readcounter.aspx?
-/readomniturecookie.
 /readtracker-
 /realmedia/ads/*
 /realmedia/ads/*$popup
 /realmedia_mjx.
 /realmedia_mjx_
 /realtimeapi/impression?
-/realtimetracking/*
 /realytics-
 /realytics.js
-/rec-impression?
 /reclama/*
 /reclame/*$domain=~github.com
 /recommendations/ad.
@@ -27398,8 +27250,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /rtm_etag.
 /rtoaster.js
 /rtracker.
-/rtt-log-data?
-/rtu-monitoring.
 /rubics_trk
 /rudder-analytics.
 /rum-dytrc.
@@ -27425,7 +27275,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /ruxitagentjs_
 /rwtag.gif?
 /rwtag.js
-/rwtaghome.js
 /s-pcjs.php
 /s.ashx?btag
 /s.ashx?u=
@@ -27446,8 +27295,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /salog.js
 /satismeter.js
 /sauron-analytics/*
-/saveStats.php?
-/save_stats.php?
 /savetracking?
 /sb.logger.js
 /sb.trackers.js
@@ -27672,7 +27519,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /simple-miner-tweaks/*
 /simple-monero-$script
 /simple-tracking?
-/simpleEulerian.
 /simple_reach.js
 /simplereach_counts/*
 /simtracker.min.js
@@ -28200,7 +28046,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /tagcommander/desktop_
 /tagcommander/mobile_
 /tagcommander_
-/tagging-akqa.
 /tagging?type=
 /tagman/*
 /tagmanager/event?
@@ -28804,7 +28649,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /urchin.gif?
 /urchin.html?
 /urchin.js
-/urchin_util.
 /urchinstats.
 /user-agent-analyzer.
 /user-context?referrer=
@@ -29031,7 +28875,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
 /wa.gif?
 /wa?ctag
-/wa_process.js
 /wa_tracker.
 /wa_tracker_
 /wagnzhantuiguang366.oss-
@@ -29239,16 +29082,13 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /wstat.pl
 /wstats.php?
 /wt_capi.js
-/wt_plugins.
 /wt_tag.js
-/wt_tracking.
 /wtbase.js
 /wtbase2.
 /wtbrand.
 /wtcollect.
 /wtcore.js
 /wtd.gif?
-/wtfindingmethod.
 /wtid.js
 /wtinit.js
 /wtrack?event=
@@ -29341,6 +29181,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /yell-analytics-
 /yell-analytics.
 /yesky/js/counter/*
+/yeyue*.html?channelCode=$document
+/yeyue*.html?channelCode=$~third-party
 /yhs/ads?
 /yieldads.
 /yieldlab.$domain=~yieldlab.com|~yieldlab.science
@@ -29810,7 +29652,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
-180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,bigleaguepolitics.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hdmovies4u.live,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
+180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hdmovies4u.live,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
@@ -31953,7 +31795,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 =display_ad&
 =dynamicads&
 =dynamicwebad&
-=eulerian&
 =getSideStats&
 =getStats_
 =half-page-ad&
@@ -32020,7 +31861,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 ?adzone=
 ?bannerid=
 ?category=ad&
-?euidlls=$script,~third-party
 ?event=impressions&
 ?event=log&
 ?event=pageview&
@@ -33103,7 +32943,6 @@ _gpt_bootstrap_
 _header_ad.
 _header_ad_
 _headerad.
-_hightraffic_code.js
 _hitcount1.
 _hits_stat.
 _images/ad.
@@ -33167,7 +33006,6 @@ _rightad1.
 _rightad_
 _rpc/log?
 _saveUserEventLog.
-_sdcTrackingCode.
 _setAnalyticsFields&
 _show_ads=
 _side-ad_
@@ -33361,7 +33199,7 @@ afzhan.com##.newsRightAdv
 afzhan.com##.topRightAdv
 afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 afzhan.com,iqiyi.com##.rightAdv
-agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,crn.com.au,diyfail.com,dogtime.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
+agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,crn.com.au,diyfail.com,dogtime.com,drugtargetreview.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 agedbeauty.net,data18.com,pornpics.com,pornpics.de,vipergirls.to##a[href*="/go/"]
 agirls.aotter.net##.row > div.col.hidden a[href^="https://supr.one/"]
 agmov.com,huaban.com##.promotion
@@ -33787,8 +33625,8 @@ arydigital.tv###zzright
 arydigital.tv,barakbulletin.com##.bsac
 arynews.tv##.tdi_103
 as.com##.slider-producto
+as.com,desdelinux.net,tutiempo.net,ubunlog.com##.publi
 as.com,gokunming.com##.prom
-as.com,tutiempo.net,ubunlog.com##.publi
 asiangaysex.net,gaysex.tv##.float-ck
 asianjournal.com###fancybox-overlay
 asianjournal.com###fancybox-wrap
@@ -33815,6 +33653,7 @@ assamtribune.com###async_body_tags
 assamtribune.com###left_level_before_tags
 assbbs.com###ass_adv
 asspoint.com,babepedia.com,babesandstars.com,blackhaloadultreviews.com,dbnaked.com,freeones.com,gfycatporn.com,javfor.me,mansurfer.com,newpornstarblogs.com,ok.porn,porn-star.com,porn.com,porndoe.com,pornhubpremium.com,pornstarchive.com,rogreviews.com,sexyandfunny.com,shemaletubevideos.com,spankbang.com,str8upgayporn.com,the-new-lagoon.com,tube8.com,wcareviews.com,xxxonxxx.com,youporn.com##a[href*=".com/track/"]
+astro.com##div[class^="goad"]
 astrology.com##.primis-video-module-horoscope
 asurascans.com,realmscans.com,void-scans.com###teaser3
 asus.com##.bg_block
@@ -35699,6 +35538,7 @@ counter.dev,lindaikejisblog.com##.da
 counterpunch.org##.header-center
 courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com##.partner-placement
 courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com##promo-story-bucket-short[style="min-height: 335px;"]
+coursedrive.org##.cours-adsense-in-feed
 coveteur.com###native_1
 coveteur.com###native_2
 coveteur.com##.leaderboar_promo
@@ -41250,6 +41090,7 @@ mydramalist.com##.is-desktop
 mydramalist.com##.spnsr
 mydramalist.com##div[class^="spnsr"]
 mydrivers.com###a_showhotnews_list_dia
+mydrivers.com###div_newsyjgg
 mydrivers.com###recommend
 mydrivers.com##.ab
 mydrivers.com##.adds
@@ -42096,6 +41937,7 @@ pic4you.ru,pic5you.ru##body > #bb
 pichunter.com##.__autofooterwidth
 pickmypostcode.com##.aside-right.aside
 picnob.com##.ah-box
+picrew.me##.play-Imagemaker_Footer
 picsporn.net#?#.box:-abp-has(> .dip-exms)
 pigai.org###newnotice
 pigglywigglystores.com#?#.fp-item:-abp-has(.fp-tag-ad)
@@ -44068,7 +43910,8 @@ t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
 tahua.net###frameJjnBIp
 taian.com##.ggtp
 taihainet.com##.top-info
-taisinba.com,taimadou.com,rapidtai.com##.top-phonehome
+taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
+taisinba.com,taimadou.com,rapidtai.com,taiav.com##button[onclick*="this.parentNode.parentNode.removeChild"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 taiwandaily.net##.gofollow[data-track] > img
 taizhou.com.cn##.duilian
@@ -46710,6 +46553,7 @@ zzzyk.com###Tinfo
 ||136.0.56.196^
 ||1368999.com^
 ||137.175.69.92^
+||1383a.xyz^
 ||1385a.xyz^
 ||138vps.com/fa/
 ||139file.com/jsa/
@@ -46871,6 +46715,7 @@ zzzyk.com###Tinfo
 ||19qiqi.com/mid/
 ||19vcd.com/mid/
 ||1buu1.penyouw.com^
+||1cdhf.top^
 ||1d1a.com^
 ||1dfsdfg.com^
 ||1e4y54ve.cn^
@@ -47071,6 +46916,7 @@ zzzyk.com###Tinfo
 ||2pwja.cn^
 ||2r45.cn^
 ||2r6.cn^
+||2tyne.icu^
 ||2ujj.com/js/bo.js
 ||2x8l63l0.cn^
 ||2yjw.com/statics/js/jquery.min.
@@ -49459,6 +49305,7 @@ zzzyk.com###Tinfo
 ||bcvxfgy.xyz^
 ||bcykbhb.cn^
 ||bd*-ys.km.com^
+||bd-china-1.appmobile.cn^
 ||bd-js1.2345.com^
 ||bd-s.baixing.net^
 ||bd.ahsrst.cn^
@@ -51635,6 +51482,7 @@ zzzyk.com###Tinfo
 ||eblnzoq.cn^
 ||ebp.renren.com^
 ||ebpu2.top^
+||ebqidwm.xyz^
 ||ebrun.com/jfile/position/js/*.js
 ||ebten.xyz^
 ||ebzqyow.cn^
@@ -51922,6 +51770,7 @@ zzzyk.com###Tinfo
 ||f1.zaojv.com^
 ||f11.hackhome.com^
 ||f1190.com^
+||f1lws.top^
 ||f1t5pb.cn^
 ||f2dsex1.com/public/fb*.png
 ||f2zd.com^
@@ -54326,6 +54175,7 @@ zzzyk.com###Tinfo
 ||jianduankm.com^
 ||jiangsg.me^
 ||jiangsm.club^
+||jiangxing.live^
 ||jiangxing.pub^
 ||jiangzimeng1.cn^
 ||jianhuadaily.com/wp-content/plugins/popup-
@@ -55020,6 +54870,7 @@ zzzyk.com###Tinfo
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
 ||kkkqi.cn^
+||kkkqo.cn^
 ||kkpgv2.xunlei.com^
 ||kkqeqk.cn^
 ||kkuuu.top^
@@ -55704,6 +55555,8 @@ zzzyk.com###Tinfo
 ||lthzd.cn^
 ||ltn.com.tw/js/ad_door.js
 ||ltwfd.xyz^
+||lu.lindhf4.com^$document
+||lu.lindhf4.com^$~third-party
 ||lu.sogou.com^
 ||lu.sogoucdn.com^
 ||lu228.com/ajs/
@@ -55747,6 +55600,7 @@ zzzyk.com###Tinfo
 ||lw0mp.fun^
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
+||lwandll.top^
 ||lwcsytn.cn^
 ||lwddrhp.cn^
 ||lwfcipd.cn^
@@ -57213,6 +57067,8 @@ zzzyk.com###Tinfo
 ||perlmaven.com/img/sticker-you.jpg
 ||petsheying.com^
 ||pexels.com^*/sponsored_
+||pf.lalalalalals.com^$document
+||pf.lalalalalals.com^$~third-party
 ||pfiparts.com^
 ||pfja.top^
 ||pfjfj45.xyz^
@@ -59375,6 +59231,7 @@ zzzyk.com###Tinfo
 ||tcmsp.cn^
 ||tcnnnzt.cn^
 ||tcss.qq.com^
+||tctltb.com^
 ||td.easysavemore.com^
 ||td.sxwqhotel.com^
 ||tdayi.com^
@@ -61060,6 +60917,7 @@ zzzyk.com###Tinfo
 ||xiaoxiangmovie.com^
 ||xiaoxiaozhijia.shop^
 ||xiaoyida.com^$third-party
+||xiaoyunong13.top^
 ||xiaoz.top/assets/imgurl.js
 ||xiaozengyyds.com^
 ||xiaozhangzhushou.ltd^
@@ -62117,6 +61975,7 @@ zzzyk.com###Tinfo
 ||zhaofuli.*/data/content
 ||zhaovip.site^
 ||zhaoyafang.cn^
+||zhaozongqq.com^
 ||zhcps.cn^
 ||zhe8000.pw^
 ||zhekoudajie.com^
@@ -62246,6 +62105,7 @@ zzzyk.com###Tinfo
 ||zk6.me^
 ||zk6c.top^
 ||zk789.cn/Res/Scripts/Show/NetSys/Show.ashx
+||zkbsvx.xyz^
 ||zkczbti.cn^
 ||zkdmdf.xyz^
 ||zkgvsoo.cn^
@@ -62361,6 +62221,7 @@ zzzyk.com###Tinfo
 ||zt.chuanke.com/?mod=
 ||zt2088.com^
 ||zt5g.top^
+||ztaan.top^
 ||ztffac.com^
 ||ztidu.com^
 ||ztjal.info/wp-content/plugins/kill-adblock/
