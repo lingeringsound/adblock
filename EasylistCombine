@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QixPJEZOfVzoU6tAaiUSmw
+! Checksum: 6h2rqkUnYqSNtRzafWBzJw
 ! Title: Easylist规则合并
-! Version: 20230612225745
+! Version: 20230612232617
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-12 22:57:54
+! Last modified: 2023-06-12 23:26:25
 ! Total Count: 62601
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
@@ -18542,8 +18542,8 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
-##img[src*="://mpic"][src*=".cn"][src$=".js"]
-##img[src*="://mpic"][src*=".cn"][src$=".txt"]
+##img[src*="://mpic."][src*=".cn"][src$=".js"]
+##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="_advertising_"]

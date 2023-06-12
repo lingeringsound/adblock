@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lZTfVNQPMv7Qei/R+A6EwA
+! Checksum: X2XS6RPS5TFnQoX+AQ2Kzg
 ! Title: 混合规则
-! Version: 20230612225707
+! Version: 20230612232541
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-12 22:57:20
+! Last modified: 2023-06-12 23:25:54
 ! Total Count: 112502
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
@@ -18750,8 +18750,8 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
-##img[src*="://mpic"][src*=".cn"][src$=".js"]
-##img[src*="://mpic"][src*=".cn"][src$=".txt"]
+##img[src*="://mpic."][src*=".cn"][src$=".js"]
+##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="_advertising_"]
