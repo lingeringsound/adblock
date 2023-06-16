@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Ukgnn68rDjDD83LIyCBmMA
+! Checksum: mala0EtDm8lzj9lUx7Z/yg
 ! Title: Easylist规则合并
-! Version: 20230616110351
+! Version: 20230616163000
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-16 11:03:59
-! Total Count: 62458
+! Last modified: 2023-06-16 16:30:10
+! Total Count: 62457
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18250,7 +18250,6 @@
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
-##div[class^="main-content"]:has(a[data-content-name][data-track-content])
 ##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Q77EsXC+yc/VKjoGidcBpQ
+! Checksum: JfYwipv7qdXkDEjsFnSuRg
 ! Title: 混合规则
-! Version: 20230616110313
+! Version: 20230616162928
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-16 11:03:27
-! Total Count: 112332
+! Last modified: 2023-06-16 16:29:39
+! Total Count: 112331
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18585,7 +18585,6 @@
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
-##div[class^="main-content"]:has(a[data-content-name][data-track-content])
 ##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]

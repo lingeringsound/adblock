@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: XjkA3LVI4EJ3WZcMUiXEVg
+! Checksum: urrmQoNup0Kkv29SXi7bgQ
 ! Title: MIUI浏览器规则
-! Version: 20230616110336
+! Version: 20230616162946
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-16 11:03:45
-! Total Count: 69283
+! Last modified: 2023-06-16 16:29:54
+! Total Count: 69282
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18360,7 +18360,6 @@
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
-##div[class^="main-content"]:has(a[data-content-name][data-track-content])
 ##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
