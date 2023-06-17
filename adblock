@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: JfYwipv7qdXkDEjsFnSuRg
+! Checksum: 2tB5BlS49HPg2a+OJQoL3g
 ! Title: 混合规则
-! Version: 20230616162928
+! Version: 20230617114110
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-16 16:29:39
-! Total Count: 112331
+! Last modified: 2023-06-17 11:41:24
+! Total Count: 112373
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -17711,6 +17711,23 @@
 ##a-ad
 ##a.ad_links
 ##a.hengfu > img.hengfu
+##a[alt="545新葡京"][target="_blank"]
+##a[alt="91Pro"][target="_blank"]
+##a[alt="91视频"][target="_blank"]
+##a[alt="JQK棋牌"][target="_blank"]
+##a[alt="p站破解"][target="_blank"]
+##a[alt="加拿大彩票"][target="_blank"]
+##a[alt="同城上门"][target="_blank"]
+##a[alt="开元棋牌"][target="_blank"]
+##a[alt="新月直播"][target="_blank"]
+##a[alt="暗网TV"][target="_blank"]
+##a[alt="樱桃视频"][target="_blank"]
+##a[alt="水仙直播"][target="_blank"]
+##a[alt="澳门博彩"][target="_blank"]
+##a[alt="爱爱直播"][target="_blank"]
+##a[alt="美高梅"][target="_blank"]
+##a[alt="逼哩逼哩"][target="_blank"]
+##a[alt="领882元"][target="_blank"]
 ##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[data-obtrack^="http://paid.outbrain.com/network/redir?"]
@@ -18495,6 +18512,7 @@
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
+##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"]
 ##ad-shield-ads
@@ -18552,6 +18570,7 @@
 ##div#xinxi
 ##div.ad-nav-box
 ##div.down-list > ul > [href]
+##div.down-list > ul > li > dt
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div.h5-ext-layer
@@ -18577,6 +18596,14 @@
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="直播"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="约炮"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="同城"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class][id][style] > .pic_container
 ##div[class^="Adstyled__AdWrapper-"]
 ##div[class^="Display_displayAd"]
@@ -18590,6 +18617,14 @@
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="ps_"][value="20"]
 ##div[class^="shortcuts-"][class$="-overlay"]
+##div[class^="swiper-"] > a[href][alt$="博彩"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="新葡京"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="棋牌"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="直播"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="约炮"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="同城"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="澳门"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[data-ad-placeholder]
 ##div[data-ad-targeting]
 ##div[data-ad-wrapper]
@@ -18725,6 +18760,8 @@
 ##img[alt="極樂夜王"]
 ##img[alt="櫻境物語"]
 ##img[alt="賢者同盟"]
+##img[alt][src$=".mp3"]
+##img[class][src$=".mp3"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[id^="GGADIMG"][src][class="loading"]
@@ -20148,6 +20185,8 @@ $websocket,domain=5nj.com|cechi8.com
 .link/ads/
 .live/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .live/*_*.js?*16$third-party
+.live/?channelCode=$document
+.live/?channelCode=$~third-party
 .live/?token=*&screen_*=*&ref=$third-party
 .live/gyxx_*_aubi.js$third-party
 .live/j/*/*?$third-party
@@ -29559,6 +29598,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://als1007.xz.*.cn/qd/*/*ml168.apk?$~third-party
 ://als1007.xz.*.cn/qd/*/*xf168.apk?$document
 ://als1007.xz.*.cn/qd/*/*xf168.apk?$~third-party
+://apftv*.xn--*.com/*.html$document
+://apftv*.xn--*.com/*.html$~third-party
 ://api.*.com/s/c?_=$third-party
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
@@ -54789,6 +54830,7 @@ zzzyk.com###Tinfo
 ||ads.tiki.vn^
 ||ads.timesjobsandcareers.com^
 ||ads.topsex.cc^
+||ads.traffichaus.com^
 ||ads.tvb.com^
 ||ads.twitter.com/favicon.ico$image,third-party,redirect-rule=32x32.png
 ||ads.ungdomar.se^
