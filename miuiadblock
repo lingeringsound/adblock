@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0pyMD3ine1iUEWzDOgM1lg
+! Checksum: vEFjPhVeL3Azh333RZGjqw
 ! Title: MIUI浏览器规则
-! Version: 20230617114132
+! Version: 20230617223148
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-17 11:41:41
-! Total Count: 69324
+! Last modified: 2023-06-17 22:31:56
+! Total Count: 69328
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -47150,6 +47150,7 @@ xhamster.com##.bottom-widget-section
 xhamster.com##.clipstore-bottom
 xhamster.com##.player-add-overlay
 xhamster.com##.promo-message
+xhamster.com##.sponsorBottom
 xhamster.com##.video-view-ads
 xhamster.com##.wio-p
 xhamster.com##.wio-pcam-thumb
@@ -47187,7 +47188,9 @@ xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="yld-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
+xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
 xhpfmapi.zhongguowangshi.com##.link-app>a.footer-logo-body-new
 xhtml?$domain=kanshu8.net
@@ -53810,6 +53813,7 @@ zzzyk.com###Tinfo
 ||cnscg.com/template/default/style/t6/other/
 ||cnshiw2.com^
 ||cnsptv.com.cn^
+||cnt.xhamster.com^
 ||cntronics.com/adsupload/
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_

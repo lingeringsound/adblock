@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: YRgQCEZS6N5EnYVW9OHWxQ
+! Checksum: rRHnw6ZWO/okfiyQAwAA5Q
 ! Title: Easylist规则合并
-! Version: 20230617114146
+! Version: 20230617223201
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-17 11:41:53
-! Total Count: 62499
+! Last modified: 2023-06-17 22:32:08
+! Total Count: 62503
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -45509,6 +45509,7 @@ xhamster.com##.bottom-widget-section
 xhamster.com##.clipstore-bottom
 xhamster.com##.player-add-overlay
 xhamster.com##.promo-message
+xhamster.com##.sponsorBottom
 xhamster.com##.video-view-ads
 xhamster.com##.wio-p
 xhamster.com##.wio-pcam-thumb
@@ -45546,7 +45547,9 @@ xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="yld-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
+xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
 xhtml?$domain=kanshu8.net
 xhzyw.com###HtmlMoKua_752383
@@ -50442,6 +50445,7 @@ zzzyk.com###Tinfo
 ||cnscg.com/template/default/style/t6/*x*1
 ||cnscg.com/template/default/style/t6/other/
 ||cnshiw2.com^
+||cnt.xhamster.com^
 ||cntronics.com/adsupload/
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
