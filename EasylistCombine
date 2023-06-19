@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: rRHnw6ZWO/okfiyQAwAA5Q
+! Checksum: Xq2Nop3Ai2O0ANejLChZxg
 ! Title: Easylist规则合并
-! Version: 20230617223201
+! Version: 20230619113444
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-17 22:32:08
-! Total Count: 62503
+! Last modified: 2023-06-19 11:34:52
+! Total Count: 62557
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -11260,6 +11260,7 @@
 ##.bottom_bar_ads
 ##.bottom_fixed > #imgs_link4
 ##.bottom_fixed > a > img[src$=".gif"]
+##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottom_fixed > a[rel='nofollow'][target='_blank']
 ##.bottom_left_advert
 ##.bottom_mengcheng_ad_wrap
@@ -12579,6 +12580,7 @@
 ##.g-adblock3
 ##.g-adver
 ##.g-advertisement-block
+##.g-slide
 ##.g1-ads
 ##.g1-advertisement
 ##.g1_wz > .g1_tp
@@ -17211,6 +17213,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
@@ -18222,6 +18225,7 @@
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##center[style="display: none;"] > span[style][onclick]
 ##citrus-ad-wrapper
+##dd > a[data-uuid]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##display-ad-component
 ##display-ads
@@ -18261,6 +18265,7 @@
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class="v-banner"][style]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
@@ -18275,6 +18280,9 @@
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
+##div[class^="img"][title$="棋牌"]
+##div[class^="img"][title*="新葡京"]
+##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
 ##div[class^="native-ad-"]
@@ -18379,6 +18387,7 @@
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
 ##div[style^="position"][onclick^="window.open"]
@@ -18423,7 +18432,9 @@
 ##img[alt="櫻境物語"]
 ##img[alt="賢者同盟"]
 ##img[alt][src$=".mp3"]
+##img[alt][src$=".txt"]
 ##img[class][src$=".mp3"]
+##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[id^="GGADIMG"][src][class="loading"]
@@ -18465,6 +18476,7 @@
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="://tpic."][src*=".cn"][src$=".js"]
 ##img[src*="://tpic."][src*=".cn"][src$=".txt"]
+##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -18478,6 +18490,7 @@
 ##img[style][alt][src*="/data/ds3/"][src$=".php"]
 ##img[style][alt][src*="/data/game/"][src$=".gif"]
 ##ins.adsbygoogle
+##li > a[data-uuid]
 ##li[class="dataic"] > a[href*="/?channelCode="][target]
 ##li[class="dataic"] > div > a[href][name="点击播放"]
 ##li[id^="dataic"] > div > a[href][name="点击播放"]
@@ -19257,10 +19270,12 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .club/ads.
 .club/ads/
 .club/adv/
+.club/appinstall.js$third-party,script
 .club/gyxx_*_aubi.js$third-party
 .club/js/popunder.js
 .club/r/*$xmlhttprequest
 .club/ttdlyqbff/*/*.gif?$third-party,image
+.club/xtub_*_rony.js$third-party
 .club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
@@ -19326,6 +19341,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .com/adz/
 .com/analytics?
 .com/api/getPos?jspath=/$~third-party
+.com/appinstall.js$third-party,script
 .com/bads/
 .com/clk?
 .com/code.php?a=index&z=$script,third-party,xmlhttprequest
@@ -19428,6 +19444,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .com/vj2/1$third-party
 .com/vodad.js
 .com/vtrack|
+.com/xtub_*_rony.js$third-party
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
@@ -19462,8 +19479,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
 .cyou/?token=*&screen_*=*&ref=$third-party
+.cyou/appinstall.js$third-party,script
 .cyou/gyxx_*_aubi.js$third-party
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
+.cyou/xtub_*_rony.js$third-party
 .cyou:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .cz/adv/
 .cz/affil/
@@ -19497,9 +19516,11 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .fun/*_*_rony.js
 .fun/?token=*&screen_*=*&ref=$third-party
 .fun/ad/
+.fun/appinstall.js$third-party,script
 .fun/gyxx_*_aubi.js$third-party
 .fun/scripts/my_33.js
 .fun/ttdlyqbff/*/*.gif?$third-party,image
+.fun/xtub_*_rony.js$third-party
 .fun:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .fuse-cloud.com/
 .fuse-cloud.com/$popup
@@ -19593,6 +19614,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .live/?channelCode=$document
 .live/?channelCode=$~third-party
 .live/?token=*&screen_*=*&ref=$third-party
+.live/appinstall.js$third-party,script
 .live/gyxx_*_aubi.js$third-party
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
@@ -19602,6 +19624,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
+.live/xtub_*_rony.js$third-party
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -19638,8 +19661,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .mobi/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
+.mobi/appinstall.js$third-party,script
 .mobi/gyxx_*_aubi.js$third-party
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
+.mobi/xtub_*_rony.js$third-party
 .mobi:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .mobileads.
 .mozilla.org/eos/$image
@@ -19755,10 +19780,12 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .shop/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
+.shop/appinstall.js$third-party,script
 .shop/gyxx_*_aubi.js$third-party
 .shop/r/*$xmlhttprequest
 .shop/ttdlyqbff/*/*.gif?$third-party,image
 .shop/xling_*_*.js?
+.shop/xtub_*_rony.js$third-party
 .shop:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .simplicitycrm.com/rd/
 .site:*/*/*.js
@@ -19795,12 +19822,14 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .top/?token=*&screen_*=*&ref=$third-party
 .top/ad-
 .top/ads/
+.top/appinstall.js$third-party,script
 .top/gyxx_*_aubi.js$third-party
 .top/j/*$script,third-party
 .top/k/*$script,third-party
 .top/ttdlyqbff/*/*.gif?$third-party,image
 .top/upload/ad.js
 .top/xling_*_*.js?
+.top/xtub_*_rony.js$third-party
 .top:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
@@ -19868,6 +19897,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .xyz/alpine?$third-party
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
+.xyz/appinstall.js$third-party,script
 .xyz/base*.js?
 .xyz/c.php?s=
 .xyz/effect.php?
@@ -19897,6 +19927,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .xyz/vj2/$third-party
 .xyz/vue?$third-party
 .xyz/xling_*_*.js?
+.xyz/xtub_*_rony.js$third-party
 .xyz:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .xyz:*/*.html?uid=$document
 .xyz:*/*.html?uid=$~third-party
@@ -20051,6 +20082,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /496_98_
 /500ad/*
 /500b-bench.jpg?
+/51/?channelCode=$document
+/51/?channelCode=$~third-party
 /527ldy.oss-
 /5555vipqipai.oss-
 /555hsdsj/*
@@ -20121,6 +20154,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /?essb_counter_
 /?fp=*&poru=$subdocument
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
+/?linkid=*&pop=1$document
+/?linkid=*&pop=1$~third-party
 /?livehit=
 /?log=experiment&
 /?log=performance-
@@ -22379,6 +22414,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /anti_ab.
 /antiadblockmsg.
 /antiblock_script/*
+/antv/*/antv-v*_asqt*.apk$document
+/antv/*/antv-v*_asqt*.apk$~third-party
+/antv/antv_v*.*.apk$document
+/antv/antv_v*.*.apk$~third-party
 /aoyou372down300_
 /ap.lijit.com/*
 /ape-ad-
@@ -22948,6 +22987,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /cgi/count?
 /cgi/stats.pl?
 /cgi/trk.js
+/channel/downApk*&appName=antv$document
+/channel/downApk*&appName=antv$~third-party
 /chartbeat.js
 /chartbeat.js$domain=wetter.com
 /chartbeat.min.js
@@ -28785,6 +28826,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 131458.com##.divGuanggao
 131458.com##.ulfooter_top
 1337x.to,duplichecker.com##img[src*="data:image"]
+139.196.80.247$document
+139.196.80.247$~third-party
 13mv.com##.aggd
 13mv.com##li[id^="media_image-"]
 13mv.com,csai.cn##.keifu
@@ -29962,6 +30005,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 ://chio*.xyz/*.html$~third-party
 ://collect.*/pageview
 ://collector.*/event
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
@@ -34169,11 +34214,13 @@ bilibili.com##.bili-dyn-ads
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
+bilibili.com##.float-btn
 bilibili.com##.gg-floor-module
 bilibili.com##.index-promote
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
+bilibili.com##.read-recommend-info
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.video-page-game-card
@@ -40206,6 +40253,7 @@ m.bilibili.com##.m-nav-openapp.launch-app-btn
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-fullscreen-call-app
 m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##[class*="-openapp"]
 m.cnbeta.com##.article-hd + div[style="text-align:center"]
 m.cnbeta.com##.cbimage-fixed
 m.cnbeta.com##.image-container
@@ -50857,6 +50905,7 @@ zzzyk.com###Tinfo
 ||dashet.com^
 ||daspic.top^
 ||dat1.jzjxmj.com^$third-party
+||data.bilibili.com/log
 ||data.waptime.cn^
 ||data.xici.net^
 ||dataguru.cn/site_
@@ -52790,6 +52839,8 @@ zzzyk.com###Tinfo
 ||h2n3c.top^
 ||h41s.com^
 ||h45pmx1.cn^
+||h5.sdahh.com^$document
+||h5.sdahh.com^$~third-party
 ||h5634t.site^
 ||h56hg7.site^
 ||h56trh.site^
@@ -53078,6 +53129,8 @@ zzzyk.com###Tinfo
 ||hguas.com^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/source/plugin/hgyouxiad/
+||hh*.huojiabeijing.org^$document
+||hh*.huojiabeijing.org^$~third-party
 ||hh.jiankang.com^
 ||hh010.com/static/image/fff/
 ||hhaobcj.cn^
@@ -61561,6 +61614,7 @@ zzzyk.com###Tinfo
 ||yhzm.xyz^
 ||yhzzzs02.com^
 ||yi.ximizi.com^
+||yichengjiajupt.com^$third-party
 ||yidengfe.com/launches/01/yd.png
 ||yidiansurong.com^
 ||yidulu.cn^

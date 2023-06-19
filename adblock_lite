@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 4FZLtk3u5O/cebTbiVjalQ
+! Checksum: vFY3JguOwLe8lY4xJ/RErA
 ! Title: 混合规则(精简版)
-! Version: 20230617223210
+! Version: 20230619113454
 ! Expires: 1145141919810
-! Last modified: 2023-06-17 22:32:14
-! Total Count: 19028
+! Last modified: 2023-06-19 11:34:58
+! Total Count: 19083
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -815,6 +815,7 @@
 ##.bottomSponsor
 ##.bottom_fixed > #imgs_link4
 ##.bottom_fixed > a > img[src$=".gif"]
+##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottom_fixed > a[rel='nofollow'][target='_blank']
 ##.bottom_mengcheng_ad_wrap
 ##.bottomads
@@ -923,6 +924,7 @@
 ##.fuckadblock
 ##.full-ads
 ##.full.banners12
+##.g-slide
 ##.g1_wz > .g1_tp
 ##.getads
 ##.gg-box
@@ -1274,6 +1276,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
@@ -1865,6 +1868,7 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##center[style="display: none;"] > span[style][onclick]
+##dd > a[data-uuid]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
@@ -1895,6 +1899,7 @@
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class="v-banner"][style]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
@@ -1907,6 +1912,9 @@
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
+##div[class^="img"][title$="棋牌"]
+##div[class^="img"][title*="新葡京"]
+##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
@@ -1962,6 +1970,7 @@
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
 ##div[style^="position"][onclick^="window.open"]
@@ -2000,7 +2009,9 @@
 ##img[alt="櫻境物語"]
 ##img[alt="賢者同盟"]
 ##img[alt][src$=".mp3"]
+##img[alt][src$=".txt"]
 ##img[class][src$=".mp3"]
+##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[id^="GGADIMG"][src][class="loading"]
@@ -2041,6 +2052,7 @@
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="://tpic."][src*=".cn"][src$=".js"]
 ##img[src*="://tpic."][src*=".cn"][src$=".txt"]
+##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -2053,6 +2065,7 @@
 ##img[style][alt][src*="/data/ds3/"][src$=".php"]
 ##img[style][alt][src*="/data/game/"][src$=".gif"]
 ##img[width="320"][height="50"]
+##li > a[data-uuid]
 ##li[class="dataic"] > a[href*="/?channelCode="][target]
 ##li[class="dataic"] > div > a[href][name="点击播放"]
 ##li[id^="dataic"] > div > a[href][name="点击播放"]
@@ -2465,9 +2478,11 @@
 .club/?token=*&screen_*=*&ref=$third-party
 .club/ads/
 .club/adv/
+.club/appinstall.js$third-party,script
 .club/gyxx_*_aubi.js$third-party
 .club/r/*$xmlhttprequest
 .club/ttdlyqbff/*/*.gif?$third-party,image
+.club/xtub_*_rony.js$third-party
 .cn/*-*-*.xc$script,third-party
 .cn/a.gif?
 .cn/ads/
@@ -2517,6 +2532,7 @@
 .com/adv?
 .com/adx/
 .com/api/getPos?jspath=/$~third-party
+.com/appinstall.js$third-party,script
 .com/c.gif?
 .com/code.php?a=index&z=$script,third-party,xmlhttprequest
 .com/core/js/the_pf.js
@@ -2597,6 +2613,7 @@
 .com/vj1/1$third-party
 .com/vj2/1$third-party
 .com/vodad.js
+.com/xtub_*_rony.js$third-party
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
@@ -2628,16 +2645,20 @@
 .cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
 .cyou/?token=*&screen_*=*&ref=$third-party
+.cyou/appinstall.js$third-party,script
 .cyou/gyxx_*_aubi.js$third-party
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
+.cyou/xtub_*_rony.js$third-party
 .eu/ads/
 .fun/*_*.js?*16$third-party
 .fun/*_*_rony.js
 .fun/?token=*&screen_*=*&ref=$third-party
 .fun/ad/
+.fun/appinstall.js$third-party,script
 .fun/gyxx_*_aubi.js$third-party
 .fun/scripts/my_33.js
 .fun/ttdlyqbff/*/*.gif?$third-party,image
+.fun/xtub_*_rony.js$third-party
 .hk/ad2/
 .hk/ads/
 .hk/groupon/ads/
@@ -2670,6 +2691,7 @@
 .live/?channelCode=$document
 .live/?channelCode=$~third-party
 .live/?token=*&screen_*=*&ref=$third-party
+.live/appinstall.js$third-party,script
 .live/gyxx_*_aubi.js$third-party
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
@@ -2678,6 +2700,7 @@
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
+.live/xtub_*_rony.js$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
 .lu/ads/
@@ -2699,8 +2722,10 @@
 .men/ads/
 .mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
+.mobi/appinstall.js$third-party,script
 .mobi/gyxx_*_aubi.js$third-party
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
+.mobi/xtub_*_rony.js$third-party
 .net/ad-
 .net/ad/$~object-subrequest
 .net/ads/
@@ -2731,10 +2756,12 @@
 .qidian.com/pageOps.
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
+.shop/appinstall.js$third-party,script
 .shop/gyxx_*_aubi.js$third-party
 .shop/r/*$xmlhttprequest
 .shop/ttdlyqbff/*/*.gif?$third-party,image
 .shop/xling_*_*.js?
+.shop/xtub_*_rony.js$third-party
 .site:*/*/*.js
 .site:20443/*.js^$script,third-party
 .swf?clicktag=
@@ -2745,12 +2772,14 @@
 .top/?token=*&screen_*=*&ref=$third-party
 .top/ad-
 .top/ads/
+.top/appinstall.js$third-party,script
 .top/gyxx_*_aubi.js$third-party
 .top/j/*$script,third-party
 .top/k/*$script,third-party
 .top/ttdlyqbff/*/*.gif?$third-party,image
 .top/upload/ad.js
 .top/xling_*_*.js?
+.top/xtub_*_rony.js$third-party
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
 .tor*/js/jquery.bpopup.
@@ -2784,6 +2813,7 @@
 .xyz/alpine?$third-party
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
+.xyz/appinstall.js$third-party,script
 .xyz/base*.js?
 .xyz/c.php?s=
 .xyz/effect.php?
@@ -2813,6 +2843,7 @@
 .xyz/vj2/$third-party
 .xyz/vue?$third-party
 .xyz/xling_*_*.js?
+.xyz/xtub_*_rony.js$third-party
 .xyz:*/*.html?uid=$document
 .xyz:*/*.html?uid=$~third-party
 .xyz:*/waga*.html$document
@@ -2831,10 +2862,14 @@
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$document
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$~third-party
 /*_*_/bigREDdog.$third-party
+/51/?channelCode=$document
+/51/?channelCode=$~third-party
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
 /?channelCode=ywy$document
 /?channelCode=ywy$~third-party
+/?linkid=*&pop=1$document
+/?linkid=*&pop=1$~third-party
 /AdblockMessage.
 /SvgAdblockDetected/*
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
@@ -2927,6 +2962,10 @@
 /adsmatcher-anti-adblock/*
 /advertisement/*
 /antiadblockmsg.
+/antv/*/antv-v*_asqt*.apk$document
+/antv/*/antv-v*_asqt*.apk$~third-party
+/antv/antv_v*.*.apk$document
+/antv/antv_v*.*.apk$~third-party
 /arlinablock.js
 /bar/yfgg.js
 /bid?url=http
@@ -2937,6 +2976,8 @@
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
 /blxn_*.js?
+/channel/downApk*&appName=antv$document
+/channel/downApk*&appName=antv$~third-party
 /chunyu*.html?channelCode=$document
 /chunyu*.html?channelCode=$~third-party
 /dayu*.html?channelCode=$document
@@ -2964,6 +3005,7 @@
 /pagead2.
 /pge/?s=$third-party
 /popup/adblocker
+/sdk/push_web/?zid=
 /template/blank/yk/sdo.js
 /testAB.bundle.
 /vs.php?id=$third-party,xmlhttprequest
@@ -2982,6 +3024,8 @@
 101.ru##.showMessageAdBlock
 11fzw.com##.index-top-ad
 11fzw.com##a[href*="go.php?url="][target="_blank"] > img[src]
+139.196.80.247$document
+139.196.80.247$~third-party
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class$="_b"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class^="bot-"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_blank"] > img[alt][src$=".gif"]
@@ -3068,6 +3112,8 @@
 ://btt*/Runtime/js/psData.
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
@@ -4785,6 +4831,8 @@ biggestplayer.me##.masr
 biggestplayer.me##.soret
 bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
+bilibili.com##.float-btn
+bilibili.com##.read-recommend-info
 bing.com###BottomAppPro
 bing.com###b_results > li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
 bing.com###banner
@@ -5075,6 +5123,7 @@ m.bilibili.com##.m-nav-openapp.launch-app-btn
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-fullscreen-call-app
 m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##[class*="-openapp"]
 m.douban.com##.app-link
 m.douban.com##.green.btn
 m.douban.com##.subject-banner
@@ -9762,6 +9811,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dastelefonbuch.de/banner^
 ||dat1.jzjxmj.com^$third-party
 ||data-optout-service.uca.cloud.unity3d.com^
+||data.bilibili.com/log
 ||data.waptime.cn^
 ||data2.doodlemobile.com^
 ||dataguru.cn/site_
@@ -11356,6 +11406,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||h1ek.xyz^
 ||h2n3c.top^
 ||h5.isnssdk.com^
+||h5.sdahh.com^$document
+||h5.sdahh.com^$~third-party
 ||h5.wannaplay.cn^
 ||h56hg7.site^
 ||h6295.com^$popup
@@ -11574,6 +11626,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hgsly.buzz^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/source/plugin/hgyouxiad/
+||hh*.huojiabeijing.org^$document
+||hh*.huojiabeijing.org^$~third-party
 ||hh.jiankang.com^
 ||hh010.com/static/image/fff/
 ||hhaobcj.cn^
@@ -18401,6 +18455,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yhzm.xyz^
 ||yhzzzs02.com^
 ||yi.ximizi.com^
+||yichengjiajupt.com^$third-party
 ||yidengfe.com/launches/01/yd.png
 ||yieldkit.com^
 ||yieldmo.com^
