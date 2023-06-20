@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Rb2z9aUNw8NNyKyEcBkOjw
+! Checksum: zmff2koiGsVqHpCSHu5Fdg
 ! Title: Easylist规则合并
-! Version: 20230619231941
+! Version: 20230620135001
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-19 23:19:54
-! Total Count: 62466
+! Last modified: 2023-06-20 13:50:15
+! Total Count: 62487
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18503,6 +18503,10 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
+##img[src*="://dpic."][src*=".cn"][src$=".js"]
+##img[src*="://dpic."][src*=".cn"][src$=".txt"]
+##img[src*="://kpic."][src*=".cn"][src$=".js"]
+##img[src*="://kpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://mpic."][src*=".cn"][src$=".js"]
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
@@ -19242,6 +19246,8 @@ $websocket,domain=5nj.com|cechi8.com
 .alcmpn.com/
 .am/adv/
 .app.returnpath.net/
+.app?c=ggcha$document
+.app?c=ggcha$~third-party
 .ar/ads/
 .ashx?AdID=
 .asp?wg&df=$script,third-party
@@ -19304,6 +19310,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
 .cn/*-*-*.xc$script,third-party
+.cn/20*/*/*.txt$third-party
 .cn/ads/
 .cn/api/getPos?jspath=/$~third-party
 .cn/gg/$script,third-party
@@ -19333,6 +19340,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/*/ffff.js
 .com/*_*.js?*16$third-party
 .com/0gg/gg*.js
+.com/20*/*/*.txt$third-party
 .com/?Intr=$popup,third-party
 .com/?ad=
 .com/?aff=$popup,third-party
@@ -19701,6 +19709,7 @@ $websocket,domain=5nj.com|cechi8.com
 .name/ads/
 .nativeads.
 .ne16.com/do/
+.net/20*/*/*.txt$third-party
 .net/_adv/
 .net/ad2/$~xmlhttprequest
 .net/ad_
@@ -19962,6 +19971,8 @@ $websocket,domain=5nj.com|cechi8.com
 .zm/ads/
 .zone/ads/
 .zw/ads/
+/#/home?c=ggcha$document
+/#/home?c=ggcha$~third-party
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
@@ -20537,6 +20548,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\.net\/js\/popup\.js\?v(er)?=1\./$important,script,~third-party
+/\/20[0-9]{2}\/[0-9]{2}\/[0-9]+\.txt/$third-party
 /\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 /\/[a-z0-9]{8,10}\?.*?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
@@ -24883,6 +24895,7 @@ $websocket,domain=5nj.com|cechi8.com
 /js/aahome.htm
 /js/ad.js?slot=
 /js/ad_jyshe.js$third-party,script
+/js/adb.js$third-party
 /js/admiral-
 /js/ads/*0.js
 /js/ads/*2.js
@@ -29916,6 +29929,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
+://dpic.*.cn/*.js$third-party
+://dpic.*.cn/*.txt$third-party
 ://dreemdmbabys.oss-cn-
 ://email.*/blankpixel.gif
 ://email.*/e/o/
@@ -29925,6 +29940,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://im.yfled888.com/*.gif
 ://im.yfled888.com/*.jpg
 ://internal-matomo.
+://kpic.*.cn/*.js$third-party
+://kpic.*.cn/*.txt$third-party
 ://lightning.*/launch/
 ://ln.*.cyou$third-party
 ://ln.*.fun$third-party
@@ -48298,6 +48315,7 @@ zzzyk.com###Tinfo
 ||advgjm.com^
 ||adwordsing.com/img/1.jpg
 ||adwordsing.com/img/2.jpg
+||adxadserv.com^$third-party
 ||adxiaozi.com^$third-party
 ||adxxx.com^$third-party
 ||adxxx.info^$domain=avgle.com
@@ -48832,6 +48850,7 @@ zzzyk.com###Tinfo
 ||atm.youku.com^
 ||atmcdn.com/www/*.js
 ||atnnf.xyz^
+||ato.tooopen.com^$third-party
 ||atool.org/res/ads/
 ||atpanel.com^$image
 ||att.ydss.cn/attachments/portal/
@@ -49682,6 +49701,7 @@ zzzyk.com###Tinfo
 ||btmulu.com/assets/*/ad02.gif
 ||btn.onlylady.com^
 ||btn.pchome.net^
+||bto.tooopen.com^$third-party
 ||btpian.com/static/*960.js
 ||btpian.com/static/wenquan.js
 ||btschool.net/images/*/HDYGR
@@ -59596,6 +59616,7 @@ zzzyk.com###Tinfo
 ||truecrimesss.com^
 ||truvidplayer.com^$domain=technews.tw
 ||trxs123.com/skin/default/js/jque.js
+||tryoe.com^$third-party
 ||trysogsii.uno^
 ||trznrug.cn^
 ||ts.grmnmwv.cn^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: C9EFmp2zDU7iIE9qKmfcDg
+! Checksum: d1aDQt9ZagAsKG5JdweRaQ
 ! Title: 混合规则
-! Version: 20230619231853
+! Version: 20230620134910
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-19 23:19:13
-! Total Count: 112774
+! Last modified: 2023-06-20 13:49:31
+! Total Count: 112795
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18842,6 +18842,10 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
+##img[src*="://dpic."][src*=".cn"][src$=".js"]
+##img[src*="://dpic."][src*=".cn"][src$=".txt"]
+##img[src*="://kpic."][src*=".cn"][src$=".js"]
+##img[src*="://kpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://mpic."][src*=".cn"][src$=".js"]
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
@@ -19820,6 +19824,8 @@ $websocket,domain=5nj.com|cechi8.com
 .ai/ads.
 .allalla.com^
 .am/adv/
+.app?c=ggcha$document
+.app?c=ggcha$~third-party
 .ar/ads/
 .ashx?AdID=
 .asp?wg&df=$script,third-party
@@ -19876,6 +19882,7 @@ $websocket,domain=5nj.com|cechi8.com
 .club/xtub_*_rony.js$third-party
 .club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .cn/*-*-*.xc$script,third-party
+.cn/20*/*/*.txt$third-party
 .cn/?ss=
 .cn/?ss=$script,third-party
 .cn/a.gif?
@@ -19919,6 +19926,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/*_*.js?*16$third-party
 .com/0gg/gg*.js
 .com/11nvnv/
+.com/20*/*/*.txt$third-party
 .com/?Intr=$popup,third-party
 .com/?ad=
 .com/?aff=$popup,third-party
@@ -20282,6 +20290,7 @@ $websocket,domain=5nj.com|cechi8.com
 .n.2.1.l60.js^
 .name/ads/
 .nativeads.
+.net/20*/*/*.txt$third-party
 .net/?ss=$script,third-party
 .net/_adv/
 .net/ad-
@@ -20537,6 +20546,8 @@ $websocket,domain=5nj.com|cechi8.com
 .zm/ads/
 .zone/ads/
 .zw/ads/
+/#/home?c=ggcha$document
+/#/home?c=ggcha$~third-party
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
@@ -20976,6 +20987,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\.net\/js\/popup\.js\?v(er)?=1\./$important,script,~third-party
+/\/20[0-9]{2}\/[0-9]{2}\/[0-9]+\.txt/$third-party
 /\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 /\/[a-z0-9]{8,10}\?.*?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
@@ -25686,6 +25698,7 @@ $websocket,domain=5nj.com|cechi8.com
 /js/aahome.htm
 /js/ad.js?slot=
 /js/ad_jyshe.js$third-party,script
+/js/adb.js$third-party
 /js/ads-
 /js/ads.
 /js/ads/*0.js
@@ -29677,6 +29690,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
+://dpic.*.cn/*.js$third-party
+://dpic.*.cn/*.txt$third-party
 ://dreemdmbabys.oss-cn-
 ://gj7.ru^
 ://im.ifengsong888.com/*.gif
@@ -29685,6 +29700,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://im.yfled888.com/*.jpg
 ://jhf.ru^
 ://kma.biz^
+://kpic.*.cn/*.js$third-party
+://kpic.*.cn/*.txt$third-party
 ://ln.*.cyou$third-party
 ://ln.*.fun$third-party
 ://ln.*.mobi$third-party
@@ -55645,6 +55662,7 @@ zzzyk.com###Tinfo
 ||adx.xtv.vn^
 ||adx1.com^
 ||adxadserv.com^
+||adxadserv.com^$third-party
 ||adxadtracker.com^
 ||adxbid.info^
 ||adxcel-ec2.com^
@@ -58869,6 +58887,7 @@ zzzyk.com###Tinfo
 ||atmyeducat.xyz^
 ||atnnf.xyz^
 ||ato.mx^
+||ato.tooopen.com^$third-party
 ||atokefissure.com^
 ||atom-log.3.cn^
 ||atomex.net^
@@ -62362,6 +62381,7 @@ zzzyk.com###Tinfo
 ||btnativedirect.com^
 ||btncdn.com^
 ||btnldivewzzfso.com^
+||bto.tooopen.com^$third-party
 ||btonzfjleinuax.com^
 ||btpian.com/static/*960.js
 ||btpian.com/static/wenquan.js
@@ -105180,6 +105200,7 @@ zzzyk.com###Tinfo
 ||trymynewspirit.com^
 ||trymysadoroh.site^
 ||trynhassd.com^
+||tryoe.com^$third-party
 ||trysera.com^
 ||trysnd.fun^
 ||trysogsii.uno^
