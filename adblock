@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: d1aDQt9ZagAsKG5JdweRaQ
+! Checksum: eWCNbCG9lCFBsi0IRsY6HA
 ! Title: 混合规则
-! Version: 20230620134910
+! Version: 20230621181955
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-20 13:49:31
-! Total Count: 112795
+! Last modified: 2023-06-21 18:20:15
+! Total Count: 112815
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -15209,6 +15209,7 @@
 ##.ppr_priv_horizon_ad
 ##.pr_adslot_0
 ##.pr_adslot_1
+##.pre-play-adv
 ##.prebid-wrapper
 ##.preheader_advert
 ##.premium-ad
@@ -17517,6 +17518,7 @@
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
 ##[class$="ad-box"]
+##[class$="play-adv"]
 ##[class$="video-ads"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
@@ -17535,6 +17537,7 @@
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
+##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -17549,6 +17552,7 @@
 ##[class^="ad none"]
 ##[class^="ad-layer"]
 ##[class^="adDisplay-module"]
+##[class^="adv-banner-"]
 ##[class^="amp-ad-"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
@@ -19890,6 +19894,8 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/api/getPos?jspath=/$~third-party
 .cn/b.gif?
 .cn/gg/$script,third-party
+.cn/h.html?id=$document
+.cn/h.html?id=$~third-party
 .cn/j/*$script,third-party
 .cn/js/ads/
 .cn/k/*$script,third-party
@@ -20008,6 +20014,8 @@ $websocket,domain=5nj.com|cechi8.com
 .com/gg.js
 .com/gg/*?x=$script,third-party
 .com/gyxx_*_aubi.js$third-party
+.com/h.html?id=$document
+.com/h.html?id=$~third-party
 .com/headlink.js
 .com/hm/cdn/static/jq_*.js$third-party
 .com/htmlcode/$third-party
@@ -20238,6 +20246,8 @@ $websocket,domain=5nj.com|cechi8.com
 .live/?token=*&screen_*=*&ref=$third-party
 .live/appinstall.js$third-party,script
 .live/gyxx_*_aubi.js$third-party
+.live/h.html?id=$document
+.live/h.html?id=$~third-party
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
 .live/kallss?$third-party
@@ -20427,6 +20437,8 @@ $websocket,domain=5nj.com|cechi8.com
 .top/ads/
 .top/appinstall.js$third-party,script
 .top/gyxx_*_aubi.js$third-party
+.top/h.html?id=$document
+.top/h.html?id=$~third-party
 .top/j/*$script,third-party
 .top/k/*$script,third-party
 .top/s.php?id=$script,third-party
@@ -20510,6 +20522,8 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
 .xyz/gyxx_*_aubi.js$third-party
+.xyz/h.html?id=$document
+.xyz/h.html?id=$~third-party
 .xyz/hm.js?
 .xyz/jque*.js?
 .xyz/js/ads/
@@ -20566,6 +20580,8 @@ $websocket,domain=5nj.com|cechi8.com
 /(https?:\/\/)[0-9]{8}\.(xyz|top|live|com|cn|net)/[0-9]{4}\.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/.*[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/.*[0-9]{2}.html/$~third-party
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/[0-9]_[0-9].html/$document
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/[0-9]_[0-9].html/$~third-party
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
 /(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$document
 /(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$~third-party
@@ -24761,6 +24777,8 @@ $websocket,domain=5nj.com|cechi8.com
 /dnsads.
 /domainads/*
 /domen_ads.
+/domredirect?visitid=$document
+/domredirect?visitid=$~third-party
 /dongaogg/*
 /door/ads/*
 /doors/ads/*
@@ -61538,6 +61556,8 @@ zzzyk.com###Tinfo
 ||blizzardcinnamonappointed.com^
 ||bllbvv.xyz^
 ||bllzgqbyp.com^
+||blmlt.szjunda.cn^$document
+||blmlt.szjunda.cn^$~third-party
 ||blnojxqob.top^
 ||bloblohub.com^
 ||block.s*block.com^
