@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: KvnwnGktL9Mfr4J774HZJw
+! Checksum: xAKdwIS1n4ZOcdBRRP6hvA
 ! Title: 混合规则
-! Version: 20230622073603
+! Version: 20230623052032
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-22 07:36:47
-! Total Count: 112985
+! Last modified: 2023-06-23 05:21:23
+! Total Count: 113024
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -11072,6 +11072,7 @@
 ##.banner-buysellads
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
+##.banner-cctv-style-top
 ##.banner-top-ads
 ##.banner120x600
 ##.banner160
@@ -11786,6 +11787,7 @@
 ##.ccAdsize
 ##.ccAdtop
 ##.cct-tempskinad
+##.cctv_banner_dv
 ##.cdAdContainer
 ##.cdLanderAd
 ##.cdc-ad
@@ -13616,6 +13618,7 @@
 ##.imagead
 ##.imageads
 ##.img-advert
+##.img-cctv.lazyLoad
 ##.imgBox > div[class^="ad"]
 ##.img_ad
 ##.img_ads
@@ -13655,6 +13658,7 @@
 ##.incontentAd
 ##.incontent_ads
 ##.index-adv
+##.index-center-tc-index2.index-center-tc > a
 ##.index-content-ad-wrapper
 ##.index-content-ad-wrapper-top
 ##.index-module_adBeforeContent__LLBk
@@ -17524,6 +17528,7 @@
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
+##[class*="banner-"][class*="cctv"]
 ##[class*="chp_ads_blocker_detector-show"]
 ##[class*="floating_ads"]
 ##[class*="juicyads"]
@@ -17877,6 +17882,7 @@
 ##a[href*=".hthvip23.com"]
 ##a[href*=".hthvip34.com"]
 ##a[href*=".hthvip36.com"]
+##a[href*=".html?channelCode="]
 ##a[href*=".htvip24.app"]
 ##a[href*=".htvip27.app"]
 ##a[href*=".hxctiao.com:"]
@@ -18498,12 +18504,24 @@
 ##a[onclick*=".lyty665.com"]
 ##a[onclick*="/dasp.php?a="]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
+##a[onclick*="博彩"]
+##a[onclick*="同城"]
+##a[onclick*="外接'"]
+##a[onclick*="威尼斯"]
+##a[onclick*="新葡京"]
+##a[onclick*="棋牌"]
+##a[onclick*="澳门"]
+##a[onclick*="直播"]
+##a[onclick*="约炮"]
+##a[onclick*="领"][onclick*="元"]
+##a[onclick] > img[class^="index-center-tc"]
 ##a[onclick^="_czc."] > .add
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="gtag"] > .add
 ##a[onclick^="gtag"][onclick*="广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
+##a[onclick^="visitReport("][target="_blank"]
 ##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"]
 ##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source
 ##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
@@ -18635,6 +18653,7 @@
 ##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
+##div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"]
 ##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
@@ -18813,6 +18832,7 @@
 ##img[alt][src$=".txt"]
 ##img[alt^="免费AV"]
 ##img[alt^="知阴"]
+##img[class*="cctv"][alt="null"][src]
 ##img[class][src$=".mp3"]
 ##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -18894,6 +18914,7 @@
 ##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
+##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -20664,6 +20685,8 @@ $websocket,domain=5nj.com|cechi8.com
 /300xx250.
 /31M/btjav.gif
 /320x250.
+/33/?channelCode=$document
+/33/?channelCode=$~third-party
 /335x205_
 /336x280-
 /336x280.
@@ -21008,8 +21031,12 @@ $websocket,domain=5nj.com|cechi8.com
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\.net\/js\/popup\.js\?v(er)?=1\./$important,script,~third-party
 /\/20[0-9]{2}\/[0-9]{2}\/[0-9]+\.txt/$third-party
+/\/[0-9]{2}\/\?channelCode\=/$document
+/\/[0-9]{2}\/\?channelCode\=/$~third-party
 /\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
+/\/[A-Za-z][0-9]{2}\/\?channelCode\=/$document
+/\/[A-Za-z][0-9]{2}\/\?channelCode\=/$~third-party
 /\/[a-z0-9]{8,10}\?.*?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,important
 /\/\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}$/$popup,important
@@ -27672,6 +27699,8 @@ $websocket,domain=5nj.com|cechi8.com
 /utep/ad/*
 /utep_ad.js
 /uu114/ad/*
+/v*/?channelCode=$document
+/v*/?channelCode=$~third-party
 /v.gif?logtype=
 /v1/ads/*
 /v2/a/push/js/*
@@ -31509,7 +31538,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
-@@pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
 @@tangsanshu.net/js/comm.js
 @@yetianlian.la/js/comm.js
 @@yetianlian.la/xxgg/common.js
@@ -32182,8 +32210,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ozabc.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4spaces.org|aboluowang.com|chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4spaces.org|aboluowang.com|chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|rockmods.net|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -50206,6 +50233,8 @@ zzzyk.com###Tinfo
 ||141h.com/data/attachment/noblock/cf/
 ||142.0.129.74^
 ||143.92.60.44^
+||144w6.com^$document
+||144w6.com^$~third-party
 ||146.148.85.61^
 ||148dfe140d0f3d5e.com^
 ||1493c7cc8b.com^
@@ -51836,6 +51865,8 @@ zzzyk.com###Tinfo
 ||61b6eab774.com^
 ||61ba68472f.com^
 ||61c3007cf3.com^
+||61mnj.com^$document
+||61mnj.com^$~third-party
 ||61saat.com/_themes/hs-rush-php/mobil/scripts/modal.js
 ||620c663bca9a4.com^
 ||62422.cn/ggimg/
@@ -52310,6 +52341,8 @@ zzzyk.com###Tinfo
 ||7xsf3h.com1.z0.glb.clouddn.com^
 ||7xwx.cn^
 ||8*.tianya.cn^
+||8002v.com^$document
+||8002v.com^$~third-party
 ||80055404.vtt^
 ||800c7864eb.com^
 ||801.tianyaui.com^
@@ -52584,6 +52617,8 @@ zzzyk.com###Tinfo
 ||92f2m.top^
 ||92f77b89a1b2df1b539ff2772282e19b.com^
 ||92f83e092d.com^
+||92g7x.com^$document
+||92g7x.com^$~third-party
 ||92ghai.com/zz/
 ||92ph.cn^
 ||92uq.com/Ads/
@@ -74131,6 +74166,8 @@ zzzyk.com###Tinfo
 ||futuristicfifth.com^
 ||futuristicfold.com^
 ||fuwche.cn^
+||fuxeh.com^$document
+||fuxeh.com^$~third-party
 ||fuxin-tech.com^
 ||fuxxijafrxma.com^
 ||fuyviz.com^
@@ -82267,6 +82304,8 @@ zzzyk.com###Tinfo
 ||koopheen.com^
 ||koora2live.com^
 ||koovapou.xyz^
+||kop02.com^$document
+||kop02.com^$~third-party
 ||kopehngtragen.com^
 ||kopeukasrsiha.com^
 ||koppiesgriever.com^

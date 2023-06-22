@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 5tKAsh8jEJjZ4plncLikRQ
+! Checksum: 9R34drRboRYESEifvBy4tQ
 ! Title: 混合规则(精简版)
-! Version: 20230622073810
+! Version: 20230623052245
 ! Expires: 1145141919810
-! Last modified: 2023-06-22 07:38:24
-! Total Count: 19226
+! Last modified: 2023-06-23 05:23:00
+! Total Count: 19267
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -794,6 +794,7 @@
 ##.banner-ad-section
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
+##.banner-cctv-style-top
 ##.bannerliststyle[style^="min-height"]
 ##.bdads
 ##.bdyp-sygg-ul
@@ -834,6 +835,7 @@
 ##.callApp_fl_btn[onclick^="open_app"]
 ##.cari-ads
 ##.cc5278_banner_ad
+##.cctv_banner_dv
 ##.cfa_popup
 ##.chat-ad
 ##.chat-right-ad
@@ -976,8 +978,10 @@
 ##.iHead960x90
 ##.ibtad
 ##.ima-ad-container
+##.img-cctv.lazyLoad
 ##.imgBox > div[class^="ad"]
 ##.imgad
+##.index-center-tc-index2.index-center-tc > a
 ##.index-top-aassd
 ##.index-top-ad
 ##.index-top-gg
@@ -1268,6 +1272,7 @@
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
+##[class*="banner-"][class*="cctv"]
 ##[class*="chp_ads_blocker_detector-show"]
 ##[class*="floating_ads"]
 ##[class*="juicyads"]
@@ -1488,6 +1493,7 @@
 ##a[href*=".hthvip23.com"]
 ##a[href*=".hthvip34.com"]
 ##a[href*=".hthvip36.com"]
+##a[href*=".html?channelCode="]
 ##a[href*=".htvip24.app"]
 ##a[href*=".htvip27.app"]
 ##a[href*=".hxctiao.com:"]
@@ -1816,12 +1822,24 @@
 ##a[onclick*=".lyty665.com"]
 ##a[onclick*="/dasp.php?a="]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
+##a[onclick*="博彩"]
+##a[onclick*="同城"]
+##a[onclick*="外接'"]
+##a[onclick*="威尼斯"]
+##a[onclick*="新葡京"]
+##a[onclick*="棋牌"]
+##a[onclick*="澳门"]
+##a[onclick*="直播"]
+##a[onclick*="约炮"]
+##a[onclick*="领"][onclick*="元"]
+##a[onclick] > img[class^="index-center-tc"]
 ##a[onclick^="_czc."] > .add
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="gtag"] > .add
 ##a[onclick^="gtag"][onclick*="广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
+##a[onclick^="visitReport("][target="_blank"]
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[style$="2147483647;"][ontouchstart]
@@ -1922,6 +1940,7 @@
 ##div[class^="img"][title*="新葡京"]
 ##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
+##div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="ps_"][value="20"]
@@ -2043,6 +2062,7 @@
 ##img[alt][src$=".txt"]
 ##img[alt^="免费AV"]
 ##img[alt^="知阴"]
+##img[class*="cctv"][alt="null"][src]
 ##img[class][src$=".mp3"]
 ##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -2120,6 +2140,7 @@
 ##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
+##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
 ##style + .need_grid_img
@@ -2919,6 +2940,8 @@
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$document
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$~third-party
 /*_*_/bigREDdog.$third-party
+/33/?channelCode=$document
+/33/?channelCode=$~third-party
 /51/?channelCode=$document
 /51/?channelCode=$~third-party
 /?channelCode=bfy$document
@@ -2934,8 +2957,12 @@
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\.net\/js\/popup\.js\?v(er)?=1\./$important,script,~third-party
 /\/20[0-9]{2}\/[0-9]{2}\/[0-9]+\.txt/$third-party
+/\/[0-9]{2}\/\?channelCode\=/$document
+/\/[0-9]{2}\/\?channelCode\=/$~third-party
 /\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
+/\/[A-Za-z][0-9]{2}\/\?channelCode\=/$document
+/\/[A-Za-z][0-9]{2}\/\?channelCode\=/$~third-party
 /\/[a-z0-9]{8,10}\?.*?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,important
 /\/\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}$/$popup,important
@@ -3069,6 +3096,8 @@
 /sdk/push_web/?zid=
 /template/blank/yk/sdo.js
 /testAB.bundle.
+/v*/?channelCode=$document
+/v*/?channelCode=$~third-party
 /vs.php?id=$third-party,xmlhttprequest
 /wdbloogablock.js
 /wp-content/plugins/ad-block-defender/*
@@ -6093,6 +6122,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||141h.com/data/attachment/noblock/cf/
 ||142.0.129.74^
 ||143.92.60.44^
+||144w6.com^$document
+||144w6.com^$~third-party
 ||146.148.85.61^
 ||14bobo.com/js/
 ||14fa20230523.live^
@@ -6827,6 +6858,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||61586.shop^*.gif
 ||616182863.com^$third-party
 ||6179a.com^
+||61mnj.com^$document
+||61mnj.com^$~third-party
 ||61saat.com/_themes/hs-rush-php/mobil/scripts/modal.js
 ||62422.cn/ggimg/
 ||628536nyv.com^
@@ -6990,6 +7023,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||7xsf3h.com1.z0.glb.clouddn.com^
 ||7xwx.cn^
 ||8*.tianya.cn^
+||8002v.com^$document
+||8002v.com^$~third-party
 ||801.tianyaui.com^
 ||80538w2f.cn^
 ||8070kk.com/statics/js/guo
@@ -7128,6 +7163,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||922tp.com/wp-content/uploads/*0x
 ||92dp.com/home/showga?
 ||92f2m.top^
+||92g7x.com^$document
+||92g7x.com^$~third-party
 ||92ghai.com/zz/
 ||92ph.cn^
 ||92uq.com/Ads/
@@ -10949,6 +10986,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fuoo1.top^$third-party
 ||furrnbb.cn^
 ||futengbao.com.cn^
+||fuxeh.com^$document
+||fuxeh.com^$~third-party
 ||fuzhang.xyz^
 ||fvdoics.cn^
 ||fvffd678.xyz^
@@ -13213,6 +13252,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||komoona.com^
 ||kontrolnaya-rabota.ru^*/fuckadblock.$script
 ||kontrolnaya-rabota.ru^*/toastr.$script,stylesheet
+||kop02.com^$document
+||kop02.com^$~third-party
 ||korewaeroi.com/fukugan_sp_3x4.html
 ||korewaeroi.com/img/2mm.jpg
 ||korewaeroi.com/wp-content/wptouch-data/themes/classic-redux-copy-1/default/push*.php
