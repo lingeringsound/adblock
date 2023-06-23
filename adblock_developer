@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 65tOw5UdXsLM0wDw80PVKQ
+! Checksum: LohUKqM/q86gwdsMLVjIqw
 ! Title: 混合规则
-! Version: 20230623124510
+! Version: 20230623172659
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-23 12:46:00
-! Total Count: 113154
+! Last modified: 2023-06-23 17:27:43
+! Total Count: 113171
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -19886,6 +19886,8 @@ $websocket,domain=5nj.com|cechi8.com
 .ca/ads-
 .ca/ads/
 .cam/ads/
+.cc/?c=axza$document
+.cc/?c=axza$~third-party
 .cc/?channelCode=$~third-party
 .cc/ad/
 .cc/ads/
@@ -19915,6 +19917,8 @@ $websocket,domain=5nj.com|cechi8.com
 .club/xtub_*_rony.js$third-party
 .club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .cn/*-*-*.xc$script,third-party
+.cn/*.html?c=dyyu$document
+.cn/*.html?c=dyyu$~third-party
 .cn/20*/*/*.txt$third-party
 .cn/?ss=
 .cn/?ss=$script,third-party
@@ -49049,6 +49053,7 @@ yesky.com##div[class^="ad9"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
 ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
+yhdm*.com/js/wap2-jm-ms.js$~third-party,script
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhgou.cc##.ch1
 yhgou.cc##.col-lg-12 + .row
@@ -87387,6 +87392,8 @@ zzzyk.com###Tinfo
 ||msdn.hk/templets/msdn/css/index.js
 ||msdn.hk/templets/msdn/css/msdng.js
 ||msecure108.com^
+||msfd8mty4nzux.fua*.cc^$document
+||msfd8mty4nzux.fua*.cc^$~third-party
 ||msg-intl.qy.net^
 ||msg.71.am^
 ||msg.ettoday.net^
@@ -87863,6 +87870,8 @@ zzzyk.com###Tinfo
 ||myzwqwe12.com^$third-party
 ||mzamin.com/advert/
 ||mzcd.xyz^
+||mzgcst.mbibioe.cn^$document
+||mzgcst.mbibioe.cn^$~third-party
 ||mzhhdn.com/hongbao.jpg
 ||mzhw.xyz^
 ||mziwkyr.cn^
@@ -93670,6 +93679,8 @@ zzzyk.com###Tinfo
 ||pseepsoo.com^
 ||psensuds.net^
 ||psewhaur.net^
+||psf805.xyz^$document
+||psf805.xyz^$~third-party
 ||psfgobbet.com^
 ||psh.one^
 ||pshmetrk.com^
@@ -100654,6 +100665,8 @@ zzzyk.com###Tinfo
 ||ssac.suning.com^
 ||ssancib.top^
 ||ssb.ah499.com^
+||ssb717.xyz^$document
+||ssb717.xyz^$~third-party
 ||sscefsol.com^
 ||ssdbkv4qtq.xyz^
 ||ssdp.xyz^
@@ -108172,6 +108185,8 @@ zzzyk.com###Tinfo
 ||vptadv.com^
 ||vptbn.com^
 ||vptjabo.cn^
+||vptz1*.xyz/1*.html$document
+||vptz1*.xyz/1*.html$~third-party
 ||vpvsy.com^
 ||vq1qi.pw^
 ||vq7736.com^
@@ -110230,6 +110245,8 @@ zzzyk.com###Tinfo
 ||wyzq.rehuwang.com^
 ||wz-adserver.de^
 ||wz-werbewelt.de^
+||wz3rvc.cn/*.html$document
+||wz3rvc.cn/*.html$~third-party
 ||wz8g.top^
 ||wzbaohe.com/imgadnew/midad.js
 ||wzdy.xyz^

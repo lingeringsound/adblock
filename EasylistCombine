@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: cNz0SifScbaG5y0KGXfGTg
+! Checksum: +8el09QMhFmyeFNbC3M2kg
 ! Title: Easylist规则合并
-! Version: 20230623124651
+! Version: 20230623172829
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-23 12:47:25
-! Total Count: 62581
+! Last modified: 2023-06-23 17:29:01
+! Total Count: 62598
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -19311,6 +19311,8 @@ $websocket,domain=5nj.com|cechi8.com
 .bz/ads/
 .ca/ads/
 .cam/ads/
+.cc/?c=axza$document
+.cc/?c=axza$~third-party
 .cc/?channelCode=$~third-party
 .cc/ad/
 .cc/api/getPos?jspath=/$~third-party
@@ -19342,6 +19344,8 @@ $websocket,domain=5nj.com|cechi8.com
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
 .cn/*-*-*.xc$script,third-party
+.cn/*.html?c=dyyu$document
+.cn/*.html?c=dyyu$~third-party
 .cn/20*/*/*.txt$third-party
 .cn/ads/
 .cn/api/getPos?jspath=/$~third-party
@@ -45761,6 +45765,7 @@ yesky.com##div[class^="ad7"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
 ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
+yhdm*.com/js/wap2-jm-ms.js$~third-party,script
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
@@ -56290,6 +56295,8 @@ zzzyk.com###Tinfo
 ||msdn.hk/templets/msdn/*/gg.js
 ||msdn.hk/templets/msdn/css/index.js
 ||msdn.hk/templets/msdn/css/msdng.js
+||msfd8mty4nzux.fua*.cc^$document
+||msfd8mty4nzux.fua*.cc^$~third-party
 ||msg.ettoday.net^
 ||msg.iqiyi.com^
 ||msg.video.qiyi.com^
@@ -56433,6 +56440,8 @@ zzzyk.com###Tinfo
 ||mywei.love^
 ||myzwqwe12.com^$third-party
 ||mzcd.xyz^
+||mzgcst.mbibioe.cn^$document
+||mzgcst.mbibioe.cn^$~third-party
 ||mzhhdn.com/hongbao.jpg
 ||mzhw.xyz^
 ||mziwkyr.cn^
@@ -57451,6 +57460,8 @@ zzzyk.com###Tinfo
 ||ps123.online^
 ||ps557.com/link/
 ||ps886.us/js/*.js
+||psf805.xyz^$document
+||psf805.xyz^$~third-party
 ||pskzqo.cn^
 ||pstatp.com/growth/mobile_list/image/bonus_
 ||pstatp.com/large/pgc-image/e8bd997e82874259a66207d2f77f0c6c
@@ -59019,6 +59030,8 @@ zzzyk.com###Tinfo
 ||ssaa.cc^$third-party
 ||ssancib.top^
 ||ssb.ah499.com^
+||ssb717.xyz^$document
+||ssb717.xyz^$~third-party
 ||ssdp.xyz^
 ||ssdsss.top^
 ||ssgg.chazidian.com^
@@ -60366,6 +60379,8 @@ zzzyk.com###Tinfo
 ||vpie.net^$third-party
 ||vpn.baolq666.com^$third-party
 ||vptjabo.cn^
+||vptz1*.xyz/1*.html$document
+||vptz1*.xyz/1*.html$~third-party
 ||vq7736.com^
 ||vqdjcy.com^
 ||vqhifd.xyz^
@@ -60934,6 +60949,8 @@ zzzyk.com###Tinfo
 ||wywsdx.com^
 ||wyynike.cn^
 ||wyzq.rehuwang.com^
+||wz3rvc.cn/*.html$document
+||wz3rvc.cn/*.html$~third-party
 ||wz8g.top^
 ||wzbaohe.com/imgadnew/midad.js
 ||wzdy.xyz^
