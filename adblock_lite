@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: bpPxJ68APLhKborwaTfsXA
+! Checksum: mXdT+pbKd23VU3N6ucKlqQ
 ! Title: 混合规则(精简版)
-! Version: 20230625112729
+! Version: 20230625215637
 ! Expires: 1145141919810
-! Last modified: 2023-06-25 11:28:20
-! Total Count: 19466
+! Last modified: 2023-06-25 21:57:42
+! Total Count: 19478
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -2682,9 +2682,11 @@
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
 .com/vh1/1$third-party
+.com/vh2/$script,third-party
 .com/vh2/1$third-party
 .com/vj1/$script,third-party
 .com/vj1/1$third-party
+.com/vj2/$script,third-party
 .com/vj2/1$third-party
 .com/vodad.js
 .com/xtub_*_rony.js$third-party
@@ -2774,6 +2776,7 @@
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
 .live/kallss?$third-party
+.live/o.js$script,third-party
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live/ty/*-*.alpha$third-party
@@ -2871,6 +2874,9 @@
 .us/js/ads/
 .vip/ads/
 .vip/gg/
+.vip/html/ddx.js
+.vip/html/hfv.js
+.vip/html/zbxx.js
 .vip/js/ads/
 .vip/style/vue.js?v=
 .wap.x4399.com^
@@ -3198,6 +3204,8 @@
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
 ://a.ads.
+://abb.*.js?adv=
+://abc.*.js?adv=
 ://ads.
 ://ads2.
 ://affiliate.$third-party
@@ -4272,6 +4280,8 @@
 :8888/zhu/wap_
 :8898/ads_
 :9001/code/
+:9875/vh2/
+:9875/vj2/
 :99/js/ads/
 =AdCode_$script,third-party
 =AdCode_$third-party
@@ -4848,6 +4858,7 @@ _bannerad.
 _billboard_320x100.iframe.
 _box_ad_
 _btbttme/fox/img/QT_
+_dasiqq315.
 _fioiwhfo_
 _float_fuo.js
 _naimabdd_
@@ -5049,6 +5060,10 @@ dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
 dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmh8.me,dm88.me,dm99.me##div[id^="test"]
+dmzj.com,idmzj.com##.Introduct > div > div > div
+dmzj.com,idmzj.com##.bottomDown
+dmzj.com,idmzj.com##[class$="close"][href="javascript:;"]
+dmzj.com,idmzj.com#@#[onclick*="app"]
 dnaav.com##div[id^="dnaav_b"]
 doctorrouter.ru##.jgcabd-container
 dominus.kiev.ua##body > #myModal
@@ -5176,10 +5191,6 @@ hypebeast.com,hypebeast.kr#@#.ad-blocked
 i.factor.ua###adb-info
 i.factor.ua##[data-place-block]
 ideya-biznesa.ru##.admania_adblock_detector
-idmzj.com##.Introduct > div > div > div
-idmzj.com##.bottomDown
-idmzj.com##[class$="close"][href="javascript:;"]
-idmzj.com#@#[onclick*="app"]
 ifeng.com##[class^="ad_box"]
 ifeng.com##[class^="appRecommend"]
 ifeng.com##[class^="bottom_box"]
@@ -14853,6 +14864,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nz04com.com/aabdd/
 ||nzezn.com^
 ||nzq5.u95ivu.xyz^$third-party
+||nzrlx6wc.icu^
 ||nzrovf.xyz^
 ||nzvpewi.cn^
 ||nzydzsw.com^$third-party

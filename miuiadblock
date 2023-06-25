@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: diYI6vi6LgRvfrYCHu7FFg
+! Checksum: fxR4QAODSnaLsLODP7MLVA
 ! Title: MIUI浏览器规则
-! Version: 20230625112423
+! Version: 20230625215336
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-06-25 11:25:58
-! Total Count: 69674
+! Last modified: 2023-06-25 21:55:06
+! Total Count: 69675
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -32587,7 +32587,6 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alicocsouth.inter.71edge.com/videos/other/*.f4v
-aliexpress.com,aliexpress.us##a.search-card-item[href*="&aem_p4p_detail="]
 aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
 aliexpress.com,aliexpress.us##a[href*="&detail_p4p_id="]
 aliexpress.com,aliexpress.us##a[href*="&p4p_pvid="]
@@ -35843,6 +35842,10 @@ dmzj.com###khdDown
 dmzj.com###show_tip_bg
 dmzj.com##.ad_th
 dmzj.com##a[href*="qunhei.com"]
+dmzj.com,idmzj.com##.Introduct > div > div > div
+dmzj.com,idmzj.com##.bottomDown
+dmzj.com,idmzj.com##[class$="close"][href="javascript:;"]
+dmzj.com,idmzj.com#@#[onclick*="app"]
 dnaav.com##div[id^="dnaav_b"]
 dnaindia.com##.topadd
 dngz.net##.listright > a[target="_blank"] > img
@@ -38901,10 +38904,6 @@ idanmu.ee##div[class^="g "]
 idea4cash.com##td
 ideya-biznesa.ru##.admania_adblock_detector
 idiva.com###rhs_atf
-idmzj.com##.Introduct > div > div > div
-idmzj.com##.bottomDown
-idmzj.com##[class$="close"][href="javascript:;"]
-idmzj.com#@#[onclick*="app"]
 idreamx.com#?##threadlisttableid > tbody:not([id]):-abp-has(> tr > td > a[target="_blank"])
 idreamx.com#?##threadlisttableid > tbody:not([id]):-abp-has(> tr > td > ins.adsbygoogle)
 idropnews.com##.related-posts
@@ -42325,6 +42324,7 @@ nytimes.com##.css-142l3g4
 nytimes.com##.css-oeful5
 nytimes.com##.e12j3pa50
 nytimes.com##.e1xxpj0j1.css-4vtjtj
+nytimes.com##.g-paid
 nytimes.com##div[id^="story-ad-"]
 nytimes.com,nytimes3xbfgragh.onion###bottom-wrapper
 nytimes.com,nytimes3xbfgragh.onion###top-wrapper
@@ -56249,6 +56249,7 @@ zzzyk.com###Tinfo
 ||gavbus*.com/assets/common/js/ad.js
 ||gavbus*.com/assets/common/js/admenu.js
 ||gaycloud.cn^
+||gbcnvip15.com^
 ||gbeik.com^
 ||gblvuim.cn^
 ||gblvwv.com^
