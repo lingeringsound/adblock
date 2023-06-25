@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8enbYis9a5FqE7i0ISP+XA
+! Checksum: O22fUPHUtN/VS7JspWXPFw
 ! Title: 混合规则(精简版)
-! Version: 20230623223559
+! Version: 20230625104314
 ! Expires: 1145141919810
-! Last modified: 2023-06-23 22:36:20
-! Total Count: 19313
+! Last modified: 2023-06-25 10:44:12
+! Total Count: 19464
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -1140,6 +1140,7 @@
 ##.row > .gao-bg
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
+##.samBannerUnit
 ##.scupioadslot
 ##.search + #midBox
 ##.self-gg
@@ -2096,6 +2097,7 @@
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
+##img[src*="/Ayi-GG"]
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
@@ -2707,10 +2709,12 @@
 .com:2516/code/
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
+.com:80*/d/*0?c=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
+.com:9*/yc/c/*/GEBEF$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cyou/*_*.js?*16$third-party
@@ -2930,10 +2934,16 @@
 .zone/ads/
 /#/home?c=ggcha$document
 /#/home?c=ggcha$~third-party
+/#/pages/video/video/?shareName=$document
+/#/pages/video/video/?shareName=$~third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.jump\.mobileprovision$/$document
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.jump\.mobileprovision$/$~third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.mobileconfig$/$document
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.mobileconfig$/$~third-party
 /(https?:\/\/)[0-9]{8}\.(xyz|top|live|com|cn|net)/[0-9]{4}\.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$document
 /(https?:\/\/)[0-9]{8}\.(xyz|top|live|com|cn|net)/[0-9]{4}\.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/.*[0-9]{2}.html/$document
@@ -2953,6 +2963,8 @@
 /?channelCode=bfy$~third-party
 /?channelCode=ywy$document
 /?channelCode=ywy$~third-party
+/?channelNo=*#/home$document
+/?channelNo=*#/home$~third-party
 /?linkid=*&pop=1$document
 /?linkid=*&pop=1$~third-party
 /AdblockMessage.
@@ -3058,6 +3070,7 @@
 /antv/antv_v*.*.apk$~third-party
 /arlinablock.js
 /bar/yfgg.js
+/bar/yfggb.js
 /bid?url=http
 /bloackdas.js
 /blockAndInf.js
@@ -3091,6 +3104,7 @@
 /lv/esnk/*$script,third-party
 /mdzzxttss.php?s=
 /mod_ablockdetector/*
+/new/yinghuacd*/bottom.js$third-party,script
 /nonAdBlock/*
 /npc/sdk/wp-banners.js$script,third-party
 /npsblocker/js/ads.
@@ -5733,6 +5747,7 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__rim-direct-incut.react-component
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
 yarik-sat.com##.noadb
 yhdm*.com/js/wap2-jm-ms.js$~third-party,script
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
@@ -7472,6 +7487,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||ac1.pingpingw.com^
 ||acbe.club^
+||acceptableauthority.com^$third-party
 ||accid.xyz^
 ||accommodatingremindauntie.com^
 ||aceik.xyz^
@@ -8078,6 +8094,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||alllget.com^$third-party
 ||allnorilsk.ru/js/adb.js
 ||allowfencelist.com^$third-party
+||alluringbucket.com^$third-party
 ||allyes.$third-party
 ||almabelen.com^
 ||alskfdf.com^
@@ -8099,6 +8116,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||amazonaws.com/embed/live/techbook/affiliate^
 ||amazonaws.com/s?z=
 ||amazonclix.com^
+||ambitiousanimal.com^$third-party
 ||amillionads.com^
 ||ammcg.imgscloud.com/toy/
 ||amobee.com^
@@ -8426,6 +8444,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||badding.oss-ap-southeast-1.aliyuncs.com^
 ||baddniop.top^
 ||badeniop.top^
+||badgeboat.com^$third-party
 ||badgniop.top^
 ||badhniop.top^
 ||badiniop.top^
@@ -8516,6 +8535,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||baidujavascript.com^
 ||baidujs.cnys.com^
 ||baidujsvbj.com^
+||baiduklglndklb.com^
 ||baidunnd.top^
 ||baidutm999.xyz^
 ||baiduwudi929.xyz^
@@ -8884,6 +8904,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bla01.com^
 ||black6adv.com^
 ||blackbar.cn^
+||blesspizzas.com^$third-party
 ||bljlrl.xyz^
 ||blmlt.szjunda.cn^$document
 ||blmlt.szjunda.cn^$~third-party
@@ -9042,6 +9063,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||buondua.us/temp*_/temp*_.js$script
 ||bupb.xyz^
 ||burstnet.com^
+||bushesbag.com^$third-party
 ||business.92wy.com^
 ||bust3koop.cyou^
 ||butaeit.cn^
@@ -9183,12 +9205,14 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||capldfw.cn^
 ||car.pchome.com.tw/iframe/news_iframe.
 ||car.qcmrjx.com^
+||carelesshat.com^$third-party
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
 ||cartoon-sex.tv/z/cartoontube-300x100.gif
 ||cartoon18.com/images/friend/
 ||cashprom.ru^
 ||casino-ad-mediation.me2zengame.com^
+||castcream.com^$third-party
 ||castplatform.com^
 ||catbox.moe/bb5wdv.jpg
 ||catdomepimyth.com^
@@ -9197,6 +9221,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cauly.co.kr/richad/
 ||causecherry.com^$third-party
 ||cautiouscredit.com^$third-party
+||cavecurtain.com^$third-party
 ||caxxetj.cn^
 ||cb.baidu.com^
 ||cb.com.cn/index/ad/
@@ -9350,6 +9375,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||chaospace.fun/wp-content/uploads/*/tg-
 ||chaozhunbb.xyz^
 ||chapm.com^$third-party
+||charmingcough.com^$third-party
 ||chartboost.com^
 ||chartboosts.com^
 ||chat-lab.tokyo/adCode.js
@@ -9460,6 +9486,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||chy365.cn^
 ||chyuok.xyz^
 ||ciaeue.xyz^
+||ciarde.fun^
 ||cichiji.top^
 ||cidhdgv.xyz^
 ||cidianwang.com/css/tj.
@@ -9497,6 +9524,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ckseeknew.com^
 ||ckxxbao.com/templets/default/js/wx.js
 ||cl-ad.x-flow.app^
+||clammychicken.com^$third-party
 ||classic.39health.com^
 ||clb.biz/Public/static/js/common-v2.js
 ||cleaner.noxgroup.org/activity/ads/*
@@ -9519,6 +9547,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||clqrdxc.cn^
 ||cls.vrvm.com^
 ||clscsbcj.com^$third-party
+||clumsycar.com^$third-party
 ||clvkg.xyz^
 ||clw99.mobi^
 ||clzw.cyou^
@@ -9638,6 +9667,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||common.duapps.com^
 ||commondisplay-a.akamaihd.net/cri/*.htm?cat=
 ||comscore.com^
+||concernedchickens.com^$third-party
 ||conditionchange.com^$third-party
 ||config.appjolt.com
 ||config.sdk.scopely.io/*/android/ads_config.json
@@ -9664,6 +9694,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cosxcos.cc/uploads/aaybabc/
 ||cosyroom.biz^
 ||count.xxxssk.com^$third-party
+||cowscrayon.com^$third-party
 ||cp.7y7.com^
 ||cp.jfcdns.com^
 ||cp.pushwoosh.com^
@@ -9703,6 +9734,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||crayon.meishichina.com^
 ||creaders.net*/ad_func.js
 ||creawww.top^
+||creditcreature.com^$third-party
 ||crfrf.com^
 ||crhyqq.com^
 ||crispadvertising.com^
@@ -9710,6 +9742,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||criteo.net^
 ||crjpgate.com^$document
 ||crleii.xyz^
+||crookedchange.com^
 ||crossboardmobile.com^
 ||crosspromo*.qplaze.com/PushCampaignXMLOut.php
 ||crosspromo.voodoo.io^
@@ -9859,6 +9892,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||da.daji.com^
 ||da.duowan.com/loc/
 ||da.mgtv.com^
+||daadr.cn^
 ||daawx.cn^
 ||dabai28.com/img/*.gif
 ||dabaicai.ink^
@@ -9915,6 +9949,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dalingjia.ren^
 ||dalipan.com/api/taobao
 ||dalucm.xyz^
+||damagedroll.com^$third-party
 ||dameyuan.com^
 ||damhixs.cn^
 ||damow.cn^
@@ -9964,6 +9999,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/eap/js/hl/hlj_ad
 ||dbwmpqd.cn^
+||dbxok6uo.icu^
 ||dcba.zle.com^
 ||dccc.cloud^
 ||dcdf4.com^
@@ -9974,6 +10010,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dcqs4.com^
 ||dcvbnzss.xyz^
 ||dd1.diymianmo.com^
+||dd112233dd.com^
 ||dd6364.com/js/777/
 ||ddgjjj.com^$third-party
 ||ddkep.xyz^
@@ -9986,14 +10023,17 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ddxolb.xyz^
 ||ddxs.xyz^
 ||de.as.pptv.com^
+||deadpanmarble.com^$third-party
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||deansent.top^
 ||deapi.afreecatv.com^
 ||debojuagug1sf.cloudfront.net^
+||debonairtree.com^$third-party
 ||debugease.com/static/js/show.js
 ||dedcrfvdj.xyz^
 ||dehua.ixinfan.com^
+||delicateducks.com^$third-party
 ||deliver.ifeng.com^
 ||deliver.ptgncdn.com^
 ||delivery-cdn-cf.adswizz.com^
@@ -10084,6 +10124,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dieka888.com/app_ad/
 ||diekd.xyz^
 ||dierguanggao.xyz^
+||differentcoat.com^$third-party
 ||dig.chouti.com/advert
 ||diggtp001.com^
 ||dikmnhyxz.xyz^
@@ -10277,6 +10318,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dr.mlcuzee.cn^
 ||dragon-guide.net/pic001/hezuo/
 ||dragon-guide.net/pic001/pic/shangcheng/
+||drainpaste.com^$third-party
 ||dreanrh.cn^
 ||drfvtgbyk.xyz^
 ||drfvtgbyk.xyz^$third-party
@@ -10335,6 +10377,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dup.baidustatic.com^
 ||dushiken.cn^
 ||dushiyanqing.net/mobile/lib/ccppcc.js
+||dustydime.com^$third-party
 ||dutuo4.top^
 ||dvaimso.cn^
 ||dvr8.com^
@@ -10578,6 +10621,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||enews10.yxlady.net^
 ||ennde.cyou^
 ||enohb.com^
+||enormousfoot.com^$third-party
 ||enread.com/img/185-50.gif
 ||ent1.12584.cn^
 ||ent1.qunchua.cn^
@@ -10610,6 +10654,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||eqknlsw.xyz^
 ||eqnggnsw.fun^
 ||eqpzy.cyou^
+||eqqi.cn^
+||equablekettle.com^$third-party
 ||eqyzc.cyou^
 ||er.5ykj.cn^
 ||er.5ykj.com^
@@ -10804,6 +10850,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fdveqpc.cn^
 ||fdxpfeb.cn^
 ||fdytdc.xyz^
+||fearfulmint.com^$third-party
 ||fearlessfaucet.com^$third-party
 ||featured.perfectionholic.com^
 ||fedlugk.cn^
@@ -11003,6 +11050,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fuxeh.com^$document
 ||fuxeh.com^$~third-party
 ||fuzhang.xyz^
+||fuzzyerror.com^$third-party
 ||fvdoics.cn^
 ||fvffd678.xyz^
 ||fvtrx.cyou^
@@ -11160,6 +11208,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||geilicdn.com/img*_960_60.
 ||geiod.xyz^
 ||gejulm1314.com^
+||generalprose.com^$third-party
 ||geoloc.yospace.com^
 ||geomon.top^
 ||geotmt.com^$third-party
@@ -11252,6 +11301,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||gisp6piot.cyou^
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gitwnd.cn^
+||givevacation.com^$third-party
 ||gixhlii.xyz^
 ||gjmqqq.com^
 ||gjohvhf.cn^
@@ -11473,6 +11523,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||guge.red^
 ||gugulm.net^
 ||guhai.com.cn/AD/
+||guidecent.com^$third-party
 ||guifun.com/psptool/ad/
 ||guigankj.cn^
 ||guilin-ly.com^*.gif
@@ -11676,6 +11727,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hcdjy.xyz^
 ||hcenc.com^
+||hciea.xyz^
 ||hcqsuqq.cn^
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
@@ -11791,6 +11843,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hibaby.ren^
 ||hibikiluler.top^
 ||hibiquan.com/uploads/images/
+||hifyeldu.top^
 ||highperformancedisplayformat.com^
 ||himeneko.ink^
 ||hinet.net/product/promotion/$popup
@@ -11886,6 +11939,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hormebets.info^$popup
+||hospitablehall.com^$third-party
 ||hosr.xyz^
 ||hostgrater.com^$third-party
 ||hotapi-va.isnssdk.com^
@@ -12076,6 +12130,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hzoijcm.cn^
 ||hzrghx.xyz^
 ||hztv.xyz^
+||hzvcaadn.icu^
 ||hzxlly.com^
 ||hzylhk.com^
 ||hzyouhejia.com^
@@ -12243,6 +12298,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||iid97.com/bdgo/
 ||iid97.com/wp-content/cache/autoptimize/js/
 ||iidjo.xyz^
+||iifyeldo.top^
 ||iihpwzo.cn^
 ||iiilab.com/sponsor
 ||iiilab.com/sponsor/getByPage
@@ -12374,6 +12430,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||imgwdyey.com^
 ||imgx.jampp.com^
 ||imks.cn^
+||imminentshake.com^$third-party
 ||immmg.owowqrf.cn^
 ||imooc.com/open/courselistrandjs
 ||imoote.xyz^
@@ -12385,6 +12442,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||imu2021.site^
 ||imwx.com/mobile/adconfig/
 ||inclk.com^$popup
+||inconclusiveaction.com^$third-party
 ||index8.cn^$third-party
 ||info.vip.iqiyi.com/promotion/
 ||infobabo.*/da.aspx
@@ -12411,6 +12469,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||inszu.com/js/qian/
 ||inte.sogou.com^
 ||integral-marketing.com^
+||interestingpot.com^$third-party
 ||intermarkets.net^
 ||into4g.mobi^
 ||intowow.com^
@@ -12792,6 +12851,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jjfopb.xyz^
 ||jjj*.com/static/js/common.js
 ||jjjgame.com/images/ad11.jpg
+||jjkiahh.icu^
 ||jjnrqq.com^
 ||jjwxc.net/jjPopup.php
 ||jjwxc.net/jjad*.html$popup
@@ -12897,6 +12957,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||js.gg-baidu.xyz^
 ||js.hailangouwu.com^
 ||js.hkslg520.com^
+||js.hytug.com/download$document
+||js.hytug.com/download$~third-party
 ||js.jialingmm.net/dm/history.js
 ||js.jialingmm.net/dm/tj.js
 ||js.jianbihuadq.com^
@@ -13020,6 +13082,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jxad.jx163.com^
 ||jxcn.cn/assets/images/downWeatherApp.png
 ||jxcn.cn/js/hotpic_
+||jxcrnwc.xyz^
 ||jxdown.com/statics/js/all.js
 ||jxdown.com^$third-party
 ||jxjvtr.xyz^
@@ -13276,6 +13339,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kontrolnaya-rabota.ru^*/toastr.$script,stylesheet
 ||kop02.com^$document
 ||kop02.com^$~third-party
+||kopde.xyz^
 ||korewaeroi.com/fukugan_sp_3x4.html
 ||korewaeroi.com/img/2mm.jpg
 ||korewaeroi.com/wp-content/wptouch-data/themes/classic-redux-copy-1/default/push*.php
@@ -13638,6 +13702,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||liveappgirl.net^
 ||livelylaugh.com^$third-party
 ||livku.com/g1000/
+||liwed.xyz^
 ||liweiling.xyz^
 ||liwupuba.com/livead/
 ||lixiangmo.com^
@@ -13768,6 +13833,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||luckyforworlds.com^
 ||ludie.xyz^
 ||ludpa.xyz^
+||lunchroomlock.com^$third-party
 ||lunhua5.com/images/more.gif
 ||lunivr.xyz^
 ||lunt.cx^
@@ -13800,6 +13866,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lwddrhp.cn^
 ||lwh147.xyz^
 ||lwhqa.xyz^
+||lwksxs.com^$third-party
 ||lwlwlw.com/ggzx/
 ||lwlwlw.com/js/FVgg.js
 ||lwogldl.top^
@@ -14008,6 +14075,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||mat1.gtimg.com/cq/flash/
 ||mat1.gtimg.com/ent/flash/*300
+||materialparcel.com^$third-party
 ||materiel.baizhan.net^
 ||materiel.junshidao.com^
 ||mateul.top^
@@ -14096,6 +14164,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
 ||melife.love^
+||mellowbike.com^$third-party
 ||mem3.cn^
 ||meng.360zuowen.com^
 ||mengbalh.fun^
@@ -14404,6 +14473,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||mundanenail.com^$third-party
 ||musan.love^
 ||musdga.xyz^
+||muteknife.com^$third-party
+||muterange.com^$third-party
 ||muxing.city^
 ||muxingkj.com^$third-party,image
 ||muyuge.com/fw.html/
@@ -14563,6 +14634,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||neaqi.top^
 ||nearbyad.com^
 ||nedes.xyz^
+||needyneedle.com^$third-party
 ||neets.cc/assets/js/dup.js
 ||neg.hk^
 ||neg2zos.icu^
@@ -14635,6 +14707,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nhyvhmvw.com^
 ||ni87.com^
 ||nickhel.com^
+||nightwound.com^$third-party
 ||nihuwo.asia^
 ||niik9494.top^
 ||niji-gazo.com/api/dmm/affiliate/
@@ -14718,6 +14791,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nrysogsic.uno^
 ||ns1.chinayms.com^
 ||nsclick.baidu.com^
+||nscxbr.com^$third-party
 ||nsfdsa.xyz^
 ||nsnignsc.xyz^
 ||nsnoownmc.fun^
@@ -14735,9 +14809,11 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nujian.asia^
 ||nulltm.com/adv.js
 ||numbers.md^
+||numerousnest.com^$third-party
 ||numnxwvv.ink^
 ||nurahf.xyz^
 ||nuubi.cyou^
+||nuucmzuc.com^
 ||nuyqiolnc.cyou^
 ||nv43.com^
 ||nvchmkw.cn^
@@ -14923,6 +14999,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ophwrh.cn^
 ||opida.xyz^
 ||opikervop.xyz^
+||oppositeparcel.com^$third-party
 ||oppu778.top^
 ||oprmewb.cn^
 ||opt8.co^
@@ -15038,6 +15115,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pagefair.net^
 ||pagetest.top^
 ||painsko.com^$third-party
+||paintpear.com^$third-party
 ||pan.baidu.com/act/api/activityentry?
 ||panc.cc/uploads/hongbao.png
 ||panda.kdnet.net^
@@ -15063,7 +15141,9 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||partner.toutiao.com/partner_recommend/*&url=http%3A%2F%2Fm.duanwenxue.com
 ||partnerad.l.doubleclick.net^$third-party
 ||partnerearning.com^
+||passivepolo.com^$third-party
 ||pasta.esfile.duapps.com^
+||pastcabbage.com^$third-party
 ||pastoralroad.com^$third-party
 ||payoneok.com^
 ||pazz.xyz^
@@ -15104,6 +15184,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pdqwaan.cn^
 ||pdss.xyz^
 ||pdweigee.com^
+||pdxdxl.xyz^
 ||pdxubxc.cn^
 ||pe5a.top^
 ||pedailyu.com^
@@ -15237,6 +15318,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pkvs.com/public/as.js
 ||pkynqq.com^
 ||pl520.com^$third-party
+||plausiblecable.com^$third-party
 ||play6111.com/js/
 ||playhaven.com^
 ||playtv.com.cn/Pictuer/
@@ -15266,6 +15348,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||podaaec.cyou^
 ||poeid.cyou^
 ||poereawer.top^
+||poeticpackage.com^$third-party
 ||pofang.com^
 ||poh.uoydhco.cn^
 ||pohpll.xyz^
@@ -15286,6 +15369,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||popads.net^$third-party,important
 ||popcash.net^$third-party,empty
 ||popcash.net^$third-party,important
+||popcornfood.com^$third-party
 ||poppy.fit^
 ||popunderstar.com^$third-party,important
 ||poqjnkdsou.net^
@@ -15331,6 +15415,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||price.com.hk/dfp_price.php?
 ||price.com.hk/ec-discuss-widget.php
 ||price.com.hk/scripts/ysm.js
+||pricklyjourney.com^$third-party
+||pricklypies.com^$third-party
 ||printsmull.com^
 ||priry.com^
 ||privetapp.ru/ads/
@@ -15371,6 +15457,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pstatp.com/site/reads-sdk*/*.js
 ||pstatp.com^*/push.js
 ||psvvzb.xyz^
+||psychedelicarithmetic.com^$third-party
 ||psyzg.com/Public/Home/images/tuhe_240_236.gif
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
@@ -15378,6 +15465,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ptijx.xyz^
 ||ptnxa.xyz^
 ||pttwq.xyz^
+||ptvfzv.xyz^
 ||ptyw.yiche.com/ssp/
 ||ptzkjko.cn^
 ||puaabvs.cn^
@@ -15645,6 +15733,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
 ||qpoiwnelc.com^
+||qpolkmbbf.com$third-party
 ||qponfva.cn^
 ||qptnew.com^
 ||qq.com/Index/getAdsAndHotspot
@@ -15726,6 +15815,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qucaigg.com^
 ||qudaoweiwang.com^
 ||querulous-type.com^
+||questionableobservation.com^$third-party
 ||questionmarket.com^
 ||quge66.com/jdjd/
 ||qujishu.com^
@@ -15749,6 +15839,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qwcqqw.xyz^
 ||qwe0231141.bj.bcebos.com^
 ||qwertyuadf.com^
+||qwfbiujsknjk.com^
 ||qwogldy.top^
 ||qwrdj.xyz^
 ||qwrot.cyou^
@@ -15780,6 +15871,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||r3sub.com^*0.gif
 ||r528e.cn^$third-party
 ||r5h6.icu^
+||r75tia.cn^
 ||ra1.xyz^
 ||ra5.xyz/z/*/code.
 ||ra5.xyz^
@@ -15792,9 +15884,12 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||railwayreason.com^$third-party
 ||rainpat.com/Content/1360x55/
 ||rainpat.com/Scripts/jquery.SuperSlide.
+||rainyzinc.com^$third-party
 ||rakuten-sec.co.jp/web/images/banners/ads_mobile_un-limit/
 ||rakuya.com.tw/position?task=
+||rampantwork.com^$third-party
 ||randolph.love^
+||rangeplayground.com^$third-party
 ||ranlisgz.fun^
 ||rarbt.cc/js/index960_
 ||rardi.cyou^
@@ -15843,6 +15938,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||reebbwi.cyou^
 ||reffnik.cn^
 ||regrfg33.com^
+||regulatesleet.com^$third-party
+||rehabilitatereason.com^$third-party
 ||rek.mobi^
 ||remehealth.net^$third-party
 ||renameking.com^
@@ -15860,6 +15957,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||repian.com/a/
 ||replays.net/j/dazui
 ||replays.net/j/pinglunshang.png
+||representativebat.com^$third-party
 ||reqde.afreecatv.com^
 ||requirejs.cn/ts.png
 ||res.cngoldres.com/web/index/img/*_ad_
@@ -15888,6 +15986,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rgyfqq.com^
 ||rhcknl.xyz^
 ||rhetoricalloss.com^$third-party
+||rhetoricaltoes.com^$third-party
 ||rhxshop.com^
 ||rhxwnd.xyz^
 ||riaway.com/statics/idea.jpg
@@ -15945,6 +16044,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rorlsblm.cyou^
 ||rossoad.com^
 ||rotaban.ru^
+||rottenray.com^$third-party
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou1.xyz^
 ||rou3.xyz^
@@ -16196,7 +16296,9 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||se8u.cc/statics/images/*.gif
 ||seaflame.xyz^
 ||search.adcaffe.com^
+||seashoreturn.com^$third-party
 ||sec-cloud.cn^
+||secretivestick.com^$third-party
 ||sectn.xyz^
 ||securepubads.g.doubleclick.net/pagead/$image,redirect-rule=1x1.gif
 ||seectech.cn/scm/ad/list
@@ -16209,6 +16311,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||selfishsnake.com^$third-party
 ||semaobf1.com^
 ||sensors.larkplayerapp.com^
+||sensorsmile.com^$third-party
 ||seojiaoshi.cn/banner/
 ||seowhy.com/ask/img/*gg
 ||seqing.world/qq/qq.js
@@ -16253,6 +16356,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sh996.dftoutiao.com^
 ||shackapple.com^
 ||shakegoldfish.com^$third-party
+||shakyseat.com^$third-party
 ||shakysurprise.com^$third-party
 ||shamodesha.com^
 ||shandian.biz/wp-content/themes/inove/js/comment.js
@@ -16282,6 +16386,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||shbear.com^*/ad/
 ||shcd.me^
 ||shellcat.ru^$third-party
+||sheltercellar.com^$third-party
 ||shen4club.com/style/*.js?v=
 ||shenbianlaoshi.com^
 ||shenglishamo.com^
@@ -16350,6 +16455,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||shyww.mobi^
 ||shzzzz.dftoutiao.com^
 ||sicentlife.com^
+||sickflock.com^$third-party
 ||sicongyyds.com^
 ||siduohua.top^
 ||siejp.cyou^
@@ -16393,10 +16499,12 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
 ||sinajs.cn/t6/home/js/pl/guide/adforfqy/
 ||sinajs.cn/t6/home/js/pl/guide/bigday/
+||sincereseashore.com^$third-party
 ||sinceresubstance.com^$third-party
 ||sincetrade.com^
 ||singlove.com/qq/qq.js
 ||singmwn51g.com^
+||sinkbooks.com^$third-party
 ||sinolub.com/index.php?m=poster&
 ||sinst.fwdcdn.com/_uploaded_files/ads/
 ||sisafnib.space^
@@ -16453,15 +16561,18 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sliiindy.top^
 ||slilindy.top^
 ||slimindy.top^
+||slimyseashore.com^$third-party
 ||slinindy.top^
 ||slipdashedundermine.com^$popup
 ||slit.cn/slimages/
 ||sliuindy.top^
 ||slivindy.top^
 ||slizindy.top^
+||slopesoap.com^$third-party
 ||slowbeat.fun^
 ||slsynmlb.fun^
 ||slsyuulb.cam^
+||sm2kz.net^
 ||sm3nq.cn^
 ||sm45k.com^
 ||smabye.com^
@@ -16477,6 +16588,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||smgzyi.com^$document
 ||smgzyi.com^$~third-party
 ||smilered.com^
+||smilingswim.com^$third-party
 ||smlmupi.cn^
 ||smmmqq.com^
 ||smqzj.com/seo.js
@@ -16499,6 +16611,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||so.com/recomm/simi?
 ||so.com/resource/js/mod/detail/business.
 ||so.open.163.com/v/list.htm?pid=
+||soapsmoke.com^$third-party
 ||soaspx.com/images/hws.gif
 ||soaspx.com/images/iiszj.gif
 ||soaspx.com/images/js/dropdown.js
@@ -16546,6 +16659,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sojson.com/ps/list.
 ||solomon89.xyz^
 ||somanhua.com/smh/
+||sombersticks.com^$third-party
 ||somddgo.com^
 ||songdongdong.love^
 ||songlongtech.com^
@@ -16696,9 +16810,11 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||stbdepjb.xyz^
 ||stdst.cn^
 ||steelcn.cn/img/bj_*_146_315.jpg
+||steepsister.com^$third-party
 ||stern.de/vergleich/wp-content/themes/stern/*/iframe-startseite
 ||stgowan.com^
 ||stheadline.com/images/heading-jm
+||stingsquirrel.com^$third-party
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
@@ -16709,10 +16825,12 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||storm.mg/ad?
 ||storyren.top/imgg/
 ||stossfussily.com^
+||strangeclocks.com^$third-party
 ||strangesink.com^$third-party
 ||strced.xyz^
 ||stream.pcradio.ru/list/message/notifications_v2.json
 ||stretchsister.com^$third-party
+||stretchsneeze.com^$third-party
 ||strip.taobaocdn.com/tfscom/$subdocument
 ||strnguz.cn^
 ||stroi-help.ru/forum/script_new.js
@@ -16727,6 +16845,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sudupan.com^*.gif
 ||sueed.love^
 ||sufile.com/jsa/
+||sugarfriction.com^$third-party
 ||sugs.m.sm.cn^
 ||suibi8.com/aa1.gif
 ||suibiankan.co/Runtime/Js/
@@ -16770,6 +16889,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||swadakesb.cyou^
 ||swandlb.top^
 ||swelen.com^
+||swelteringsmile.com^$third-party
 ||swicgq.xyz^
 ||switchadhub.com^
 ||swogldb.top^
@@ -16870,6 +16990,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tangrenjie.tv/gg/$image
 ||tangsanshu.net/*/*.js
 ||tangxu.xyz^
+||tangyamount.com^$third-party
 ||tanseb.com/vads/
 ||tanwanyx.com^$third-party
 ||tanyp.xyz^
@@ -16895,6 +17016,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tapsense.com^
 ||tapstat.ru^$third-party
 ||targetspot.com^
+||tastelesstoes.com^$third-party
 ||tastelesstrucks.com^$third-party
 ||taxedborley.com^
 ||tb.beeline.ru/Scripts/App/AnchorCompiled.min.js
@@ -16923,6 +17045,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tejiachong.co^
 ||teknoseyir.com/wp-content/themes/ts/sponsor-mobile.php
 ||telemetryverification.net^
+||telephoneapparatus.com^$third-party
+||temptteam.com^$third-party
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
 ||tengfangyun.com/attachment/*/w_1200
@@ -16977,6 +17101,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||thetrafficstat.net^
 ||thewindrun.com^
 ||thind-gke-euw.prd.data.corp.unity3d.com^
+||thingstaste.com^$third-party
 ||thisav.com/0*.js
 ||thisav.com/index.js
 ||thisav.com/js/bioep.
@@ -17055,6 +17180,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tinnar.cn^
 ||tinymarket.store^
 ||tioew.cyou^
+||tiredthroat.com^$third-party
 ||tiresomethunder.com^$third-party
 ||tisafnii.space^
 ||titan007.com/ad/
@@ -17097,6 +17223,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tnkfactory.com^$third-party
 ||tns.simba.taobao.com^
 ||to8to.com^$subdocument,third-party
+||toadtexture.com^$third-party
 ||todayapp.tv^$popup,third-party
 ||todayweather.co/ads.json
 ||toijr.xyz^
@@ -17171,8 +17298,10 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||trenhdg.com^$third-party
 ||trfmxf.xyz^
 ||tristoshink.online/libs/check.js
+||tritebadge.com^$third-party
 ||tritoshi.com/libs/check.js
 ||trk.glispa.com^
+||troubleshade.com^$third-party
 ||troxa.xyz^
 ||trp69.top^
 ||trqhf.xyz^
@@ -17249,6 +17378,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tv7box.com/Runtime/Js/
 ||tveta.naver.net^
 ||tvsou.com/js/360ad.js
+||tvszazx.icu^
 ||tvxqdp.xyz^
 ||tvyan.com/images/jscss/tv-
 ||tw-api.vpon.com^
@@ -17294,6 +17424,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ty121.cn/IAA/
 ||tydouke.com^
 ||tyjryuk.cn^$third-party
+||tyrsn6di.icu^
 ||tz-68-fabb.com/qiye/
 ||tz-dsp.com^$third-party
 ||tzfdc.com.cn/userfiles/flash/
@@ -17452,6 +17583,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||un.salangane.asia^
 ||un.ubaike.cn^
 ||un1.lawyernet.cn^
+||unablehope.com^$third-party
+||unadvisedengine.com^$third-party
 ||underpad.asia^
 ||undm.qibulo.com^
 ||unecne.com/wp-content/uploads/*ad-
@@ -17477,6 +17610,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||unpkg.com^$badfilter
 ||untitled.dwstatic.com^
 ||unwieldyhealth.com^$third-party
+||unwieldyplastic.com^$third-party
 ||uo12.com^
 ||uongsona.uno^
 ||uongsono.uno^
@@ -17608,6 +17742,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||vaxfpal.cn^
 ||vazhno.ru/cdn-cgi/apps/head/*.js
 ||vbccbxv.top^
+||vbdbmqzu.com^
 ||vbgr7.cn^
 ||vcdn.biz/*_mggads/
 ||vciddepi.cyou^
@@ -17616,6 +17751,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdresaa.top^
+||vdrfes.site^
 ||ve.kj-cy.cn^
 ||vec4o.fun^
 ||vec4o.top^
@@ -17721,6 +17857,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||vodttdy.com/template/zsy_badian/js/stui_
 ||vokmhydy.xyz^
 ||vokwlch.xyz^
+||volatileprofit.com^$third-party
+||volatilerainstorm.com^$third-party
 ||voloter.top^
 ||vongsond.uno^
 ||voocl.com^
@@ -17927,6 +18065,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||weixisiwang.com^
 ||weiyuedu.cc/skin/v3/js/dibu.js
 ||weizjzg.com^$third-party
+||wellgroomedhydrant.com^$third-party
 ||wemdsm.com^
 ||wendangku.net/js/common.js
 ||wendellyu.com/banner/
@@ -17964,6 +18103,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||whdx.cc/js/
 ||whfpbc.99.com.cn^
 ||whichav.*/qq/qq.js
+||whispermeeting.com^$third-party
 ||whmhdz.xyz^
 ||whnews.cn/wh_public/xuxu/
 ||whoican.love^
@@ -17977,6 +18117,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||widespace.com^
 ||widget.ezprice.com.tw^$third-party
 ||wikigifth.com^
+||wildcommittee.com^$third-party
 ||wildwist.com^
 ||williamlong.info/script/sidebar.js
 ||win007.com/js/flashad
@@ -18542,6 +18683,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xznrtl.xyz^
 ||xzvfd.xyz^
 ||xzwk.hk^
+||xzxhpcdz.icu^
 ||xzyituo.com^
 ||y.21haodianmt.com^$third-party
 ||y.photoint.net^
@@ -18698,7 +18840,10 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yin1.zgpingshu.com^
 ||yingav.net/images/content/spot01.jpg
 ||yingce.asia^
+||yinghua*.*/bar/yfgg*.js
+||yinghua*.com/bar/yfgg*.js
 ||yinghuacd.com/bar/
+||yinghuavideo.com/bar/
 ||yingjiawm.com^
 ||yingnanyqq.com^
 ||yingnanyyds.com^
@@ -18890,6 +19035,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yuretb.site^
 ||yurti.cyou^
 ||yuske2.xyz^
+||yutew.cc^$third-party
 ||yuwenbin.host^
 ||ywg.jobui.com^
 ||ywqpgy.com^
@@ -19086,6 +19232,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zhengliyqq.com^
 ||zhengtong.link^
 ||zhenjiang365.cn/*/ad_
+||zhenxinbuhaoba.com^$document
+||zhenxinbuhaoba.com^$~third-party
 ||zhenxingkuangchanpin.com^
 ||zhev.com.cn/file/weixin/
 ||zhhgmh.mobi^
@@ -19160,6 +19308,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zjliloveyou.ixiunv.com^
 ||zjqs.shop^
 ||zjst.net/3.gif
+||zjthzf.xyz^
 ||zjttaqx.cn^
 ||zjws.xyz^
 ||zjxc.com/source/plugin/e6_xc_ad/
@@ -19296,6 +19445,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zxzjtv.com/slade
 ||zxzjtv.com/t.js
 ||zy1017421.xyz^
+||zyauopr.icu^
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zyrwfd.xyz^
@@ -19315,6 +19465,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zzpzero.com^
 ||zzqqhb.com^
 ||zzqrr.com^
+||zzrjdp.xyz^
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zztongyun.com/static/js/sh.min.js
