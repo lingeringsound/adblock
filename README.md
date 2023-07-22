@@ -2,7 +2,11 @@
 
 ### <center style="text-align:center; font-size:18px;" >主页链接</center>
 
-<style>table{margin: auto;}</style>
+<style>
+ table{
+   margin: auto;
+ }
+</style>
 
 | :--: | :--: | :--: | :--: |
 | [点击访问Github](https://github.com/lingeringsound/adblock) | [点击访问GItea](https://gitea.com/lonely_dog/adblock) | [点击访问Gitcode](https://gitcode.net/weixin_45617236/adblock) | [点击访问Gitlab](https://jihulab.com/foreseeable_boy/adblock) |
