@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: rVzN6Eniz6J9HZN01lcJdw
+! Checksum: 2DvIAtEBQwS7aQz+Rtb6WQ
 ! Title: 混合规则
-! Version: 20230723191035
+! Version: 20230723200038
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-07-23 19:14:48
-! Total Count: 113591
+! Last modified: 2023-07-23 20:07:34
+! Total Count: 113597
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -20020,7 +20020,9 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/z.gif?
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
+.cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
+.cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
 .co/ads/
 .co/ads/$popup
@@ -20177,7 +20179,6 @@ $websocket,domain=5nj.com|cechi8.com
 .com/s/*.xc$third-party
 .com/sc/*?n=$script,third-party
 .com/sc/*?n=$third-party
-.com/sc/*?x=$script,third-party
 .com/sc/*?x=$third-party
 .com/sh/back/*$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
@@ -20236,10 +20237,15 @@ $websocket,domain=5nj.com|cechi8.com
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
 .com:80*/d/*0?c=$third-party
+.com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
+.com:8004/sc/*?*=$third-party
+.com:8007/sc/*?*=$third-party
+.com:8008/sc/*?*=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
+.com:8010/sc/*?*=$third-party
 .com:9*/yc/c/*/GEBEF$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
