@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SVkc1R6ZU+bHIvAik8wyeQ
+! Checksum: wmI/d22nNERUz5s+6UDhQw
 ! Title: 混合规则(精简版)
-! Version: 20230814112221
+! Version: 20230815095009
 ! Expires: 1145141919810
-! Last modified: 2023-08-14 11:23:03
-! Total Count: 22836
+! Last modified: 2023-08-15 09:50:57
+! Total Count: 22847
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -16042,6 +16042,7 @@ ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="inde
 iframeplayer.tubepornstreaming.com##.video-container > .inner-wrap[style="display: flex;"]
 igorchernomoretz.com##body > div[id^="ab"]
 igorchernomoretz.com##body > div[id^="ab"] + div[style*="cursor"]
+ilengmen.com,newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"],div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 imagebam.com,vipergirls.to##a[href^="https://www.mrporngeek.com/"]
 imgrutor.com,playtor.tv##div[class^="adblock-warning"]
 imgsen.com##a[href^="https://besthotgayporn.com/"]
@@ -16353,7 +16354,6 @@ new-porn.club##+js(abort-current-script, document.attachEvent, prt)
 newkaliningrad.ru##body > .soclinks + script + div[class]:not([id])
 newlineporn.com,camsexvideo.net##.list-spots
 newnavitel.blogspot.com##.post-body > div[dir] > div[dir] > h1#result
-newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"]
 nexusmods.com##.areplacer
 nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #313131;"]
 nitroflare-porn.com##center > a[href^="https://www.nitroflare.com/view/"]
@@ -18520,8 +18520,17 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /redbaiduct.com?s=$third-party
 /sdk/push_web/?zid=
 /search/tsc.php?
+/template/*/adm/*
 /template/*/ads/*
+/template/ad.
 /template/blank/yk/sdo.js
+/template/chiav/img/*.mp4
+/template/chiav/img/*.png
+/template/gg.js
+/templates/*/js/_banner.js
+/templates/ad.
+/templates/ad/*
+/templates/ads/*
 /testAB.bundle.
 /v*/?channelCode=$document
 /v*/?channelCode=$~third-party
@@ -21616,6 +21625,7 @@ zle.com$script
 ##display-ad-component
 ##display-ads
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
+##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div#ad_id
@@ -21658,7 +21668,8 @@ zle.com$script
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class][id][style] > .pic_container
-##div[class][style*="131px"][style*="bottom"]
+##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
+##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
