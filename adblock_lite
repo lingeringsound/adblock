@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: wmI/d22nNERUz5s+6UDhQw
+! Checksum: t++eznP3PQmZVJFMZQNMwA
 ! Title: 混合规则(精简版)
-! Version: 20230815095009
+! Version: 20230815191016
 ! Expires: 1145141919810
-! Last modified: 2023-08-15 09:50:57
-! Total Count: 22847
+! Last modified: 2023-08-15 19:11:00
+! Total Count: 22900
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -19008,6 +19008,8 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ://shiold*.zhaosw.com$script
 ://tpic.*.cn/*.js$third-party
 ://tpic.*.cn/*.txt$third-party
+://us-west1.*/*.js#spot=$third-party,script
+://us-west1.*/api/spots/$third-party
 ://vlets.*.club$third-party
 ://vlets.*.cyou$third-party
 ://vlets.*.shop$third-party
@@ -21147,6 +21149,7 @@ zle.com$script
 ##[src*="://sejieboxapi.yingyangdj.com"]
 ##[src*="advertising"][src*="banner"],[data*="advertising"][data*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
+##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
@@ -21330,8 +21333,36 @@ zle.com$script
 ##a[href*=".youxi141.com"]
 ##a[href*=".youxi142.com"]
 ##a[href*=".yyk2.com/"]
+##a[href*="//go.admjmp.com/"]
+##a[href*="//go.cmtaffiliates.com/"]
+##a[href*="//go.currency.com/"]
+##a[href*="//go.dmzjmp.com"]
+##a[href*="//go.etoro.com/"] > img
+##a[href*="//go.gldrdr.com/"]
+##a[href*="//go.goaserv.com/"]
+##a[href*="//go.goasrv.com/"]
+##a[href*="//go.hpyjmp.com"]
+##a[href*="//go.hpyrdr.com/"]
+##a[href*="//go.julrdr.com/"]
+##a[href*="//go.markets.com/visit/?bta="]
+##a[href*="//go.nordvpn.net/aff"] > img
+##a[href*="//go.skinstrip.net"][href*="?campaignId="]
+##a[href*="//go.strpjmp.com/"]
+##a[href*="//go.tmrjmp.com"]
+##a[href*="//go.trackitalltheway.com/"]
+##a[href*="//go.xlirdr.com"]
+##a[href*="//go.xlivrdr.com"]
 ##a[href*="//go.xlivrdr.com"][target="_blank"]
 ##a[href*="//go.xlrdr.com"][target="_blank"]
+##a[href*="//go.xlviiirdr.com"]
+##a[href*="//go.xlviirdr.com"]
+##a[href*="//go.xlvirdr.com"]
+##a[href*="//go.xtbaffiliates.com/"]
+##a[href*="//go.xxxiijmp.com"]
+##a[href*="//go.xxxijmp.com"]
+##a[href*="//go.xxxjmp.com"]
+##a[href*="//go.zybrdr.com"]
+##a[href*="//googleads.g.doubleclick.net/pcs/click"]
 ##a[href*="/1124024.xyz"]
 ##a[href*="/136ayx.vip"]
 ##a[href*="/1560045.cc"]
@@ -21535,14 +21566,6 @@ zle.com$script
 ##a[href^="http://yunbofangbt."]
 ##a[href^="https://adm.beimg.com/"]
 ##a[href^="https://adultfriendfinder.com"]
-##a[href^="https://go.xlirdr.com"]
-##a[href^="https://go.xlivrdr.com"]
-##a[href^="https://go.xlviiirdr.com"]
-##a[href^="https://go.xlviirdr.com"]
-##a[href^="https://go.xlvirdr.com"]
-##a[href^="https://go.xxxiijmp.com"]
-##a[href^="https://go.xxxijmp.com"]
-##a[href^="https://go.xxxjmp.com"]
 ##a[href^="https://join.dreamsexworld.com/"]
 ##a[href^="https://join.sexworld3d.com/track/"]
 ##a[href^="https://join3.bannedsextapes.com/track/"]
@@ -21751,21 +21774,51 @@ zle.com$script
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##dl#listwoBox
 ##embed[src^="https:////"]
+##embed[width="100%"][height="100"]
+##embed[width="120"][height="240"]
+##embed[width="160"][height="600"]
+##embed[width="240"][height="400"]
+##embed[width="468"][height="60"]
+##embed[width="600"][height="160"]
+##embed[width="728"][height="90"]
+##gpt-ad
+##guj-ad
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
+##hl-adsense
+##iframe.ad-frame
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
 ##iframe[src*=".medfoodsafety.com/"]
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
+##iframe[src*="//av.ageverify.co/"]
 ##iframe[src*="//go.goaserv.com"]
 ##iframe[src*="//go.goasrv.com/"]
 ##iframe[src*="//syndication.exosrv.com/"]
+##iframe[src*="//vidsservices.space/"]
+##iframe[src*="/ads-iframe/"]
 ##iframe[src="/ad.html"]
+##iframe[src^="//ad.a-ads.com/"]
 ##iframe[src^="//ads."]
+##iframe[src^="//us-west1."][src*="/api/spots/"]
 ##iframe[src^="/ad"][src$=".html"]
+##iframe[width="100%"][height="120"]
+##iframe[width="100%"][height="90"]
+##iframe[width="104"][height="464"]
+##iframe[width="200"][height="240"]
+##iframe[width="200"][height="300"]
+##iframe[width="210"][height="237"]
+##iframe[width="240"][height="350"]
+##iframe[width="240"][height="400"]
+##iframe[width="300"][height="250"]
 ##iframe[width="320"][height="50"]
+##iframe[width="468"][height="60"]
+##iframe[width="600"][height="90"]
+##iframe[width="728"][height="90"]
+##iframe[width="780"][height="120"]
+##iframe[width="980"][height="90"]
 ##img#adv1
 ##img[alt$="抖阴"]
 ##img[alt$="约炮"]
