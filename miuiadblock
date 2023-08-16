@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7fgF89v5tefyQ2wjACHftw
+! Checksum: YgZn7468D6Mq+HOW4cZOoQ
 ! Title: MIUI浏览器规则
-! Version: 20230816125440
+! Version: 20230816221056
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-08-16 12:58:34
-! Total Count: 69566
+! Last modified: 2023-08-16 22:14:59
+! Total Count: 69568
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -22233,6 +22233,7 @@ $websocket,domain=5nj.com|cechi8.com
 123cha.com##.n_ads_box + .box > .tbl > tbody > tr:last-child > td[bgcolor="#eeeeee"][width="350"]:last-child
 123cha.com##div[style^="float:left;margin:8px 0;width:790px;border:1px dashed #ccc;"]
 123movies.net,4anime.gg,actvid.com,animefreak.site,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,streamingcommunity.mom,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
+123pan.com###prod > .ant-carousel
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
 123proxy.biz###cookieConsentUR99472
 123unblock.bar###lbxVPN666
@@ -22475,6 +22476,7 @@ $websocket,domain=5nj.com|cechi8.com
 19lou.com,ihome99.com##.ad-190x60
 19lou.com,ihome99.com##.ad-300x30
 19lou.com,ihome99.com##.ad-980x90
+1anime.me##[class*="ads"],[style*="z-index:"][style*="2000000000"],[style*="z-index:"][style*="5000000"],img[src*="//hgilaryph.com/"]
 1avlang.com,avavl4.com,avlang.com##.index-info > .tac
 1fzd.com,2fzd.com,3fzd.com,5fzd.com,fzd3.com###diy_cmn1
 1fzw.com##.focus-bots
@@ -35247,7 +35249,7 @@ srzc.com##.topgg1
 srzc.com##.zt_tonglang1
 ssbcrack.com###text-11
 ssbcrack.com###text-51
-ssmh01.top,ssmh02.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,wnacg.ru,htcomic.top,wnacg.top##a[href*=".xyz?ch=ssmh"],a[href^="https://l.hyenadata.com"],img[style][alt][src*="/data/"][src$=".php"],img[style][alt][src*="/data/"][src$=".gif"]
+ssmh01.top,ssmh02.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,wnacg.ru,htcomic.top,wnacg.top,wnacg.com,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru##a[href*=".xyz?ch=ssmh"],a[href^="https://l.hyenadata.com"],img[style][alt][src*="/data/"][src$=".php"],img[style][alt][src*="/data/"][src$=".gif"]
 ssnn.net###float_picr
 ssnn.net###nrk_gg
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
