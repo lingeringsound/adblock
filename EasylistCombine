@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mlx9vs4b/xVchMi7HRIgIQ
+! Checksum: Vr3lMRwNUrFzI/ACjwDAfA
 ! Title: Easylist规则合并
-! Version: 20230815190639
+! Version: 20230816125841
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-08-15 19:10:13
-! Total Count: 62605
+! Last modified: 2023-08-16 13:00:39
+! Total Count: 62636
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -1317,6 +1317,8 @@
 ||66.fmx.cn/js/
 ||6604.org^$third-party
 ||6617398ccc.com^
+||6633091.com^$document
+||6633091.com^$~third-party
 ||6651tp.com^
 ||6665432.com^*.gif
 ||666574.xyz^
@@ -5023,6 +5025,8 @@
 ||dfvarz.xyz^
 ||dfvvx58.com^
 ||dfwskw7.com^
+||dfyl.eeeeehfghrq555^$document
+||dfyl.eeeeehfghrq555^$~third-party
 ||dfzv25.com^
 ||dgaoz.com^
 ||dgayibf.icu^
@@ -10538,6 +10542,7 @@
 ||mobile.sina.cn/public/files/image/600x150_
 ||mobile.sina.cn/public/files/image/620x300_
 ||mobile01.com/groupbuying.php
+||mobixc.lslbahl.top^$third-party
 ||mobixc.manlisgx.fun^
 ||mobixc.ognlaigk.fun^
 ||mobixc.vnfjsus.xyz^
@@ -18889,6 +18894,7 @@ ali213.net##.video-window
 ali213.net##.zadmainholder
 ali213.net##div[class^="GG"]
 ali213.net##div[id^="ali-ad-js-"]
+ali213.net##iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 alibaba.com##.is-creative
 alibaba.com##a[campaignid][target="_blank"]
 alibaba.com#?#.J-offer-wrapper:-abp-contains(Top sponsor listing)
@@ -32062,9 +32068,9 @@ $websocket,domain=5nj.com|cechi8.com
 .bmetrack.com/c/$image
 .br/ads/
 .bt*.com/imgs.js?t=
-.buzz/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.buzz/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .buzz/*=$object,third-party
-.buzz:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.buzz:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .bz/ads/
 .ca/ads/
 .cam/ads/
@@ -32082,7 +32088,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cilipa*/js/os.js
 .clkads.
 .cloud/ads/
-.club/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.club/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .club/*_*.js?*16$third-party
 .club/?token=*&screen_*=*&ref=$third-party
 .club/ads/
@@ -32095,7 +32101,7 @@ $websocket,domain=5nj.com|cechi8.com
 .club/ttdlyqbff/*/*.gif?$third-party,image
 .club/user?$third-party
 .club/xtub_*_rony.js$third-party
-.club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
@@ -32105,6 +32111,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/20*/*/*.txt$third-party
 .cn/Report/*-*-$third-party,other
 .cn/ads/
+.cn/api/LM/Report?placeUUID=$third-party
 .cn/api/getPos?jspath=/$~third-party
 .cn/cg/*-*.cg$third-party
 .cn/gg/$script,third-party
@@ -32118,7 +32125,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/sc/*?n=$third-party
 .cn/sc/*?x=$script,third-party
 .cn/sc/*?x=$third-party
-.cn/x/*-*-*.as$third-party,script
+.cn/x/*-*-*.as$third-party
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
 .cn:*/sc/*?c=$third-party
@@ -32326,7 +32333,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com:9120/discor_list.js
 .content_tracking.
 .ct.sendgrid.net/$image
-.cyou/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.cyou/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .cyou/*_*.js?*16$third-party
 .cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
@@ -32337,7 +32344,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
 .cyou/user?$third-party
 .cyou/xtub_*_rony.js$third-party
-.cyou:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.cyou:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .cz/adv/
 .cz/affil/
 .cz/bannery/
@@ -32362,7 +32369,7 @@ $websocket,domain=5nj.com|cechi8.com
 .facebook.com/tr/$image
 .facebook.com/tr?$image
 .flipboard.com/usage?
-.fun/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.fun/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .fun/*_*.js?*16$third-party
 .fun/*_*_rony.js
 .fun/?token=*&screen_*=*&ref=$third-party
@@ -32374,7 +32381,7 @@ $websocket,domain=5nj.com|cechi8.com
 .fun/ttdlyqbff/*/*.gif?$third-party,image
 .fun/user?$third-party
 .fun/xtub_*_rony.js$third-party
-.fun:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.fun:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .fuse-cloud.com/
 .fuse-cloud.com/$popup
 .ga/ads.
@@ -32404,13 +32411,13 @@ $websocket,domain=5nj.com|cechi8.com
 .html?clicktag=
 .html|$domain=www.gamer.com.tw
 .iads.js
-.icu/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.icu/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .icu/*/20*/*/16*.gif$image,third-party
 .icu/*_*_rony.js
 .icu/ads/
 .icu/pssbk?$third-party
 .icu/pssbk?*16$third-party
-.icu:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.icu:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .iframetracker/
 .il/ads.
 .il/ads/
@@ -32457,11 +32464,11 @@ $websocket,domain=5nj.com|cechi8.com
 .la/style/vue.js?v=
 .lazyload-ad-
 .lazyload-ad.
-.life/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.life/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .life/ads/
-.life:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.life:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .list-manage.com/track/
-.live/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.live/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .live/*_*.js?*16$third-party
 .live/?channelCode=$document
 .live/?channelCode=$~third-party
@@ -32481,7 +32488,7 @@ $websocket,domain=5nj.com|cechi8.com
 .live/ty/*-*.blpha$third-party
 .live/user?$third-party
 .live/xtub_*_rony.js$third-party
-.live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .live:*/vh5/1$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -32516,7 +32523,7 @@ $websocket,domain=5nj.com|cechi8.com
 .mightyape.co.nz/mo?
 .mjt.lu/oo/$image
 .mkt2684.com/eos/
-.mobi/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.mobi/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
 .mobi/appinstall.js$third-party,script
@@ -32525,7 +32532,7 @@ $websocket,domain=5nj.com|cechi8.com
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
 .mobi/user?$third-party
 .mobi/xtub_*_rony.js$third-party
-.mobi:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.mobi:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .mobileads.
 .mozilla.org/eos/$image
 .mp4?*sdtfrom=&$domain=m.v.qq.com
@@ -32630,7 +32637,7 @@ $websocket,domain=5nj.com|cechi8.com
 .sendibm1.com/mk/
 .sendibt2.com/tr/op/$image
 .sharecounter.$third-party
-.shop/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.shop/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
 .shop/appinstall.js$third-party,script
@@ -32641,7 +32648,7 @@ $websocket,domain=5nj.com|cechi8.com
 .shop/user?$third-party
 .shop/xling_*_*.js?
 .shop/xtub_*_rony.js$third-party
-.shop:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.shop:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .simplicitycrm.com/rd/
 .site:*/*/*.js
 .site:20443/*.js^$script,third-party
@@ -32669,7 +32676,7 @@ $websocket,domain=5nj.com|cechi8.com
 .theatlantic.com/email.gif?
 .titus.de/oo/$image
 .to/ads/
-.top/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.top/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .top/*_*.js?*16$third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
@@ -32688,7 +32695,9 @@ $websocket,domain=5nj.com|cechi8.com
 .top/user?$third-party
 .top/xling_*_*.js?
 .top/xtub_*_rony.js$third-party
-.top:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.top:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.top:*/#?shareName=$document
+.top:*/#?shareName=$~third-party
 .top:*/vh5/1$third-party
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
@@ -32720,6 +32729,8 @@ $websocket,domain=5nj.com|cechi8.com
 .vip/html/zbxx.js
 .vip/js/ads/
 .vip/style/vue.js?v=
+.vip:*/#?shareName=$document
+.vip:*/#?shareName=$~third-party
 .wap.x4399.com^
 .warehousefashion.com/warehouse/e/$image
 .web-vitals-reporting.
@@ -32730,7 +32741,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xin/blxn_*.js?
 .xn--fiqs8s:7385/
 .xxx/ads/
-.xyz/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.xyz/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .xyz/*.gif?*16$third-party
 .xyz/*.html?uid=$document
 .xyz/*.html?uid=$~third-party
@@ -32752,6 +32763,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
 .xyz/appinstall.js$third-party,script
+.xyz/ba.php?id=$third-party
 .xyz/base*.js?
 .xyz/biyys*.js$third-party,script
 .xyz/c.php?s=
@@ -32761,6 +32773,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
+.xyz/foundation?$third-party
 .xyz/get?$third-party
 .xyz/gyxx_*_aubi.js$third-party
 .xyz/h.html?id=$document
@@ -32792,7 +32805,9 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/vue?$third-party
 .xyz/xling_*_*.js?
 .xyz/xtub_*_rony.js$third-party
-.xyz:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.xyz:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.xyz:*/#?shareName=$document
+.xyz:*/#?shareName=$~third-party
 .xyz:*/*.html?uid=$document
 .xyz:*/*.html?uid=$~third-party
 .xyz:*/waga*.html$document
@@ -35043,6 +35058,7 @@ $websocket,domain=5nj.com|cechi8.com
 /api.ads.$domain=~ads.instacart.com
 /api/0/stats
 /api/ComScorePageView
+/api/LM/Report?placeUUID=$third-party
 /api/Video/GetAdsData?
 /api/Video/GetAdsDataList?
 /api/aaaac/list
@@ -36234,6 +36250,8 @@ $websocket,domain=5nj.com|cechi8.com
 /engage.indeed.com/*$image
 /engine/ping?
 /ent_counter?
+/entry/register?i_code=$document
+/entry/register?i_code=$~third-party
 /entry_stats?
 /eo?_t=$image
 /epsilon.v2.
@@ -37696,6 +37714,8 @@ $websocket,domain=5nj.com|cechi8.com
 /lzdmailer.letter.open?
 /m-email/t.png?
 /m.gif?
+/m.html?rmid=*&yd=$document
+/m.html?rmid=*&yd=$~third-party
 /m/i.php?id=$script,third-party
 /m1938pc/static/css/sxy.css
 /m1938pc/static/js/dibu.js
@@ -41138,6 +41158,7 @@ $websocket,domain=5nj.com|cechi8.com
 ://mint.*/?js
 ://missav*.com/pop?url=$document
 ://missav*.com/pop?url=$~third-party
+://mobi*.*.*/*_*?$third-party
 ://mobivx.*.cam$third-party
 ://mobivx.*.club$third-party
 ://mobivx.*.cyou$third-party
@@ -59317,6 +59338,7 @@ zle.com$script
 ##[class][onclick^="window.location.href"][onclick*=".bcebos."]
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
+##[class][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] > .photo-two
 ##[class^="ad none"]
 ##[class^="ad-bottom"]
 ##[class^="ad-layer"]
@@ -60006,6 +60028,7 @@ zle.com$script
 ##a[href="極樂夜王"][target="_blank"]
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
+##a[href][style*="overflow:hidden;display:block;"] > img[src$=".gif"][style*="width:100%"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
@@ -60348,6 +60371,7 @@ zle.com$script
 ##a[style$="2147483647;"][ontouchstart]
 ##a[style*=".e-years.net/"]
 ##a[style*=".misigl.com/"]
+##a[target=" _blank"] > img[src$=".gif"][style*="width:100%"]
 ##a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
 ##a[target="_blank"] > img.king
 ##a[target="_blank"] > img[height="120px"][src*=".c-ctrip.com"][src$=".gif"]
@@ -60415,6 +60439,7 @@ zle.com$script
 ##div#slide_ad
 ##div#xinxi
 ##div.ad-nav-box
+##div.content > div[style] > div[class="photo-two"]
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
 ##div.g-list > ul > li
@@ -60445,7 +60470,9 @@ zle.com$script
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
 ##div[class="need_grid_text"] > ul > li
+##div[class="photo-two"] > a[target="_blank"]
 ##div[class="v-banner"][style]
+##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
@@ -60574,11 +60601,13 @@ zle.com$script
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
+##div[style="display: flex;flex-wrap: wrap;margin:5px;"] > div[class="photo-two"]
 ##div[style="display:none;"] + script + #container.container
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
+##div[style^="display:flex;flex-direction:column"] > [style*="display:flex;"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
 ##div[style^="position"][onclick^="window.open"]
@@ -60689,6 +60718,7 @@ zle.com$script
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[id^="GGADIMG"][src]
+##img[id^="daohang_hengfu"][width="100%"]
 ##img[onclick*=".5408h.cn"]
 ##img[onclick*=".aiyou305.com/"]
 ##img[onclick*=".gghktv.com/"]
@@ -60779,6 +60809,7 @@ zle.com$script
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##span[data-ez-ph-id]
 ##span[id^="ezoic-pub-ad-placeholder-"]
+##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
 ##style + .need_grid_img
