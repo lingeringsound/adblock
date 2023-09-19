@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: yTvsLl+0jVk+yTjt5g2QIA
+! Checksum: X9NMvFMW2ACr80vdmt4bEQ
 ! Title: MIUI浏览器规则
-! Version: 20230919105108
+! Version: 20230919113808
 ! Expires: 14 days (update frequency)
-! Last modified: 2023-09-19 11:00:32
-! Total Count: 68248
+! Last modified: 2023-09-19 11:47:02
+! Total Count: 68256
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -45580,6 +45580,7 @@ $websocket,domain=5nj.com|cechi8.com
 /grid-ad.
 /groupon/ads/*
 /grunge-ads.
+/gs/hengfu_$script
 /gsnads-
 /gtm.js?$popup
 /gtv_ads.
@@ -48212,6 +48213,8 @@ $websocket,domain=5nj.com|cechi8.com
 /welcome_ad.
 /welcomead.
 /welcomeadredirect.
+/wenziad.js?var=$script
+/wenziad.js?var=$script,~third-party
 /werbebanner/*
 /widget-advert.
 /widget-advert?
@@ -65108,7 +65111,6 @@ zle.com$script
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
 ##[class^="bfad"]
-##[class^="col"][class*="padding-0"] > [style]
 ##[class^="div-gpt-ad"]
 ##[class^="footer-ad"]
 ##[class^="m-hm-ad"]
@@ -65316,6 +65318,7 @@ zle.com$script
 ##a[href$=".anwangdaohang.com"]
 ##a[href$=".cc:8443"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
+##a[href$=".vip"][target="_blank"][class] > span
 ##a[href$=".xyz:8443"]
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -65383,6 +65386,7 @@ zle.com$script
 ##a[href*=".cangpie.com/"]
 ##a[href*=".caohang.com.cn/"]
 ##a[href*=".cc:"] > img[src]
+##a[href*=".cc:"][target="_blank"][class] > span
 ##a[href*=".celadonstyle.com/"]
 ##a[href*=".cfm?fp="][href*="&maxads="]
 ##a[href*=".cgn8j9f4j3g.com:"]
@@ -65394,6 +65398,7 @@ zle.com$script
 ##a[href*=".com/av.html?"] > img[src]
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com:"] > img[src]
+##a[href*=".com:"][target="_blank"][class] > span
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
 ##a[href*=".covasco.com/"]
@@ -65465,6 +65470,7 @@ zle.com$script
 ##a[href*=".kluvcc.com/"]
 ##a[href*=".ktvxn.com/"]
 ##a[href*=".las88889999.com:"]
+##a[href*=".lvdou.life/"][target="_blank"]
 ##a[href*=".meta-hh.com/"]
 ##a[href*=".meta-jt.com/"]
 ##a[href*=".meta-kp.com/"]
@@ -65506,6 +65512,7 @@ zle.com$script
 ##a[href*=".tholikiranam.com/"]
 ##a[href*=".tnelb.xyz/"]
 ##a[href*=".top"] > img[src]
+##a[href*=".top:"][target="_blank"][class] > span
 ##a[href*=".topnfb.com/"]
 ##a[href*=".trustarticle.com/"]
 ##a[href*=".tsguozikeji.cn"]
@@ -65537,6 +65544,7 @@ zle.com$script
 ##a[href*=".xxgxqscl.com/"]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*=".xyanovo.com/"]
+##a[href*=".xyz"][target="_blank"][class] > span
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ##a[href*=".xyz:"] > img[src]
 ##a[href*=".xyz?ch=ssmh"]
