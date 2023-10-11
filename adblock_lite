@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: D4o9/vwcTaupGqlQbRzn8Q
+! Checksum: 7nZrNysoXbjNJoN6RM7IUQ
 ! Title: 混合规则(精简版)
-! Version: 20231009183055
+! Version: 20231011162841
 ! Expires: 1145141919810
-! Last modified: 2023-10-09 18:39:22
-! Total Count: 23506
+! Last modified: 2023-10-11 16:38:02
+! Total Count: 23631
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -3871,6 +3871,7 @@
 ||bannersnack.com^
 ||bannerwall.herewetest.com^
 ||bannerwall.s3.appcnt.com^
+||banquetunarmedgrater.com^$script
 ||baofeng.com/images/yiqi
 ||baojia.steelcn.cn/images/$object
 ||baoliny.com/js/jing.js
@@ -15078,6 +15079,7 @@ dominus.kiev.ua##body > #myModal
 doods.pro,dooood.com,xxxtik.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,forums.socialmediagirls.com,veporno.net,javhd.icu##+js(abort-on-property-read, __aaZoneid)
 doseofporn.com##a[href^="/go/istripper"]
 doseofporn.com,jennylist.xyz##[href="/goto/desire"]
+douban.com##iframe[src*="//at4.doubanio.com"]
 dressupmix.ru,teensgames.ru###adblock_popup
 drive2.ru##a[href][target="_blank"] > img[src][style^="width: 100%; height: auto;"][style*="vertical-align: middle; max-width: 240px;"]
 drive2.ru##img[src^="https://avatars.mds.yandex.net/get-adfox-content/"]
@@ -18106,6 +18108,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /advertisement.
 /advertisement/*
 /advertisement_
+/advertisers.js
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /adx_blacklist.js
@@ -20225,6 +20228,116 @@ zle.com$script
 ###abde
 ###abnotify
 ###abp-killer
+###ad > #h2_player_prevideo
+###ad > .pre-img
+###ad-SNSSplashAd
+###ad-box
+###ad-floatwin
+###ad-index
+###ad-message
+###ad1[onclick="window.open(this.url)"]
+###ad1[style^="position:"]
+###ad900
+###adBlockAlert
+###adBlockAlertWrap
+###adBlockBanner
+###adBlockDetect
+###adBlockerAlert
+###adBlockerModal
+###adBody01
+###adBody02
+###adBody03
+###adBody04
+###adBody06
+###adBody07
+###adLeftFloat
+###adPopUpContainer
+###adRightFloat
+###adUn_1
+###adUn_2
+###adUn_3
+###adUrl
+###ad_1
+###ad_banner
+###ad_blocker
+###ad_bottom
+###ad_box1
+###ad_box2
+###ad_full
+###ad_globle_div
+###ad_headerbanner
+###ad_inview_area
+###ad_left
+###ad_lightbox
+###ad_link
+###ad_right
+###ad_text:not(textarea)
+###adad
+###adb-actived
+###adb-enabled
+###adb-enabled3
+###adb-pop
+###adb-warning
+###adbWarnContainer
+###adbcontainer-popup
+###adbd
+###adblock-alert
+###adblock-box
+###adblock-honeypot
+###adblock-in-browser
+###adblock-modal
+###adblock-msg
+###adblock-notice
+###adblock-overlay
+###adblock-warning
+###adblock-wrapper
+###adblockDetect
+###adblockWarningPopup
+###adblockWrap
+###adblock__container
+###adblock_detected
+###adblock_message
+###adblock_msg
+###adblock_popup
+###adblock_screen
+###adblock_tooltip
+###adblocker
+###adblockerModal
+###adblocker_announce
+###adblocker_message
+###adblocker_modal_overlay
+###adblockinfo
+###adblockpopup
+###adblockz_alert
+###adbpopup
+###adbuddy-no-adb-container
+###adbuddy-overlay
+###adjs_id
+###adleft
+###adright
+###adrights14
+###ads-blocked
+###ads.row
+###ads_c_tpc
+###ads_inner
+###ads_left
+###ads_right
+###ads_top_video
+###ads_warning
+###adsblocker_detected
+###adsense
+###adtoniq-msgr-bar
+###adtop1
+###adv-2
+###adv-3
+###adv-fixed-square
+###adv_wrap_hh
+###advert_1
+###advertisement_box
+###advertisementjsalert
+###advertisings
+###advt
+###adx_cggp
 ###ai-adb-message
 ###ai-adb-overlay
 ###allpng
@@ -20508,6 +20621,7 @@ zle.com$script
 ###sponsorAdCountdown
 ###sponsorAdDiv
 ###sponsorAdDiv2
+###sponsored_links
 ###swtleft[style^="position:fixed;"]
 ###syad.visible-xs
 ###syad1
@@ -20665,6 +20779,12 @@ zle.com$script
 ##.ad980
 ##.ad990x130
 ##.ad990x90
+##.adBlock-banner
+##.adBlockDetectModal
+##.adBlockDetectedSign
+##.adBlockNotification
+##.adBlockNotificationOverlay
+##.adBlockWarning
 ##.adContainer[style="margin-top: -5px"]
 ##.adDingT
 ##.adHF
@@ -20790,6 +20910,8 @@ zle.com$script
 ##.adsblocked
 ##.adsbyexoclick
 ##.adsbytrafficjunky
+##.adsense160
+##.adsense200
 ##.adsoho
 ##.adspace
 ##.adspop
@@ -21087,6 +21209,7 @@ zle.com$script
 ##.indexad3
 ##.indexad4
 ##.indexnews-ad
+##.inner-advertise
 ##.it618_firstad_flex
 ##.item-ad
 ##.itopbar + .container
@@ -21148,6 +21271,7 @@ zle.com$script
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
+##.mobadsq
 ##.moboad
 ##.mod + #bottomBox
 ##.mod-ad
@@ -21264,6 +21388,7 @@ zle.com$script
 ##.slider-ad[adid]
 ##.smcms-wrap > .group-box > a[target="_blank"] > img
 ##.smcms-wrap > a[target="_blank"] > img
+##.sp_ad_box_top
 ##.space-y-6 > .advertising
 ##.spon-img[src*=".alicdn."]
 ##.sponsor_image
