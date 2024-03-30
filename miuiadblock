@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: OJIZwmbPqsKdkLsSUUSgtg
+! Checksum: QupbJxIYz7DwWWoP0u9rJw
 ! Title: MIUI浏览器规则
-! Version: 20240329201632
+! Version: 20240330092414
 ! Expires: 14 days (update frequency)
-! Last modified: 2024-03-29 20:27:19
-! Total Count: 78630
+! Last modified: 2024-03-30 09:48:32
+! Total Count: 78417
 ! Description: 取自 MIUI浏览器12.0.1版本 + Easylist规则(精简) ，不定期更新
-! Blocked Filters: 78630
+! Blocked Filters: 78417
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -124,7 +124,6 @@
 ||0330vsdgdwer.xyz^
 ||033dfgh.com^
 ||0351dvd.cn^
-||0351dvd.cn^$third-party
 ||035caop.com^
 ||0371app.wang^
 ||037jav.com/wp-content/uploads/2021/04/*.gif
@@ -640,7 +639,6 @@
 ||16co.com/js/c
 ||16k6.com^
 ||16m.cc^
-||16m.cc^$third-party
 ||16niao20230125.live^
 ||16sucai.com/ads/
 ||16sucai.com/images/*0
@@ -2017,7 +2015,6 @@
 ||6u4j.icu^
 ||6v4.cn^$third-party
 ||6v6.work^
-||6v6.work^$third-party
 ||6vhao.tv/d/
 ||6yso.com/wp-content/uploads/*-300-x-
 ||6zfem.icu^
@@ -2109,7 +2106,6 @@
 ||7d108.cn^
 ||7dah8.com^
 ||7daystodie.cn^
-||7daystodie.cn^$third-party
 ||7dlm.cn^$third-party
 ||7down.com/static/js/foot_
 ||7dsw.com/web8/js/
@@ -2227,7 +2223,6 @@
 ||87fgr4.site^
 ||87mao.com/52
 ||87uq.com^
-||87uq.com^$third-party
 ||88-baidu.com^
 ||88.yunqishi.net^
 ||880sy.com/Public/js/*_gg.js
@@ -2312,7 +2307,6 @@
 ||8hpay.cn^
 ||8jkx.com^
 ||8jrc564wtf.cn^
-||8jrc564wtf.cn^$third-party
 ||8jxxai.com^
 ||8le8le.com^$third-party
 ||8maple.ru/comic.jpg
@@ -2931,13 +2925,11 @@
 ||ad-fox.com^
 ||ad-free.info^$popup
 ||ad-guardian.com^
-||ad-guardian.com^$popup
 ||ad-img.diyidan.net^
 ||ad-indicator.com^
 ||ad-m.asia^
 ||ad-mapps.com^
 ||ad-maven.com^
-||ad-maven.com^$popup
 ||ad-nex.com^
 ||ad-plus.cn^$third-party
 ||ad-recommend.com^
@@ -2957,7 +2949,6 @@
 ||ad-x.co.uk^
 ||ad.12306.cn/res/*.html
 ||ad.22betpartners.com^
-||ad.22betpartners.com^$popup
 ||ad.52av.one^
 ||ad.52av.tv^
 ||ad.a-ads.com^
@@ -3101,21 +3092,16 @@
 ||ad4game.com^$third-party
 ||ad5.udn.com^
 ||ad6media.fr^
-||ad6media.fr^$popup,third-party
-||ad6media.fr^$third-party
 ||ad8.cc^$third-party
 ||ad9377.com^
 ||ad999.biz^
-||ad999.biz^$third-party
 ||adacado.com^$third-party
 ||adacgov.cn^
 ||adaction.se^$third-party
 ||adactioner.com^
-||adactioner.com^$third-party
 ||adacts.com^$third-party
 ||adadmin.house365.com^
 ||adadvisor.net^
-||adadvisor.net^$third-party
 ||adagora.com^$third-party
 ||adalliance.io^$domain=spiegel.de
 ||adalliance.io^$third-party
@@ -3152,28 +3138,21 @@
 ||adbetnetwork.com^$third-party
 ||adbidgo.com^
 ||adbison-redirect.com^
-||adbison-redirect.com^$popup
 ||adbit.biz^$third-party
 ||adbit.co^
 ||adblade.com^
 ||adblck.com^
 ||adblock-guru.com^
-||adblock-guru.com^$popup
 ||adblock-one-protection.com^
-||adblock-one-protection.com^$popup
 ||adblock-pro-download.com^
-||adblock-pro-download.com^$popup
 ||adblock-pro.org^
 ||adblock-zen-download.com^
-||adblock-zen-download.com^$popup
 ||adblock-zen.com^
-||adblock-zen.com^$popup
 ||adblock.sina.cn^
 ||adblock.vidomo.xyz^
 ||adblockanalytics.com^
 ||adblocker-instant.xyz^
 ||adblocker-instant.xyz^$document
-||adblocker-instant.xyz^$popup
 ||adblocker-sentinel.net^$popup
 ||adblockerapp.com^$popup
 ||adblockerapp.info^$popup
@@ -3190,7 +3169,6 @@
 ||adbmi.com^
 ||adboost.it^$popup
 ||adbooth.com^
-||adbooth.com^$popup
 ||adbooth.net^
 ||adbot.tw^
 ||adbottw.net^$third-party
@@ -3216,13 +3194,11 @@
 ||adcannyxml.com^
 ||adcarousel.pl^$third-party
 ||adcash.com^
-||adcash.com^$popup
 ||adcastplus.net^
 ||adccoo.cn^
 ||adcd7.com^
 ||adcde.com^
 ||adcdnx.com^
-||adcdnx.com^$popup
 ||adcel.co^
 ||adcel.vrvm.com^
 ||adcell.com^$popup
@@ -3244,7 +3220,6 @@
 ||adcloud.net^
 ||adcolo.com^
 ||adcolony.com^
-||adcolony.com^$third-party
 ||adconfer.com^$third-party
 ||adconity.com^$third-party
 ||adconjure.com^
@@ -3282,7 +3257,6 @@
 ||addonsmash.com^
 ||addoor.net^$third-party
 ||addotnet.com^
-||addotnet.com^$popup
 ||addown.pipaw.com/phone/
 ||address9.com^
 ||addressanythingbridge.com^
@@ -3310,7 +3284,6 @@
 ||adenc.co.kr^$third-party
 ||adengage.com^$third-party
 ||adentifi.com^
-||adentifi.com^$third-party
 ||adenza.dev^
 ||adeptfleamisjudge.com^
 ||aderymuchadmir.com^
@@ -3321,21 +3294,14 @@
 ||adexc.net^$popup,third-party
 ||adexc.net^$third-party
 ||adexchangecloud.com^
-||adexchangecloud.com^$popup
 ||adexchangedirect.com^
 ||adexchangegate.com^
-||adexchangegate.com^$popup
 ||adexchangeguru.com^
-||adexchangeguru.com^$popup
 ||adexchangemachine.com^
-||adexchangemachine.com^$popup
 ||adexchangeprediction.com^
-||adexchangeprediction.com^$popup
 ||adexchangetracker.com^
-||adexchangetracker.com^$popup
 ||adexcite.com^
 ||adexmedias.com^
-||adexmedias.com^$popup
 ||adexprt.com^
 ||adexprts.com^
 ||adexprtz.com^$popup
@@ -3354,7 +3320,6 @@
 ||adfeedstrk.com^
 ||adfeifan.com^$third-party
 ||adfgetlink.net^
-||adfgetlink.net^$popup
 ||adfgfeojqx.com^
 ||adfhilhpoquv.com^
 ||adfiles.auditude.com^
@@ -3365,18 +3330,14 @@
 ||adfootprints.com^
 ||adforcast.com^
 ||adforgames.com^
-||adforgames.com^$third-party
 ||adforgeinc.com^
 ||adfork.co.kr^
 ||adform.com^
 ||adform.net^
 ||adform.net^$domain=spiegel.de
-||adform.net^$popup
-||adform.net^$third-party
 ||adfox.ru^
 ||adfox.yandex.ru^$domain=d3ward.github.io
 ||adfpoint.com^
-||adfpoint.com^$popup
 ||adframesrc.com^
 ||adfreevision.com^$popup
 ||adfreewatch.info^$popup
@@ -3392,13 +3353,11 @@
 ||adgardener.com^
 ||adgatemedia.com^$third-party
 ||adgear.com^
-||adgear.com^$third-party
 ||adgebra.co.in^
 ||adgebra.in^$third-party
 ||adget.cn^
 ||adgitize.com^$third-party
 ||adglare.net^
-||adglare.net^$popup
 ||adglare.org^
 ||adglaze.com^
 ||adgoi.com^
@@ -3406,13 +3365,11 @@
 ||adgrid.io^$third-party
 ||adgroups.com^$third-party
 ||adgrx.com^
-||adgrx.com^$third-party
 ||adhand.icu^
 ||adhash.com^$third-party
 ||adhaven.com^$third-party
 ||adhdsb.cn^
 ||adhealers.com^
-||adhealers.com^$popup
 ||adhei.com^
 ||adherenceenmitycentury.com^
 ||adhese.be^$third-party
@@ -3421,7 +3378,6 @@
 ||adhiepfpixtjmv.com^
 ||adhigh.net^$third-party
 ||adhitzads.com^
-||adhitzads.com^$third-party
 ||adhoc2.net^$popup
 ||adhoc4.net^
 ||adhooah.com^$third-party
@@ -3468,11 +3424,9 @@
 ||adit-media.com^$third-party
 ||adition.com^
 ||adition.com^$domain=spiegel.de
-||adition.com^$third-party
 ||aditizanna.com^
 ||aditize.com^$third-party
 ||aditsafeweb.com^
-||aditsafeweb.com^$popup
 ||adjal.com^$third-party
 ||adjb.5nd.com^
 ||adjectivedollaralmost.com^
@@ -3480,7 +3434,6 @@
 ||adjector.com^$third-party
 ||adjesty.com^$third-party
 ||adjoincomprise.com^
-||adjoincomprise.com^$popup
 ||adjoincultivatedrussian.com^
 ||adjournfaintlegalize.com^
 ||adjs.media^
@@ -3536,15 +3489,12 @@
 ||adloaded.com^$third-party
 ||adlogists.com^
 ||adlogists.com^$document
-||adlogists.com^$popup
 ||adlook.me^$third-party
 ||adloop.co^$third-party
 ||adlooxtracking.com^$third-party
 ||adlpartner.com^$third-party
 ||adlserq.com^
-||adlserq.com^$popup
 ||adltserv.com^
-||adltserv.com^$popup
 ||adlure.net^$popup
 ||adlux.com^$third-party
 ||adm-vids.info^$third-party
@@ -3556,12 +3506,9 @@
 ||adm.cnzz.net^$third-party
 ||adm.leju.sina.com.cn/get_abp_list/
 ||adm.shinobi.jp^
-||adm.shinobi.jp^$third-party
 ||admachina.com^
-||admachina.com^$popup
 ||admaimai.com/inc/adv
 ||adman.gr^
-||adman.gr^$third-party
 ||admangrauc.com^
 ||admanmedia.com^
 ||admarket.network^$third-party
@@ -3578,9 +3525,7 @@
 ||admd.yam.com^
 ||adme-net.com^
 ||admedia.com^
-||admedia.com^$third-party
 ||admediatex.net^
-||admediatex.net^$popup
 ||admedit.net^$popup
 ||admedit.net^$third-party
 ||admedo.com^$third-party
@@ -3588,7 +3533,6 @@
 ||admeking.com^
 ||admeme.net^
 ||admeridianads.com^
-||admeridianads.com^$popup
 ||admetricspro.com^$third-party
 ||admez.com^
 ||admicro.vn^
@@ -3618,21 +3562,17 @@
 ||admitad-connect.com^
 ||admitad.com^
 ||admitad.com^$domain=~admitad.com
-||admitad.com^$popup
 ||admith.com^
 ||admitoutspokensupreme.com^
 ||admittancetoy.com^
 ||admixer.co.kr^
-||admixer.co.kr^$third-party
 ||admixer.net^
 ||admjmp.com^
-||admjmp.com^$popup
 ||admob-cn.com^
 ||admob.com^
 ||admob.com^$domain=spiegel.de
 ||admobe.com^
 ||admobe.com^$document
-||admobe.com^$popup
 ||admonishmentforcedirritating.com^
 ||admost-banner.b-cdn.net^$third-party
 ||admost.com^$third-party
@@ -3640,7 +3580,6 @@
 ||admozartxml.com^$all
 ||admsapi.businessweekly.com.tw^
 ||admulti.com^
-||admulti.com^$third-party
 ||adn.insight.ucweb.com^
 ||adn.porndig.com^
 ||adnami.io^$third-party
@@ -3654,8 +3593,6 @@
 ||adnet.ru^$third-party
 ||adnetworkme.com^
 ||adnetworkperformance.com^
-||adnetworkperformance.com^$popup
-||adnetworkperformance.com^$third-party
 ||adnewnc.app.autohome.com.cn^
 ||adnex.tech^
 ||adnext.fr^
@@ -3670,15 +3607,12 @@
 ||adnium.com^$third-party
 ||adnmore.co.kr^$third-party
 ||adnotebook.com^
-||adnotebook.com^$popup
 ||adnow.com^$third-party
 ||adnqdnxclmml.com^
 ||adnuntius.com^$third-party
 ||adnxs-simple.com^
-||adnxs-simple.com^$popup
 ||adnxs.com^
 ||adnxs.com^$domain=spiegel.de
-||adnxs.com^$third-party
 ||adnxs.net^
 ||adnxs1.com^
 ||ado.delfi.ee^
@@ -3695,10 +3629,8 @@
 ||adonly.com^
 ||adonnews.com^$third-party
 ||adonweb.ru^
-||adonweb.ru^$popup
 ||adoopaqueentering.com^
 ||adop.co^
-||adop.co^$popup
 ||adoperator.com^$third-party
 ||adoperatorx.com^
 ||adopexchange.com^
@@ -3719,7 +3651,6 @@
 ||adotmob.com^
 ||adoto.net^$third-party
 ||adotone.com^
-||adotone.com^$third-party
 ||adotube.com^
 ||adovr.com^
 ||adp.cnki.net^
@@ -3749,7 +3680,6 @@
 ||adplus.co.id^$third-party
 ||adplushub.com^
 ||adplxmd.com^
-||adplxmd.com^$popup
 ||adpmbexo.com^
 ||adpmbexoxvid.com^
 ||adpmbglobal.com^
@@ -3760,7 +3690,6 @@
 ||adpod.in^
 ||adpointrtb.com^
 ||adpointrtb.com^$document
-||adpointrtb.com^$popup
 ||adpone.com^
 ||adpool.bet^$popup
 ||adpopcorn.com^
@@ -3789,7 +3718,6 @@
 ||adreadytractions.com^
 ||adreal.cn^
 ||adrealclick.com^
-||adrealclick.com^$popup
 ||adrecord.com^$third-party
 ||adrecover.com^$third-party
 ||adrecreate.com^
@@ -3803,13 +3731,10 @@
 ||adrevenuerescue.com^
 ||adrevolver.com^$third-party
 ||adrglife.com^
-||adrglife.com^$popup
 ||adrgyouguide.com^
-||adrgyouguide.com^$popup
 ||adrian.net.cn^
 ||adriftscramble.com^
 ||adright.co^
-||adright.co^$popup
 ||adright.fs.ak-is2.net^
 ||adright.xml-v4.ak-is2.net^
 ||adright.xml.ak-is2.net^
@@ -3818,7 +3743,6 @@
 ||adrise.de^$third-party
 ||adro.co^$third-party
 ||adro.pro^
-||adro.pro^$popup
 ||adrocket.com^$third-party
 ||adroitontoconstraint.com^
 ||adrokt.com^
@@ -3832,7 +3756,6 @@
 ||adrsp.net^$third-party
 ||adrta.com^
 ||adrunnr.com^
-||adrunnr.com^$popup
 ||ads*-normal-lq.zijieapi.com^
 ||ads*.bojijulebu.com^
 ||ads*.depositfiles.com^
@@ -3976,7 +3899,6 @@
 ||ads4media.online^$third-party
 ||ads4trk.com^
 ||ads4trk.com^$document
-||ads4trk.com^$popup
 ||ads5-adnow.com^
 ||ads80.com^$third-party
 ||adsafeprotected.com^
@@ -3987,9 +3909,7 @@
 ||adsales.snidigital.com^
 ||adsalo.com^
 ||adsame.com^
-||adsame.com^$third-party
 ||adsandcomputer.com^
-||adsandcomputer.com^$popup
 ||adsapi.manhuaren.com^
 ||adsapi.snapchat.com^
 ||adsassets-ipv6.waze.com^
@@ -4000,14 +3920,11 @@
 ||adsbb.depositfiles.com^
 ||adsbeard.com^
 ||adsblocker-ultra.com^
-||adsblocker-ultra.com^$popup
 ||adsblockersentinel.info^
-||adsblockersentinel.info^$popup
 ||adsbookie.com^$third-party
 ||adsbreak.com^$popup
 ||adsbro.com^$third-party
 ||adsbtrk.com^
-||adsbtrk.com^$popup
 ||adsbynimbus.com^
 ||adsc.wasu.tv^
 ||adscale.de^
@@ -4018,7 +3935,6 @@
 ||adscienceltd.com^
 ||adsclick.yx.js.cn^
 ||adsco.re^
-||adsco.re^$popup
 ||adscout.io^$third-party
 ||adscpm.net^$third-party
 ||adscreendirect.com^
@@ -4049,12 +3965,10 @@
 ||adserver.shadow.snapads.com^
 ||adserver.yahoo.com^
 ||adserverplus.com^
-||adserverplus.com^$popup
 ||adserverpub.com^
 ||adservice.tohsoft.com^
 ||adservicemedia.dk^
 ||adserving.unibet.com^
-||adserving.unibet.com^$popup
 ||adservingfactory.com^$third-party
 ||adservme.com^$third-party
 ||adservon.com^
@@ -4064,7 +3978,6 @@
 ||adsession.com^$third-party
 ||adsession.exacdn.com^
 ||adsessionserv.com^
-||adsessionserv.com^$third-party
 ||adsexo.com^
 ||adsexse.com^$third-party
 ||adsfac.eu^
@@ -4077,7 +3990,6 @@
 ||adsfirm.com^$third-party
 ||adsforallmedia.com^$third-party
 ||adsforcomputercity.com^
-||adsforcomputercity.com^$popup
 ||adsforindians.com^
 ||adsfs.oppomobile.com^
 ||adsfundi.com^
@@ -4110,11 +4022,8 @@
 ||adskape.ru^
 ||adskeeper.co.uk^
 ||adskeeper.co.uk^$document
-||adskeeper.co.uk^$popup
 ||adskeeper.com^
-||adskeeper.com^$popup
 ||adskpak.com^
-||adskpak.com^$popup
 ||adslidango.com^
 ||adslingers.com^
 ||adslivecorp.com^$third-party
@@ -4127,7 +4036,6 @@
 ||adslvr.com^
 ||adsmaestro.com^
 ||adsmarket.com^
-||adsmarket.com^$popup
 ||adsmart.hk^$third-party
 ||adsmatcher.com^$third-party
 ||adsmeda.com^$third-party
@@ -4141,11 +4049,9 @@
 ||adsmoloco.com^
 ||adsmrapi.imbc.com^
 ||adsnative.com^
-||adsnative.com^$third-party
 ||adsnetworkplus.com^
 ||adsninja.ca^$third-party
 ||adsniper.ru^
-||adsniper.ru^$third-party
 ||adsnot.1javguru.xyz^
 ||adsnot.1supjav.xyz^
 ||adsoftware.top^
@@ -4165,13 +4071,10 @@
 ||adspop.me^
 ||adspot.tfgapps.com^
 ||adspredictiv.com^
-||adspredictiv.com^$popup
 ||adspruce.com^$third-party
 ||adspy.javrank.com^
 ||adspyglass.com^
-||adspyglass.com^$popup
 ||adspynet.com^
-||adspynet.com^$popup
 ||adsquirrel.ai^$third-party
 ||adsring.com^$third-party
 ||adsrv.me^
@@ -4181,10 +4084,8 @@
 ||adsrvmedia.adk2.co^$important,third-party
 ||adsrvmedia.com^$third-party
 ||adsrvmedia.net^
-||adsrvmedia.net^$third-party
 ||adsrvr.io^
 ||adsrvr.org^
-||adsrvr.org^$third-party
 ||adstarget.net^
 ||adstargeting.com^$third-party
 ||adstargets.com^
@@ -4198,23 +4099,19 @@
 ||adstoo.com^$third-party
 ||adstook.com^
 ||adstracker.info^
-||adstracker.info^$popup
 ||adstrategy.biz.weibo.com^
 ||adstreampro.com^
 ||adstreampro.com^$document
-||adstreampro.com^$popup
 ||adstudio.cloud^$third-party
 ||adstuna.com^$third-party
 ||adsturn.com^$third-party
 ||adsummos.net^$third-party
 ||adsupermarket.com^$third-party
 ||adsupply.com^
-||adsupply.com^$popup
 ||adsupplyads.com^$popup
 ||adsupplyads.net^$popup
 ||adsupplyssl.com^
 ||adsurve.com^
-||adsurve.com^$popup
 ||adsvert.com^$third-party
 ||adsvids.com^
 ||adsvlad.info^$popup
@@ -4247,7 +4144,6 @@
 ||adtech-prod.nikecloud.com^
 ||adtech.com^$third-party
 ||adtech.de^
-||adtech.de^$third-party
 ||adtech.yahooinc.com^$domain=d3ward.github.io
 ||adtechium.com^$third-party
 ||adtechjp.com^$third-party
@@ -4256,8 +4152,6 @@
 ||adtegrity.net^$third-party
 ||adtelligent.com^
 ||adtelligent.com^$document
-||adtelligent.com^$popup
-||adtelligent.com^$third-party
 ||adteractive.com^$third-party
 ||adtheorent.com^$third-party
 ||adthereis.buzz^
@@ -4265,14 +4159,12 @@
 ||adthurst.com^$third-party
 ||adtilt.com^
 ||adtimaserver.vn^
-||adtimaserver.vn^$third-party
 ||adtival.com^
 ||adtival.network^$third-party
 ||adtival.network^$third-party,subdocument
 ||adtlgc.com^
 ||adtlvnxmht.com^
 ||adtng.com^
-||adtng.com^$popup
 ||adtoadd.com^
 ||adtol.com^$third-party
 ||adtoll.com^
@@ -4287,7 +4179,6 @@
 ||adtpix.com^
 ||adtrace.online^
 ||adtrace.org^
-||adtrace.org^$popup
 ||adtrack.king.com^
 ||adtraction.com^$third-party
 ||adtrgt.com^
@@ -4303,9 +4194,7 @@
 ||aduic.com^
 ||adulatorycrappyghastly.com^
 ||aduld.click^
-||aduld.click^$popup
 ||adult-affiliate.link^
-||adult-affiliate.link^$popup
 ||adult-sex-games.com/images/*.gif
 ||adult-sex-games.com/images/adult-games/
 ||adult-sex-games.com/images/promo/
@@ -4314,8 +4203,6 @@
 ||adult3dcomics.com^$third-party
 ||adultadvertising.net^
 ||adultadworld.com^
-||adultadworld.com^$popup
-||adultadworld.com^$third-party
 ||adultasianporn.com/puty3s/
 ||adultcamchatfree.com^
 ||adultcamfree.com^
@@ -4386,7 +4273,6 @@
 ||adverdirect.com^$popup
 ||adverpub.com^
 ||adversal.com^
-||adversal.com^$third-party
 ||adversaldisplay.com^
 ||adversalservers.com^
 ||adverserve.net^
@@ -4400,13 +4286,10 @@
 ||advertica.ae^
 ||advertica.com^
 ||adverticum.net^
-||adverticum.net^$third-party
 ||advertise.com^
-||advertise.com^$third-party
 ||advertiseimmaculatecrescent.com^
 ||advertisers.revenuehits.com^
 ||advertiserurl.com^
-||advertiserurl.com^$popup
 ||advertiseserve.com^
 ||advertisespace.com^$third-party
 ||advertiseworld.com^
@@ -4436,9 +4319,7 @@
 ||advertserve.com^$third-party
 ||adverttulimited.biz^
 ||adverttulimited.biz^$document
-||adverttulimited.biz^$popup
 ||advertur.ru^
-||advertur.ru^$third-party
 ||advfeeds.com^
 ||advg.jp^$third-party
 ||advgalaxy.com^
@@ -4462,17 +4343,14 @@
 ||advmedialtd.com^$popup
 ||advmedialtd.com^$third-party
 ||advmonie.com^
-||advmonie.com^$popup
 ||advnet.xyz^$popup
 ||advnet.xyz^$third-party
 ||advnetwork.net^$third-party
 ||advocacyablaze.com^
 ||advocacyforgiveness.com^
 ||advombat.ru^
-||advombat.ru^$third-party
 ||advon.net^$third-party
 ||advotionhot.com^
-||advotionhot.com^$popup
 ||advp1.com^
 ||advp2.com^
 ||advp3.com^
@@ -4482,7 +4360,6 @@
 ||advpz.com^
 ||advservert.com^
 ||advsmedia.net^
-||advsmedia.net^$popup
 ||advsnx.net^$third-party
 ||advtrkone.com^
 ||adwalte.info^
@@ -4512,9 +4389,7 @@
 ||adx.mala.cn^
 ||adx.ws^$third-party
 ||adx1.com^
-||adx1.com^$third-party
 ||adxadserv.com^
-||adxadserv.com^$third-party
 ||adxadtracker.com^$third-party
 ||adxbid.info^
 ||adxchg.com^
@@ -4525,20 +4400,16 @@
 ||adxiaozi.com^$third-party
 ||adxion.com^
 ||adxite.com^
-||adxite.com^$popup
 ||adxnexus.com^
 ||adxoo.com^$third-party
 ||adxpansion.com^
-||adxpansion.com^$popup
 ||adxpartner.com^
-||adxpartner.com^$popup
 ||adxplay.com^
 ||adxpose.com^$third-party
 ||adxpower.com^
 ||adxpremium.com^$third-party
 ||adxpremium.services^
 ||adxprtz.com^
-||adxprtz.com^$popup
 ||adxpub.com^$third-party
 ||adxscope.com^
 ||adxsrver.com^
@@ -4552,8 +4423,6 @@
 ||adzbazar.com^$third-party
 ||adzblockersentinel.net^$popup
 ||adzerk.net^
-||adzerk.net^$popup
-||adzerk.net^$third-party
 ||adzfun.me^
 ||adzhub.com^
 ||adziff.com^
@@ -4771,7 +4640,6 @@
 ||ajbpcxi.xyz^
 ||ajcnz1.com^
 ||ajcode.co^
-||ajcode.co^$third-party
 ||ajdivotdelbloab24.jio.com^
 ||ajfkwwpo.xyz^
 ||ajghca.xyz^
@@ -4781,7 +4649,6 @@
 ||ajkcdpm.cn^
 ||ajkdg3.xyz^
 ||ajkjbcjbaaaed.com^
-||ajkjbcjbaaaed.com^$third-party
 ||ajtdumo.cn^$third-party
 ||ajucem.xyz^
 ||ajwssds.com^
@@ -5310,7 +5177,6 @@
 ||asa2.cn^
 ||asacdn.com^$subdocument,redirect-rule=noopframe
 ||ascc.javquick.com^
-||ascc.javquick.com^$popup
 ||asclan.icu^
 ||ascsvlostatic2.filmspoiler.com^
 ||asd8900.oss-*.aliyuncs.com^
@@ -5389,7 +5255,6 @@
 ||atmcdn.com/www/*.js
 ||atmdew.xyz^
 ||ato.tooopen.com^
-||ato.tooopen.com^$third-party
 ||atool.org/res/ads/
 ||atpanel.com^$image
 ||atplay.cn^
@@ -6299,7 +6164,6 @@
 ||bjhuajing.com.cn^
 ||bjhuhangjy.com^
 ||bjjabc.com^
-||bjjabc.com^$third-party
 ||bjmama.net/a/spc_
 ||bjmantis.net^
 ||bjmxcy.cn^
@@ -7111,7 +6975,6 @@
 ||cdnny.com^
 ||cdns.lodeo.io^
 ||cdntlz.cn^
-||cdntlz.cn^$third-party
 ||cdntxt.com/m1/
 ||cdntxt.com/node/doit.
 ||cdntxt.com/t1/
@@ -7129,7 +6992,6 @@
 ||cdum.vq7736.com/tim/docs/components/VipToast-*.html
 ||cdweikebaba.xin^
 ||cdxyb.cn^
-||cdxyb.cn^$third-party
 ||cdybwjpa.xyz^
 ||cdyee.com/external/5070.files/ad/
 ||cdyqc.com^
@@ -7414,7 +7276,6 @@
 ||chunyuqiufeng.com^
 ||chusan.com/js/m*_
 ||chushoushijian.cn^
-||chushoushijian.cn^$third-party
 ||chuzrra.cn^
 ||chuzushijian.cn^
 ||chy365.cn^
@@ -8045,7 +7906,6 @@
 ||cwgshkz.cn^
 ||cwhsmgs1.cn^
 ||cwmlm.com^
-||cwmlm.com^$third-party
 ||cwobgp.cn^
 ||cwpbohx.cn^
 ||cwphgqu.cn^
@@ -8262,7 +8122,6 @@
 ||dalianhengtai.com^
 ||dalianruosen.com^
 ||daliantong.com.cn^
-||daliantong.com.cn^$third-party
 ||dalingjia.ren^
 ||dalipan.com/api/taobao
 ||dalld.xyz^
@@ -8406,7 +8265,6 @@
 ||dddyun.com^
 ||ddg1277.com^
 ||ddgjjj.com^
-||ddgjjj.com^$third-party
 ||ddhtek.com^
 ||ddielv.cn^
 ||ddkep.xyz^
@@ -8497,7 +8355,6 @@
 ||deyidesign.com^
 ||dezstd.xyz^
 ||df-long.cn^
-||df-long.cn^$third-party
 ||df3n43m.com^
 ||df5b.top^
 ||df63x.xyz^
@@ -9690,7 +9547,6 @@
 ||excnn.com/templates/anime/sexybookmark/js/popup.js
 ||excsyrv.cn^
 ||exdynsrv.com^
-||exdynsrv.com^$third-party,important
 ||exe*.spankbang.com^$xmlhttprequest
 ||exe*.spankbang.party^$xmlhttprequest
 ||exe.bid^
@@ -9704,8 +9560,6 @@
 ||exoav.com/nb/nt.js
 ||exoclick.com^$third-party
 ||exosrv.com^
-||exosrv.com^$third-party
-||exosrv.com^$third-party,important
 ||expansioneggnog.com^$third-party
 ||expertvaz.ru/wp-content/plugins/helper/inc/jquery.mobileInterestial
 ||expo123.net^
@@ -9834,7 +9688,6 @@
 ||fanyi.baidu.com/wise/afd
 ||fanyi100.com.cn^
 ||fanzhuang.net.cn^
-||fanzhuang.net.cn^$third-party
 ||fapclub.sex/js/hr.js
 ||fapix.porn/front/js/unwanted.js
 ||faquanya.com/weixin/
@@ -9933,7 +9786,6 @@
 ||feilan5.cn^
 ||feild.xyz^
 ||feiln.xyz^
-||feiln.xyz^$third-party
 ||feimotailan.cn^
 ||feipaihehuoren.cn^
 ||feiqinwangshi.cn^
@@ -10265,7 +10117,6 @@
 ||ftfnewu.cn^
 ||ftimg.net/s?z=
 ||ftiodfqk.com^
-||ftiodfqk.com^$third-party
 ||ftptjj.xyz^
 ||ftrtnr.xyz^
 ||fttxt.com/static/mh
@@ -10293,10 +10144,8 @@
 ||func.tw/image/func2.png
 ||fundingchoicesmessages.google.com^
 ||fundingchoicesmessages.google.com^$important,xmlhttprequest,redirect-rule=nooptext
-||fundingchoicesmessages.google.com^$third-party
 ||funshipin.com/v1/js/footerhongbao.js
 ||fuoo1.top^
-||fuoo1.top^$third-party
 ||furrnbb.cn^
 ||futengbao.com.cn^
 ||future888.net^
@@ -10978,7 +10827,6 @@
 ||gotonav.com^$third-party
 ||gotooback.com^
 ||gotourl.xyz^
-||gotourl.xyz^$popup
 ||gotourls.bid^
 ||gotporn.com/main/js/exo-loader/
 ||gou1zhe.com^
@@ -11564,7 +11412,6 @@
 ||hbyyzm.com^
 ||hbzhenquan.cn^
 ||hbzjht.com^
-||hbzjht.com^$third-party
 ||hc360.com/images/14826/289x90.jpg
 ||hc360.com/js/*hezuo.js
 ||hc360.com/js/build/source/widgets/flowbao/flowbao.js
@@ -11927,7 +11774,6 @@
 ||hlnr9q.icu^
 ||hlryy.top^
 ||hlstlyy.com^
-||hlstlyy.com^$third-party
 ||hltkl.fun^
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltqsbl.cn^
@@ -12783,7 +12629,6 @@
 ||imall.cctv.com^
 ||imall.cntv.cn^
 ||imapi-sg.isnssdk.com^
-||imasdk.googleapis.com^$third-party
 ||imasdk.googleapis.com^$xmlhttprequest,redirect-rule=noop.txt
 ||imassg.xyz^
 ||imbikh.icu^
@@ -13055,7 +12900,6 @@
 ||iqiyi.com/player/common/rebull
 ||iqiyi.com/show2?cb=
 ||iqiyi.com/track
-||iqiyi.com/track$popup
 ||iqiyi.kim^
 ||iqiyi.pub^
 ||iqn.world^
@@ -13316,7 +13160,6 @@
 ||jatpap.cn^
 ||jatytuo.cn^
 ||jav-7mmtv.top^
-||jav-7mmtv.top^$popup
 ||jav-bukkake.net/images/download-bukkake.jpg
 ||jav.si/js/mMbVAA7.js
 ||jav.si/js/zplay.js
@@ -13325,7 +13168,6 @@
 ||jav789.com/assets/*/index.php
 ||jav789.com/assets/love/index.js
 ||java8.xyz^
-||java8.xyz^$popup
 ||javascriptcdnlive.com^
 ||javazhijia.com/skin/
 ||javbabe.net/x1x/
@@ -13550,7 +13392,6 @@
 ||jianlihelp.com^
 ||jianly.top^
 ||jianpian.vip^
-||jianpian.vip^$third-party
 ||jianshe99.com/lamu/
 ||jianshen114.com/images/Advistings/
 ||jiantiquan.cn^
@@ -13604,7 +13445,6 @@
 ||jijidy.com/640x200down.
 ||jijistatic.duapp.com/Squall/1.jpg
 ||jijozdrg.xyz^
-||jijozdrg.xyz^$third-party
 ||jijunlongchengxinxi.cn^
 ||jike001.top^
 ||jili9.io^
@@ -14087,7 +13927,6 @@
 ||juhuiguoji.wang^
 ||juhuitongcheng.life^
 ||juicyads.com^
-||juicyads.com^$third-party
 ||jujcjz.xyz^
 ||juji.tv/Runtime/js/
 ||julefhgu.xyz^
@@ -14365,7 +14204,6 @@
 ||kcfuzhj.cn^
 ||kcgkxha.cn^
 ||kcieo.xyz^
-||kcieo.xyz^$third-party
 ||kcmomkn.cn^
 ||kcnwe.xyz^
 ||kcqpvqr.cn^
@@ -15096,7 +14934,6 @@
 ||ledni.xyz^
 ||lee2code.com^
 ||leeleo.top^
-||leeleo.top^$third-party
 ||lefengtv.com/js/tj.js
 ||lega.store^
 ||legitimate.wang^
@@ -15205,7 +15042,6 @@
 ||lhippac.cn^
 ||lhot.xyz^
 ||lhotajl.icu^
-||lhotajl.icu^$third-party
 ||lhpzz.love^
 ||lhtnuop.xyz^
 ||lhy1.xyz^
@@ -15256,7 +15092,6 @@
 ||liepin.com/event/jobadver/
 ||lieqinews.com/json/zhiketj/
 ||lifeporn.net^
-||lifeporn.net^$popup
 ||liftoff-creatives.io^
 ||liftoff.io^
 ||lifu11.com^
@@ -15563,7 +15398,6 @@
 ||lq0s3c.cn^
 ||lqe3.icu^
 ||lqglqq.com^
-||lqglqq.com^$third-party
 ||lqjinx.xyz^
 ||lqmohun.com^$third-party
 ||lqnggnsl.fun^
@@ -16466,7 +16300,6 @@
 ||mob*.novanewsapp.com^
 ||moba8.net^
 ||mobads.baidu.com^
-||mobads.baidu.com^$third-party
 ||mobads4app.com^
 ||mobantong.oss-cn-hangzhou.aliyuncs.com^
 ||mobclix.com^
@@ -16678,7 +16511,6 @@
 ||mt66g.com^
 ||mtag.mman.kr^
 ||mtburn.com^
-||mtburn.com^$third-party
 ||mtburn.jp^
 ||mtcat.cn^
 ||mtddqjk.cn^
@@ -17416,7 +17248,6 @@
 ||nwandlc.top^
 ||nwdjlx.xyz^
 ||nwecd.xyz^
-||nwecd.xyz^$third-party
 ||nweon.com/wp-content/repo/ad/
 ||nwera.xyz^
 ||nwhvceb.cn^
@@ -17475,7 +17306,6 @@
 ||nzrovf.xyz^
 ||nzvpewi.cn^
 ||nzydzsw.com^
-||nzydzsw.com^$third-party
 ||nzymeedg.icu^
 ||o-iab.mediation.unity3d.com^
 ||o.027eat.com^
@@ -17528,7 +17358,6 @@
 ||ocive.xyz^
 ||ockuc.com^
 ||oclasrv.com^
-||oclasrv.com^$third-party
 ||ocoda.xyz^
 ||oconner.biz^
 ||ocpydszq.xyz^
@@ -17576,7 +17405,6 @@
 ||ogxstqna.xyz^
 ||ogyoopo.cn^
 ||ogznfgl.cn^
-||ogznfgl.cn^$third-party
 ||oh100.com/js/pubuliu.
 ||ohdvafp.xyz^
 ||ohmpyq.xyz^
@@ -17767,7 +17595,6 @@
 ||original-empire.com^
 ||originalindianporn.com/func.js
 ||oronwg.xyz^
-||oronwg.xyz^$third-party
 ||orssengseen.com^
 ||ortwywr.cn^
 ||orvibum.cn^
@@ -18081,7 +17908,6 @@
 ||pekingpk10.com^
 ||pelageforgers.com^
 ||pemsrv.com^
-||pemsrv.com^$third-party
 ||pengjinvc.top^
 ||pengpailm.online^
 ||pengtu.cc^*.png
@@ -18570,7 +18396,6 @@
 ||port7.xhamster2.com^
 ||port7.xhamster3.com^
 ||pos.baidu.com^
-||pos.baidu.com^$third-party
 ||pos68.cn^
 ||posdhu5.xyz^
 ||poster.weather.com.cn^
@@ -19016,7 +18841,6 @@
 ||qicewar.cn^
 ||qichegongxiang.xyz^
 ||qichetuoyun.com.cn^
-||qichetuoyun.com.cn^$third-party
 ||qicqn.cn^
 ||qidian.com/Images/990x40_
 ||qiditrade.com^
@@ -19572,8 +19396,6 @@
 ||realgfporn.com/lander^
 ||reallifeforyouandme.com^
 ||realsrv.com^
-||realsrv.com^$third-party
-||realsrv.com^$third-party,important
 ||reamhqf.xyz^
 ||rebdy.com^
 ||rebekalove.com^
@@ -19900,7 +19722,6 @@
 ||rtbpopd.com^
 ||rtbrenab.com^
 ||rtbrennab.com^
-||rtbrennab.com^$third-party
 ||rtcegcp.cn^
 ||rtdxqq.com^
 ||rthmnj.xyz^
@@ -20031,7 +19852,6 @@
 ||s.smutty.com//javascript/yo/yolor.js
 ||s.so.360.cn^
 ||s.ssl.qhres2.com/ssl/
-||s.ssl.qhres2.com/ssl/$third-party
 ||s.union.360.cn^
 ||s.uuidksinc.net^
 ||s.weibo.com/widget.html
@@ -20060,7 +19880,6 @@
 ||s2.everydaygayporn.com^
 ||s28xvp.com^
 ||s2dcm.com^
-||s2dcm.com^$third-party,script
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||s3.amazonaws.com/promos.withbuddies.com/prod/ads/
@@ -20091,7 +19910,6 @@
 ||sadwqdi.cn^
 ||saf588.com^
 ||safe524.xyz^
-||safe524.xyz^$third-party
 ||safe555.xyz^
 ||safeporno.com^
 ||safessd.com^
@@ -20153,7 +19971,6 @@
 ||sbb8w.top^
 ||sbbd1.qulishi.com^
 ||sbcjahdc.com^
-||sbcjahdc.com^$third-party
 ||sbdm.net/js/ad_
 ||sbdvjsbjslkv.com^
 ||sbeaje.com^
@@ -20337,7 +20154,6 @@
 ||seutop.icu^
 ||sevenmax.cn^
 ||sex-and-flirt.com^
-||sex-and-flirt.com^$popup
 ||sex-chat.me^
 ||sex-finder.net^$popup
 ||sex-jav.com/img/bns/
@@ -20391,7 +20207,6 @@
 ||sexpennyauctions.com^$popup
 ||sexpennyauctions.com^$third-party
 ||sexpieasure.com^
-||sexpieasure.com^$popup
 ||sexplaycam.com^$third-party
 ||sexpussynude.com/wp-content/plugins/da-unblock^
 ||sexroom.xxx/xxx/fastload.js
@@ -20434,7 +20249,6 @@
 ||sexyadsrun.com^
 ||sexycams.com/exports/$third-party
 ||sexyepc.com^
-||sexyepc.com^$popup
 ||sexyfuckgames.com/includes/*.php
 ||sexykittenporn.com/images/sexykittenporn.com/is.js
 ||sexyno1.com/mk-banner/
@@ -20984,7 +20798,6 @@
 ||soffersk.com^
 ||sofire.bdstatic.com^
 ||sofseo.cn^
-||sofseo.cn^$third-party
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
@@ -21318,7 +21131,6 @@
 ||stevenblue.cn^
 ||stfyygv.cn^
 ||stgowan.com^
-||stgowan.com^$third-party
 ||stheadline.com/images/heading-jm
 ||stienlb.top^
 ||stingsquirrel.com^$third-party
@@ -21726,7 +21538,6 @@
 ||taoguanda.com^
 ||taoguba.com.cn/res/js/tgbgg/
 ||taoguohe.com^
-||taoguohe.com^$third-party
 ||taohanpai.com^
 ||taohuahg.com^
 ||taomochou.cn^
@@ -21743,7 +21554,6 @@
 ||taozib8.com/sys
 ||tap-nexus.appspot.com^
 ||tapad.com^
-||tapad.com^$third-party
 ||tapdaq-adverts.global.ssl.fastly.net^
 ||tapioni.com^
 ||tapit.com^
@@ -21895,7 +21705,6 @@
 ||tflybplr.xyz^
 ||tfonlyuse.shop^
 ||tfosrv.com^
-||tfosrv.com^$third-party
 ||tfprivacy.live^
 ||tfptlgrw.co^
 ||tfptlgrw.live^
@@ -22155,7 +21964,6 @@
 ||tnc16-useast1a.isnssdk.com^
 ||tnfhxszj.xyz^
 ||tngmn.com^
-||tngmn.com^$third-party
 ||tnifdlai.top^
 ||tnkfactory.com^$third-party
 ||tnl808z.cn^
@@ -22296,7 +22104,6 @@
 ||trafficfactory.biz^
 ||traffichaus.com^
 ||trafficjam.cn^
-||trafficjam.cn^$third-party
 ||trafficjunky.com^
 ||trafficjunky.net^
 ||trafmag.com^
@@ -22312,14 +22119,12 @@
 ||trendmicro.com.tw/wp-content/uploads/*Banner
 ||trends.com.cn/k.js
 ||trenhdg.com^
-||trenhdg.com^$third-party
 ||trf6b.top^
 ||trfmxf.xyz^
 ||trgzurt.cn^
 ||trhccn.cn^
 ||tribalfusion.com^$third-party
 ||tributesexually.com^
-||tributesexually.com^$popup
 ||trip.com/partners/ad/
 ||tristoshink.online/libs/check.js
 ||tritebadge.com^$third-party
@@ -22347,7 +22152,6 @@
 ||ts.venum.top^$third-party
 ||ts.ykkbwdf.cn^$third-party
 ||ts166.net^
-||ts166.net^$third-party
 ||tsancii.top^
 ||tsaristcanapes.com^
 ||tsdlp.com^
@@ -22466,7 +22270,6 @@
 ||tuqnwz.icu^
 ||turifb.xyz^
 ||turn.com^
-||turn.com^$third-party
 ||turner.com/xslo/cvp/ads/$domain=cnn.com
 ||turvpij.cn^
 ||tushwjp.icu^
@@ -22739,7 +22542,6 @@
 ||udiy.club^
 ||udjdpyrt.xyz^
 ||udn.com.tw/upf/*_banners/BD/
-||udn.com.tw/upf/*_banners/BD/$third-party
 ||udn.com.tw/upf/2015_money/SSI/ad/
 ||udn.com/common/iframe/
 ||udn.com/common2/iframe/
@@ -22874,7 +22676,6 @@
 ||uninterestedquarter.com^$third-party
 ||union*.365inews.com^
 ||union-wifi.com^
-||union-wifi.com^$third-party
 ||union.591.com.tw/cpt?
 ||union.china.com.cn^
 ||union.macoms.la^
@@ -24069,14 +23870,12 @@
 ||woynet.com^
 ||wpa.b.qq.com/cgi/wpa.php?
 ||wpadmngr.com^
-||wpadmngr.com^$third-party,important
 ||wpcmzu.cn^
 ||wpdaxue.com/img/*/txy-
 ||wpib0jr.cn^
 ||wpiwoo.xyz^
 ||wples.com/pc/common.js
 ||wpnsrv.com^
-||wpnsrv.com^$third-party,important
 ||wpoarjokzgi.com^
 ||wpozwh.com^
 ||wpqmiq.cn^
@@ -25469,7 +25268,6 @@
 ||yijikm.com^
 ||yijiuningyia.gushiwen.org^
 ||yijuxie.com^
-||yijuxie.com^$third-party
 ||yikeyz.com/pm.js
 ||yikuaiqian.com.cn^
 ||yikucdn.com^
@@ -25530,7 +25328,6 @@
 ||yitai001.com^
 ||yitiaoyu.top^
 ||yitongfang.com^
-||yitongfang.com^$third-party
 ||yitongqinba.com/js/aa/$script
 ||yitongqinba.com/js/xin/$script
 ||yitongwl.cn^
@@ -25962,7 +25759,6 @@
 ||yxdown.com/cj/
 ||yxdown.com/zt/zt/js/zt.js
 ||yxgfcj.com^
-||yxgfcj.com^$third-party
 ||yxhjt.com^
 ||yxhxs.com^
 ||yxiaoping.asia^
@@ -26156,10 +25952,8 @@
 ||zd0.top^
 ||zdabnt.*$third-party
 ||zdabnt.live^
-||zdabnt.live^$third-party
 ||zdama.*$third-party
 ||zdama.xyz^
-||zdama.xyz^$third-party
 ||zdambl.*$third-party
 ||zdambl.xyz^$third-party
 ||zdbnt.*$third-party
@@ -26200,7 +25994,6 @@
 ||zdyuoae.xyz^
 ||ze5.com^$third-party
 ||zeatse.buzz^
-||zeatse.buzz^$third-party
 ||zebjlt.buzz^
 ||zedo.com^
 ||zefmsbu.cn^
@@ -26256,7 +26049,6 @@
 ||zgfszs.com^
 ||zgfushi.mobi^
 ||zggrxf.life^
-||zggrxf.life^$third-party
 ||zghrxn.xyz^
 ||zghsep.icu^
 ||zghsfh.xyz^
@@ -26282,12 +26074,10 @@
 ||zgtcar.com^
 ||zgtwzq.buzz^$third-party
 ||zgtwzq.xyz^
-||zgtwzq.xyz^$third-party
 ||zgunion.cn^
 ||zgwsnw.buzz^$third-party
 ||zgwsnw.live^$third-party
 ||zgwsnw.xyz^
-||zgwsnw.xyz^$third-party
 ||zgwvcv.icu^
 ||zgydjr.com^
 ||zgyemy.com^
@@ -26410,7 +26200,6 @@
 ||zhonglitz.cn^
 ||zhongmeigk.hk^
 ||zhongwangmy.cn^
-||zhongwangmy.cn^$third-party
 ||zhongyi.ifeng.com/a/zt.js
 ||zhongyoo.com/img/js/tongji.js
 ||zhongyoo.com/shuju/
@@ -26458,7 +26247,6 @@
 ||zhvo.top^
 ||zhw949.ltd^
 ||zhy333.com^
-||zhy333.com^$third-party
 ||zhyl.info^
 ||zhywyl.cn^
 ||zhzyw.com/js/InsertJS.js
@@ -26494,7 +26282,6 @@
 ||zjdruhn.xyz^
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjgfq.com^
-||zjgfq.com^$third-party
 ||zjgjzzy.online^
 ||zjgzp4z9.club^
 ||zjgzp4z9.xyz^
@@ -26675,7 +26462,6 @@
 ||zswl.so^
 ||zswph.com^
 ||zsyk91.cn^
-||zsyk91.cn^$third-party
 ||zszhln.xyz^
 ||zt-uc-baidu.cc^
 ||zt.chuanke.com/?mod=
@@ -26762,7 +26548,6 @@
 ||zxopen.tech^
 ||zxpgfl.xyz^
 ||zxptw.cn^
-||zxptw.cn^$third-party
 ||zxpvalr.xyz^
 ||zxrcfw.com^
 ||zxse43.com^
@@ -27592,6 +27377,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 2510porn.com#$##sgcboxOverlay { display: none!important; }
 2510porn.com#$##sgcolorbox { display: none!important; }
 2510porn.com#$#body[style="overflow: hidden;"] { overflow: visible!important; }
+258zw.com|lady1.top
 25xz.com##.p_ads
 25xz.com##div[style*="1002px;"]
 25xz.com##div[style*="724px;"]
@@ -55831,6 +55617,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /~cdn/ads/*
 139.196.80.247$document
 139.196.80.247$~third-party
+258zw.com|lady1.top
 37cs.com
 728x90.jpg|
 :*/*/sv?gp=*=*=$third-party
