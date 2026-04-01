@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>混合规则</title>
+<meta name="description" content="Adblock规则订阅链接">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{--bg:#fafcff;--card:rgba(255,255,255,0.92);--text:#111;--green:#22c55e;--blur:blur(32px);}
+@media(prefers-color-scheme:dark){:root{--bg:#0b0e16;--card:rgba(18,22,38,0.94);--text:#eee;}}
+body.dark{--bg:#0b0e16;--card:rgba(18,22,38,0.94);--text:#eee;}
+body{background:var(--bg);color:var(--text);min-height:100dvh;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;padding:20px 16px;line-height:1.8;font-size:16px;transition:all .6s ease;overflow-x:hidden;}
+.container{max-width:1000px;margin:0 auto;padding:0 12px;}
+h1{text-align:center;font-size:clamp(36px,9vw,52px);font-weight:900;margin:30px 0 60px;background:linear-gradient(120deg,var(--green),#00ff80);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+
+.swiper{width:100%;overflow:hidden;border-radius:28px;box-shadow:0 24px 70px rgba(0,0,0,.25);margin-bottom:40px;position:relative;}
+.swiper::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(34,197,94,.12),rgba(0,255,128,.08));border-radius:28px;z-index:1;pointer-events:none;}
+.swiper-wrapper{display:flex;transition:transform .6s cubic-bezier(.32,.72,.3,1);}
+.slide{min-width:100%;padding:40px 32px;background:var(--card);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);border-radius:28px;}
+
+.rule-title{font-size:28px;font-weight:800;text-align:center;margin-bottom:36px;color:var(--green);}
+
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px;justify-content:center;justify-items:center;}
+.link-item{background:rgba(255,255,255,.55);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);border-radius:20px;padding:22px 20px;width:100%;max-width:380px;display:flex;flex-direction:column;gap:12px;box-shadow:0 8px 28px rgba(0,0,0,.14);text-align:center;}
+.link-name{font-weight:600;font-size:15.5px;}
+.copy-btn{padding:15px;background:var(--green);color:#fff;border:none;border-radius:16px;font-size:16px;font-weight:600;cursor:pointer;transition:all .35s;}
+.copy-btn:hover{transform:translateY(-4px);box-shadow:0 12px 24px rgba(34,197,94,.35);}
+.copy-btn:active{transform:translateY(-1px);}
+.copy-btn.copied{background:#64748b;}
+
+.dots{text-align:center;margin:40px 0 60px;}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;background:rgba(0,0,0,.3);margin:0 8px;cursor:pointer;transition:all .4s;}
+.dot.active{background:var(--green);transform:scale(1.5);}
+
+.info-card{background:var(--card);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);border-radius:28px;padding:36px 32px;box-shadow:0 20px 60px rgba(0,0,0,.2);margin-bottom:50px;}
+.info-card h3{font-size:24px;color:var(--green);text-align:center;margin-bottom:28px;}
+.rule-block{margin-bottom:34px;}
+.rule-block h4{font-size:21px;color:var(--green);margin-bottom:12px;text-align:center;}
+.rule-block p{font-size:15.8px;line-height:1.9;text-align:center;opacity:0.95;}
+.priority{margin-top:40px;padding-top:26px;border-top:1px solid rgba(34,197,94,.3);text-align:center;font-size:15.2px;opacity:0.9;}
+
+.home-links{text-align:center;margin:60px 0 40px;}
+.home-links p{font-size:25px;margin-bottom:16px;}
+.home-links a{color:var(--green);font-size:18px;font-weight:600;margin:0 14px;}
+
+.switch{position:fixed;top:20px;right:20px;width:58px;height:34px;background:rgba(0,0,0,.15);border-radius:34px;cursor:pointer;z-index:100;backdrop-filter:var(--blur);}
+.knob{position:absolute;top:4px;left:4px;width:26px;height:26px;background:#fff;border-radius:50%;transition:.45s cubic-bezier(.68,-.55,.27,1.55);box-shadow:0 3px 12px rgba(0,0,0,.25);}
+.dark .knob{left:calc(100% - 30px);background:#0bf351;}
+
+#toast{position:fixed;top:30px;left:50%;transform:translateX(-50%);background:rgba(255,255,255,.96);backdrop-filter:blur(24px);color:#111;padding:14px 40px;border-radius:44px;font-weight:600;box-shadow:0 15px 40px rgba(0,0,0,.22);z-index:9999;opacity:0;pointer-events:none;transition:all .6s;}
+#toast.show{opacity:1;top:80px;}
+</style>
+</head>
+<body id="body">
+
+<div id="toast">已复制到剪贴板</div>
+
+<div class="container">
+  <h1>混合规则</h1>
+
+  <div class="swiper">
+    <div class="swiper-wrapper" id="wrapper">
+      <div class="slide"><div class="rule-title">混合规则</div><div class="link-grid" id="full-links"></div></div>
+      <div class="slide"><div class="rule-title">混合规则(精简版)</div><div class="link-grid" id="lite-links"></div></div>
+      <div class="slide"><div class="rule-title">MIUI浏览器规则</div><div class="link-grid" id="miui-links"></div></div>
+      <div class="slide"><div class="rule-title">Easylist规则合并</div><div class="link-grid" id="easylist-links"></div></div>
+    </div>
+  </div>
+
+  <div class="dots" id="dots"></div>
+
+  <div class="info-card">
+    <h3>说明</h3>
+    <div class="rule-block">
+      <h4>混合规则</h4>
+      <p>合并于各种知名的Adblock规则，不定期更新</p>
+    </div>
+    <div class="rule-block">
+      <h4>混合规则(精简版)</h4>
+      <p>适用于via，可与其他规则合用，不定期更新</p>
+    </div>
+    <div class="rule-block">
+      <h4>Easylist规则合并</h4>
+      <p>提供Easylist规则合并、精简、补充，不定期更新</p>
+    </div>
+    <div class="rule-block">
+      <h4>MIUI浏览器规则</h4>
+      <p>取自 MIUI浏览器12.0.1版本 + Easylist规则(精简) ，不定期更新</p>
+    </div>
+    <div class="priority">
+      国内订阅推荐优先排名<br>
+      Github加速订阅链接(能用就用，不能用再换其他) > Gitcode(同步慢，但是稳定) >= Gitea(疑似限速) > Github(国内有的无法访问，需要梯子)
+    </div>
+  </div>
+
+  <div class="home-links">
+    <p>主页链接</p>
+    <div>
+      <a href="https://github.com/lingeringsound/adblock" target="_blank">Github</a>
+      <a href="https://gitcode.net/weixin_45617236/adblock" target="_blank">Gitcode</a>
+      <a href="https://gitea.com/lonely_dog/adblock" target="_blank">Gitea</a>
+    </div>
+  </div>
+
+  <div style="text-align:center;color:#888;padding:40px 0 20px;">@coolapk<br>2023</div>
+</div>
+
+<div class="switch"><div class="knob"></div></div>
+
+<script>
+const rules = {
+  full: [
+    {name: "Github加速订阅链接", url: "https://raw.gitmirror.com/lingeringsound/adblock/master/adblock"},
+    {name: "Gitcode订阅链接", url: "https://gitcode.net/weixin_45617236/adblock/-/raw/master/adblock"},
+    {name: "Gitea订阅链接", url: "https://gitea.com/lonely_dog/adblock/raw/branch/master/adblock"},
+    {name: "Github订阅链接", url: "https://lingeringsound.github.io/adblock/adblock"}
+  ],
+  lite: [
+    {name: "Github加速订阅链接", url: "https://raw.gitmirror.com/lingeringsound/adblock/master/adblock_lite"},
+    {name: "Gitcode订阅链接", url: "https://gitcode.net/weixin_45617236/adblock/-/raw/master/adblock_lite"},
+    {name: "Gitea订阅链接", url: "https://gitea.com/lonely_dog/adblock/raw/branch/master/adblock_lite"},
+    {name: "Github订阅链接", url: "https://lingeringsound.github.io/adblock/adblock_lite"}
+  ],
+  miui: [
+    {name: "Github加速订阅链接", url: "https://raw.gitmirror.com/lingeringsound/adblock/master/miuiadblock"},
+    {name: "Gitcode订阅链接", url: "https://gitcode.net/weixin_45617236/adblock/-/raw/master/miuiadblock"},
+    {name: "Gitea订阅链接", url: "https://gitea.com/lonely_dog/adblock/raw/branch/master/miuiadblock"},
+    {name: "Github订阅链接", url: "https://lingeringsound.github.io/adblock/miuiadblock"}
+  ],
+  easylist: [
+    {name: "Github加速订阅链接", url: "https://raw.gitmirror.com/lingeringsound/adblock/master/EasylistCombine"},
+    {name: "Gitcode订阅链接", url: "https://gitcode.net/weixin_45617236/adblock/-/raw/master/EasylistCombine"},
+    {name: "Gitea订阅链接", url: "https://gitea.com/lonely_dog/adblock/raw/branch/master/EasylistCombine"},
+    {name: "Github订阅链接", url: "https://lingeringsound.github.io/adblock/EasylistCombine"}
+  ]
+};
+
+function render(id, list){
+  document.getElementById(id).innerHTML = list.map(i=>`
+    <div class="link-item">
+      <div class="link-name">${i.name}</div>
+      <button class="copy-btn" data-url="${i.url}">点击复制</button>
+    </div>
+  `).join('');
+}
+render('full-links', rules.full);
+render('lite-links', rules.lite);
+render('miui-links', rules.miui);
+render('easylist-links', rules.easylist);
+
+for(let i=0;i<4;i++){
+  const d=document.createElement('span');
+  d.className='dot'+(i===0?' active':'');
+  d.dataset.i=i;
+  d.onclick=()=>go(i);
+  document.getElementById('dots').appendChild(d);
+}
+
+const w=document.getElementById('wrapper');
+let cur=0, startX;
+function go(n){
+  cur=n;
+  w.style.transform=`translateX(-${n*100}%)`;
+  document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('active',i===n));
+}
+w.parentElement.addEventListener('touchstart',e=>startX=e.touches[0].clientX,{passive:true});
+w.parentElement.addEventListener('touchmove',e=>{
+  if(startX===undefined) return;
+  const diff=startX-e.touches[0].clientX;
+  w.style.transform=`translateX(calc(-\( {cur*100}% - \){diff}px))`;
+},{passive:true});
+w.parentElement.addEventListener('touchend',e=>{
+  if(startX===undefined) return;
+  const diff=startX-e.changedTouches[0].clientX;
+  if(diff>70&&cur<3) go(cur+1);
+  else if(diff<-70&&cur>0) go(cur-1);
+  startX=undefined;
+});
+
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('copy-btn')){
+    const u=e.target.dataset.url;
+    (navigator.clipboard?.writeText(u) || Promise.reject()).then(()=>{
+      e.target.textContent='已复制';
+      e.target.classList.add('copied');
+      setTimeout(()=>{e.target.textContent='点击复制';e.target.classList.remove('copied');},2000);
+      document.getElementById('toast').classList.add('show');
+      setTimeout(()=>document.getElementById('toast').classList.remove('show'),2800);
+    }).catch(()=>{
+      const t=document.createElement('textarea');
+      t.value=u; t.style.position='fixed'; t.style.opacity=0;
+      document.body.appendChild(t); t.select(); document.execCommand('copy'); document.body.removeChild(t);
+      e.target.textContent='已复制';
+      setTimeout(()=>{e.target.textContent='点击复制';},2000);
+    });
+  }
+});
+
+if(window.matchMedia('(prefers-color-scheme:dark)').matches) document.body.classList.add('dark');
+document.querySelector('.switch').onclick=()=>document.body.classList.toggle('dark');
+</script>
+</body>
+</html>
