@@ -1,0 +1,64 @@
+[Adblock Plus 2.0]
+! Checksum: HviBXmBD6Sm3wRoPVoKjBA
+! Title: 去除百度广告的一些规则
+! Version: 20230822124208
+! Last modified: 2023-08-22 12:42:08
+! Total Count: 26
+! Title: 去除百度广告的一些规则
+! Version: 20230708195831
+! Last modified: 2023-07-08 19:58:31
+! Total Count: 29
+! 某些未知的随机广告
+baidu.com##[srcid*="_ad"]
+! 普通的去广告规则
+baidu.com##.ec_ad_results
+baidu.com##.ec_wise_ad
+baidu.com##[class$="-ad"]
+baidu.com##[class$="-ads"]
+!百度自动播放视频
+baidu.com##.c-video-player
+baidu.com##[class^="cu-video-player"]
+! 百度搜索结果中的视频
+baidu.com##[srcid^="recommend_video"]
+! 百度搜索结果中的百度提供APP下载
+baidu.com##[srcid^="app_mobile_simple"]
+! 百度中的购物广告，如搜索"裤子/vivo"
+baidu.com##[srcid^="sp_purc_atom"]
+! 百度搜索结果中的百家号
+baidu.com##[srcid^="guanfanghao"]
+! 百度搜索结果中的笔记
+! baidu.com##[srcid^="lego_tpl"]
+! 百度中的笔记精选
+! baidu.com##[srcid="note_lead"]
+! 百度搜索结果中的相关用语
+! baidu.com##[srcid^="sigma_celebrity_rela"]
+! 大家都在搜
+baidu.com##.se-page-relative
+baidu.com##[tpl="recommend_list"][nr="1"]
+! 百度医典
+! baidu.com##[srcid^="med_disease_kg"]
+! 百度小程序
+baidu.com##[srcid^="xcx_"]
+! 百度悬浮小图标(直播之类的)
+baidu.com##.barea-ad
+baidu.com##.brand-entry
+! 百家号
+baijiahao.baidu.com##.infinite-scroll-component__outerdiv
+baijiahao.baidu.com##.undefined
+! 百度百科
+baike.baidu.com###J-superLayer-main
+baike.baidu.com##.squareAni.square.super-layer-promote
+baike.baidu.com##[class="qtqy-container"]
+baike.baidu.com##[class^="relative-shop-"]
+baike.baidu.com##[class^="yitiao-"]
+baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
+! 百度播放界面推荐广告
+baidu.com##div[class^="sfc-video-page-list"],[class^="c-loading"]
+baidu.com##.wgt-union-wapqbyoux-ads
+! 非常激进，能够去除所有百度搜索中自己的推荐。
+! 不推荐使用
+! baidu.com##div.c-result.result[ready="1"][nr="1"]
+! 关键词在于 srcid="
+! 可以自己在源码搜一下，或者用开发者工具/元素审查。
+! 我的写法比较激进，你也可以选一些比较缓和的写法
+! 爷给忘了
